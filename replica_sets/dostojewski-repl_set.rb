@@ -1,11 +1,6 @@
 #! /usr/bin/env ruby
 
 require 'bundler/setup'
-
-# http://ruby-doc.org/stdlib/libdoc/net/http/rdoc/classes/Net/HTTP.html
-require 'net/http'
-
-# https://docs.mongodb.org/ecosystem/drivers/ruby/
 require 'mongo'
 
 logger = Mongo::Logger.logger # get the wrapped logger
@@ -24,51 +19,31 @@ logger_level = {
 # set default level to Logger::INFO
 Mongo::Logger.level = logger_level[ARGV[0].to_s.downcase.to_sym] || Logger::INFO
 
-# ----
-
 # English stopwords from Tracker, http://projects.gnome.org/tracker/
 # GitHub: git clone git://git.gnome.org/tracker ; cd data/languages/
 
-stop = IO.read('stopwords.en').split("\n")
+stop = IO.read('data/stopwords.en').split("\n")
 logger.info "liczba wczytanych stopwords: #{stop.length}"
-
-uri = 'http://www.gutenberg.org/cache/epub/2638/pg2638.txt'
-filename = 'Dostoevsky_Feodor-The_Idiot.txt'
 
 # Gutenberg
 
-unless File.exist?(filename)
-  url = URI.parse(uri)
-  req = Net::HTTP::Get.new(url.path)
-  logger.info "connecting to #{url.host}"
-  res = Net::HTTP.start(url.host, url.port) do |http|
-    http.request(req)
-  end
-  logger.info "done: #{res.code}"
-  logger.info "writing to #{filename}"
-  File.open(filename, 'w') do |f|
-    f.write(res.body)
-  end
-end
+# uri = 'http://www.gutenberg.org/cache/epub/2638/pg2638.txt' (MS-DOS encoded)
+# lines ending should be converted to \n
 
-# read the file content in the DOS paragraph mode and remove empty paragraphs
-
-# read DOS file; UNIX .readlines(filename, "")
-data = IO.readlines(filename, "\n\r")
+filename = 'data/Dostoevsky_Feodor-The_Idiot.txt'
+data = IO.readlines(filename, "\n")
 lines = data.map do |para|
   para.gsub!(/\s+/, ' ').strip
 end
-
 # delete empty strings and strip legal info (preamble and postable)
 lines.delete('')
 book = lines[12..-56]
 
 logger.info "liczba wczytanych akapitów: #{book.size}"
 
-# updated to MongoDB Driver 2.1.2
+# updated to MongoDB Driver 2.5.0
 
-client = Mongo::Client.new('mongodb://localhost:27001/test?replicaSet=abc')
-# client = Mongo::Client.new('mongodb://localhost:27017/test')
+client = Mongo::Client.new('mongodb://localhost:27001/test?replicaSet=carbon')
 coll = client[:dostojewski]
 
 coll.drop

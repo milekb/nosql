@@ -23,7 +23,6 @@ mkdir -p carbon-{1,2,3}
 Start _mongod_ instances in their own shell windows:
 [source,sh]
 ----
-# 192.168.8.101
 mongod --port 27001 --replSet carbon --dbpath carbon-1 --bind_ip localhost --smallfiles --oplogSize 128
 mongod --port 27002 --replSet carbon --dbpath carbon-2 --bind_ip localhost --smallfiles --oplogSize 128
 mongod --port 27003 --replSet carbon --dbpath carbon-3 --bind_ip localhost --smallfiles --oplogSize 128
@@ -71,6 +70,7 @@ Check the status of your replica set at any time with the `rs.status()` operatio
 ----
 rs.status()
 ----
+Check which mongod instance is the PRIMARY.
 
 Now, read https://docs.mongodb.com/manual/applications/replication/[Replica Set Read and Write Semantics].
 
@@ -79,8 +79,9 @@ Now, read https://docs.mongodb.com/manual/applications/replication/[Replica Set 
 ----
 cfg = rs.conf()
 cfg.settings.getLastErrorDefaults
-cfg.settings.getLastErrorDefaults = { w: "majority", wtimeout: 1000 }
-rs.reconfig(cfg)
+// these settings slows down writes and replication considerably
+// cfg.settings.getLastErrorDefaults = { w: "majority", wtimeout: 1000 }
+// rs.reconfig(cfg)
 ----
 
 2. https://docs.mongodb.com/manual/core/read-preference[Read Preference].
@@ -97,7 +98,36 @@ to read preferences:
 cursor.readPref("secondary")
 ----
 
+TODO:
 
+- [ ] export Dostojewski to JSON
+- [ ] use mongoimport with replica set
+
+[source,sh]
+.SECONDARY
+----
+mongoexport --port 27001 -c dostojewski > dostojewski.json
+----
+
+
+### Connecting to SECONDARIES
+
+[source,js]
+.mongo
+----
+rs.slaveOk()
+show dbs
+show collections
+----
+
+## iTerm2
+
+[source,sh]
+----
+npm install -g iterm2-tab-set
+tabset carbon-1
+tabset sh
+----
 
 
 
