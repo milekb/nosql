@@ -1,0 +1,108 @@
+# Deploy a Replica Set for Testing and Development
+:source-highlighter: pygments
+:pygments-style: manni
+:icons: font
+:figure-caption!:
+
+* https://docs.mongodb.com/manual/tutorial/deploy-replica-set-for-testing[Deploy a Replica Set for Testing and Development].
+
+[IMPORTANT]
+This tutorial describes how to create a three-member replica set from three
+existing mongod instances running with access control disabled.
+
+Replica set name:: carbon
+
+In empty directory create the necessary directories:
+[source,sh]
+----
+mkdir -p carbon
+cd carbon
+mkdir -p carbon-{1,2,3}
+----
+
+Start _mongod_ instances in their own shell windows:
+[source,sh]
+----
+# 192.168.8.101
+mongod --port 27001 --replSet carbon --dbpath carbon-1 --bind_ip localhost --smallfiles --oplogSize 128
+mongod --port 27002 --replSet carbon --dbpath carbon-2 --bind_ip localhost --smallfiles --oplogSize 128
+mongod --port 27003 --replSet carbon --dbpath carbon-3 --bind_ip localhost --smallfiles --oplogSize 128
+----
+
+Read https://docs.mongodb.com/manual/core/replica-set-members[Replica Set Members].
+
+Connect to one of your mongod instances through the mongo shell:
+[source,sh]
+----
+mongo --port 27001
+----
+
+In the fourth terminal tab in the _mongo_ shell issue these commands:
+[source,js]
+----
+rsconf = {
+  _id: "carbon",
+  members: [
+    {
+     _id: 0,
+     host: "localhost:27001"
+    },
+    {
+     _id: 1,
+     host: "localhost:27002"
+    },
+    {
+     _id: 2,
+     host: "localhost:27003"
+    }
+   ]
+}
+rs.initiate( rsconf )
+----
+
+Display the current replica configuration:
+[source,js]
+----
+rs.conf()
+----
+
+Check the status of your replica set at any time with the `rs.status()` operation:
+[source,js]
+----
+rs.status()
+----
+
+Now, read https://docs.mongodb.com/manual/applications/replication/[Replica Set Read and Write Semantics].
+
+1. Modify default write concern:
+[source,js]
+----
+cfg = rs.conf()
+cfg.settings.getLastErrorDefaults
+cfg.settings.getLastErrorDefaults = { w: "majority", wtimeout: 1000 }
+rs.reconfig(cfg)
+----
+
+2. https://docs.mongodb.com/manual/core/read-preference[Read Preference].
+Change read preference mode to: **secondary** – all operations read from
+the secondary members of the replica set.
+
+The syntax for specifying the read preference mode
+https://api.mongodb.com[is specific to the driver and to the idioms of the host language].
+
+In the _mongo_ shell, the `readPref()` cursor method provides access
+to read preferences:
+[source,js]
+----
+cursor.readPref("secondary")
+----
+
+
+
+
+
+
+
+
+
+.
