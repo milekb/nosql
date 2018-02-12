@@ -1,15 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    bson (3.2.6)
-    mongo (2.1.2)
-      bson (~> 3.0)
+    bson (4.3.0)
+    mongo (2.5.0)
+      bson (>= 4.3.0, < 5.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  mongo (~> 2.1)
+  mongo (~> 2.5)
 
 BUNDLED WITH
-   1.10.6
+   1.16.1
