@@ -20,7 +20,7 @@ Zaczynamy:
 1. [MongoDB CRUD Operations](https://docs.mongodb.com/manual/crud/)
 1. [Aggregation](https://docs.mongodb.com/manual/aggregation/)
 1. [Replication](https://docs.mongodb.com/manual/replication/)
-  * [Change Stream Examples](https://docs.mongodb.com/manual/tutorial/change-streams-example/)
+    * [Change Stream Examples](https://docs.mongodb.com/manual/tutorial/change-streams-example/)
 
 Następnie:
 
