@@ -15,7 +15,7 @@ oddane później – egzamin poprawkowy.
 
 Zaczynamy:
 
-1. [The mongo Shell](https://docs.mongodb.com/manual/mongo/).
+1. [The mongo Shell](https://docs.mongodb.com/manual/mongo/)
 1. [MongoDB CRUD Operations](https://docs.mongodb.com/manual/crud/)
 1. [Aggregation](https://docs.mongodb.com/manual/aggregation/)
 1. [Replication](https://docs.mongodb.com/manual/replication/)
