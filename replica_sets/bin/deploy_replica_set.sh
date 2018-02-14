@@ -33,7 +33,7 @@ mongod --port 27001 --bind_ip localhost --replSet $name \
   --oplogSize 50 --smallfiles
 
 mongod --port 27002 --bind_ip localhost --replSet $name \
-  --dbpath ${dbpath}-2 --logpath ${log}/1.log --logappend  \
+  --dbpath ${dbpath}-2 --logpath ${log}/2.log --logappend  \
   --pidfilepath ${pid}-2.lock --fork \
   --oplogSize 50 --smallfiles
 
