@@ -4,9 +4,6 @@
 :icons: font
 :figure-caption!:
 
-[NOTE]
-http://gist.asciidoctor.org/?github-egzamin%2Fnosql%2F%2Freplica_sets%2FREADME.adoc[HTML version of this document]
-
 * https://docs.mongodb.com/ruby-driver/master/quick-start/[Quick Start] from
   https://docs.mongodb.com/ruby-driver/master/[Ruby MongoDB Driver] manual.
 * https://github.com/pry/pry[Pry] is a powerful alternative to the standard

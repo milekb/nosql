@@ -4,6 +4,9 @@
 :icons: font
 :figure-caption!:
 
+[NOTE]
+http://gist.asciidoctor.org/?github-egzamin%2Fnosql%2F%2Freplica_sets%2FREADME.adoc[HTML version of this document]
+
 [IMPORTANT]
 This tutorial describes how to create a three-member replica set from three
 existing mongod instances running with access control disabled.
