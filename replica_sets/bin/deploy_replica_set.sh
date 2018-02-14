@@ -3,7 +3,7 @@
 usage() {
 cat << EOF >&2
 
-Run replica set on localhost.
+Run/Deploy replica set on localhost.
 If necessary, create data and log directories.
 
 Usage:
@@ -11,6 +11,7 @@ Usage:
 
 Example:
     bin/$(basename $0) carbon
+
 EOF
 }
 
