@@ -4,13 +4,23 @@
 :icons: font
 :figure-caption!:
 
-* https://docs.mongodb.com/manual/tutorial/deploy-replica-set-for-testing[Deploy a Replica Set for Testing and Development].
-
 [IMPORTANT]
 This tutorial describes how to create a three-member replica set from three
 existing mongod instances running with access control disabled.
 
-Replica set name:: carbon
+[NOTE]
+====
+We are going to rename tabs names in *iTerm2* terminal.
+It is convenient to do renaming on the command line.
+To make it possible we install the _iterm2-tab-set_ package.
+[source,sh]
+npm install -g iterm2-tab-set
+tabset carbon-1
+====
+
+## Replica Set on _localhost_
+
+* https://docs.mongodb.com/manual/tutorial/deploy-replica-set-for-testing[Deploy a Replica Set for Testing and Development].
 
 In empty directory create the necessary directories:
 [source,sh]
@@ -27,6 +37,7 @@ mongod --port 27001 --replSet carbon --dbpath carbon-1 --bind_ip localhost --sma
 mongod --port 27002 --replSet carbon --dbpath carbon-2 --bind_ip localhost --smallfiles --oplogSize 128
 mongod --port 27003 --replSet carbon --dbpath carbon-3 --bind_ip localhost --smallfiles --oplogSize 128
 ----
+We named our replica set *carbon*.
 
 Read https://docs.mongodb.com/manual/core/replica-set-members[Replica Set Members].
 
@@ -36,24 +47,15 @@ Connect to one of your mongod instances through the mongo shell:
 mongo --port 27001
 ----
 
-In the fourth terminal tab in the _mongo_ shell issue these commands:
+In the fourth terminal tab in the *_mongo_ shell* issue these commands:
 [source,js]
 ----
 rsconf = {
   _id: "carbon",
   members: [
-    {
-     _id: 0,
-     host: "localhost:27001"
-    },
-    {
-     _id: 1,
-     host: "localhost:27002"
-    },
-    {
-     _id: 2,
-     host: "localhost:27003"
-    }
+    { _id: 0, host: "localhost:27001" },
+    { _id: 1, host: "localhost:27002" },
+    { _id: 2, host: "localhost:27003" }
    ]
 }
 rs.initiate( rsconf )
@@ -74,7 +76,7 @@ Check which mongod instance is the PRIMARY.
 
 Now, read https://docs.mongodb.com/manual/applications/replication/[Replica Set Read and Write Semantics].
 
-1. Modify default write concern:
+1. Display the default write concern:
 [source,js]
 ----
 cfg = rs.conf()
@@ -83,6 +85,7 @@ cfg.settings.getLastErrorDefaults
 // cfg.settings.getLastErrorDefaults = { w: "majority", wtimeout: 1000 }
 // rs.reconfig(cfg)
 ----
+We can always modify it later.
 
 2. https://docs.mongodb.com/manual/core/read-preference[Read Preference].
 Change read preference mode to: **secondary** – all operations read from
@@ -98,35 +101,28 @@ to read preferences:
 cursor.readPref("secondary")
 ----
 
-TODO:
+## Importing data into Replica Set
 
-- [ ] export Dostojewski to JSON
-- [ ] use mongoimport with replica set
+- [x] export Dostojewski to JSON
 
 [source,sh]
-.SECONDARY
+.Terminal
 ----
 mongoexport --port 27001 -c dostojewski > dostojewski.json
+gzip dostojewski.json
+gunzip -c dostojewski.json.gz | mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 \
+  -d test -c dostojewski --drop
 ----
 
 
-### Connecting to SECONDARIES
+## Connecting to SECONDARIES
 
 [source,js]
-.mongo
+.mongo SECONDARY
 ----
 rs.slaveOk()
 show dbs
 show collections
-----
-
-## iTerm2
-
-[source,sh]
-----
-npm install -g iterm2-tab-set
-tabset carbon-1
-tabset sh
 ----
 
 
