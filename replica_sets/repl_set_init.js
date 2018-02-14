@@ -1,4 +1,4 @@
-cfg = {
+rsconf = {
   _id: "carbon",
   members: [
     { _id: 0, host: "localhost:27001" },
@@ -6,6 +6,3 @@ cfg = {
     { _id: 2, host: "localhost:27003" }
   ]
 }
-rs.help()
-
-rs.initiate(cfg)

@@ -44,11 +44,13 @@ Read https://docs.mongodb.com/manual/core/replica-set-members[Replica Set Member
 Connect to one of your mongod instances through the mongo shell:
 [source,sh]
 ----
-mongo --port 27001
+mongo --host localhost:27001
+# mongo --host localhost:27001 --shell repl_set_init.js
 ----
 
 In the fourth terminal tab in the *_mongo_ shell* issue these commands:
 [source,js]
+.repl_set_init.js
 ----
 rsconf = {
   _id: "carbon",
@@ -58,12 +60,13 @@ rsconf = {
     { _id: 2, host: "localhost:27003" }
    ]
 }
-rs.initiate( rsconf )
 ----
 
 Display the current replica configuration:
 [source,js]
 ----
+// rs.help()
+rs.initiate(rsconf)
 rs.conf()
 ----
 

@@ -22,7 +22,7 @@ Mongo::Logger.level = logger_level[ARGV[0].to_s.downcase.to_sym] || Logger::INFO
 # English stopwords from Tracker, http://projects.gnome.org/tracker/
 # GitHub: git clone git://git.gnome.org/tracker ; cd data/languages/
 
-stop = IO.read('data/stopwords.en').split("\n")
+stop = IO.read('datasets/stopwords.en').split("\n")
 logger.info "liczba wczytanych stopwords: #{stop.length}"
 
 # Gutenberg
@@ -30,7 +30,7 @@ logger.info "liczba wczytanych stopwords: #{stop.length}"
 # uri = 'http://www.gutenberg.org/cache/epub/2638/pg2638.txt' (MS-DOS encoded)
 # lines ending should be converted to \n
 
-filename = 'data/Dostoevsky_Feodor-The_Idiot.txt'
+filename = 'datasets/Dostoevsky_Feodor-The_Idiot.txt'
 data = IO.readlines(filename, "\n")
 lines = data.map do |para|
   para.gsub!(/\s+/, ' ').strip
@@ -43,9 +43,14 @@ logger.info "liczba wczytanych akapitów: #{book.size}"
 
 # updated to MongoDB Driver 2.5.0
 
-client = Mongo::Client.new('mongodb://localhost:27001/test?replicaSet=carbon')
-coll = client[:dostojewski]
+# client = Mongo::Client.new('mongodb://localhost:27001/test?replicaSet=carbon')
+client = Mongo::Client.new(
+  ['127.0.0.1:27001', '127.0.0.1:27002', '127.0.0.1:27003'],
+  replica_set: :carbon,
+  database: 'test'
+)
 
+coll = client[:dostojewski]
 coll.drop
 
 book.each_with_index do |para, n|
