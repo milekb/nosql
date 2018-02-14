@@ -14,6 +14,13 @@ Invoke _pry_ at the command line:
 ----
 pry
 ----
+Now, try to enter these commands:
+[source,ruby]
+----
+show-method Array#select
+ri Array#each
+----
+
 
 Require _mongo_ driver, quiet `Mongo::Logger`,
 and make connection to the _carbon_ replica set:
