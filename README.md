@@ -13,7 +13,17 @@ oddane później – egzamin poprawkowy.
 
 ## Materiały do wykładów
 
-1. [The MongoDB 3.6 Manual](https://docs.mongodb.com/manual)
+Zaczynamy:
+
+1. [The mongo Shell](https://docs.mongodb.com/manual/mongo/).
+1. [MongoDB CRUD Operations](https://docs.mongodb.com/manual/crud/)
+1. [Aggregation](https://docs.mongodb.com/manual/aggregation/)
+1. [Replication](https://docs.mongodb.com/manual/replication/)
+  * [Change Stream Examples](https://docs.mongodb.com/manual/tutorial/change-streams-example/)
+
+Następnie:
+
+1. [The MongoDB 3.6 Manual](https://docs.mongodb.com/manual/contents/)
     * [Introduction to MongoDB](https://docs.mongodb.com/manual/introduction)
 1. Getting Started with MongoDB:
     * [MongoDB Shell Edition](https://docs.mongodb.com/getting-started/shell)
