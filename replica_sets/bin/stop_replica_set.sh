@@ -19,6 +19,6 @@ if [[ "$1" == "--help" || "$1" == "-help" || "$1" == "-h" ]]; then
   exit 0
 fi
 
-echo kill -2 $(cat /tmp/mongod-$1-1.lock)
-echo kill -2 $(cat /tmp/mongod-$1-2.lock)
-echo kill -2 $(cat /tmp/mongod-$1-3.lock)
+kill -2 $(cat /tmp/mongod-$1-1.lock)
+kill -2 $(cat /tmp/mongod-$1-2.lock)
+kill -2 $(cat /tmp/mongod-$1-3.lock)
