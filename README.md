@@ -15,6 +15,7 @@ oddane później – egzamin poprawkowy.
 
 Zaczynamy:
 
+1. [Introduction to MongoDB](https://docs.mongodb.com/manual/introduction/)
 1. [The mongo Shell](https://docs.mongodb.com/manual/mongo/)
 1. [MongoDB CRUD Operations](https://docs.mongodb.com/manual/crud/)
 1. [Aggregation](https://docs.mongodb.com/manual/aggregation/)
@@ -24,9 +25,7 @@ Zaczynamy:
 Następnie:
 
 1. [The MongoDB 3.6 Manual](https://docs.mongodb.com/manual/contents/)
-    * [Introduction to MongoDB](https://docs.mongodb.com/manual/introduction)
-1. Getting Started with MongoDB:
-    * [MongoDB Shell Edition](https://docs.mongodb.com/getting-started/shell)
+1. [MongoDB Shell Edition](https://docs.mongodb.com/getting-started/shell)
 1. Drivers Manuals:
     * [Ruby](https://docs.mongodb.com/ruby-driver/master/quick-start)
     * [NodeJS](http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start)

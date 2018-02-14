@@ -1,0 +1,6 @@
+# Datasets Sources
+
+1. https://docs.mongodb.com/getting-started/shell/import-data[Import Example Dataset]
+  from https://docs.mongodb.com/getting-started/shell[Getting Started with MongoDB (MongoDB Shell Edition)].
+.. https://raw.githubusercontent.com/mongodb/docs-assets/primer-dataset/primer-dataset.json[Restaurants]
+.. http://media.mongodb.org/zips.json[Zip Codes]
