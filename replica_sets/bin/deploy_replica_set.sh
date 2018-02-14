@@ -23,7 +23,7 @@ name=$1
 dbpath=$1/data
 logpath=$1/log
 
-echo mkdir -p $dbpath-{1,2,3} $logpath-{1,2,3}
+mkdir -p $dbpath-{1,2,3} $logpath-{1,2,3}
 
 pid=$1/pid
 
