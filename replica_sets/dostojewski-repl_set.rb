@@ -43,13 +43,13 @@ logger.info "liczba wczytanych akapitów: #{book.size}"
 
 # updated to MongoDB Driver 2.5.0
 
-client = Mongo::Client.new('mongodb://localhost:27001/test?replicaSet=carbon')
-# does not work
-# client = Mongo::Client.new(
-#   ['localhost:27001', 'localhost:27002', 'localhost:27003'],
-#   replica_set: :carbon,
-#   database: 'test'
-# )
+# client = Mongo::Client.new('mongodb://localhost:27001/test?replicaSet=carbon')
+# client = Mongo::Client.new('mongodb://127.0.0.1:27001,127.0.0.1:27002,127.0.0.1:27003/test?replicaSet=carbon')
+client = Mongo::Client.new(
+  ['127.0.0.1:27001', '127.0.0.1:27002', '127.0.0.1:27003'],
+  replica_set: 'carbon',
+  database: 'test'
+)
 
 coll = client[:dostojewski]
 coll.drop

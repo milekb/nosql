@@ -1,0 +1,28 @@
+# Ruby MongoDB Driver – Quick Start
+:source-highlighter: pygments
+:pygments-style: manni
+:icons: font
+:figure-caption!:
+
+* https://docs.mongodb.com/ruby-driver/master/quick-start/[Quick Start] from
+  https://docs.mongodb.com/ruby-driver/master/[Ruby MongoDB Driver] manual.
+* https://github.com/pry/pry[Pry] is a powerful alternative to the standard
+  _irb_ shell for Ruby.
+
+Invoke _pry_ at the command line:
+[source,sh]
+----
+pry
+----
+
+Require _mongo_ driver, quiet `Mongo::Logger`,
+and make connection to the _carbon_ replica set:
+[source,ruby]
+----
+require 'mongo'
+Mongo::Logger.logger.level = Logger::FATAL
+
+client = Mongo::Client.new(
+  'mongodb://127.0.0.1:27001,127.0.0.1:27002,127.0.0.1:27003/test?replicaSet=carbon'
+)
+----
