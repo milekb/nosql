@@ -1,14 +1,17 @@
 # Technologie NoSQL
 
-Terminarz rozliczania się z projektów na zaliczenie i egzamin
+Terminarz akceptacji zaproszenia do GC oraz rozliczania się
+z projektów na zaliczenie i egzamin
 
-| Projekt     | Deadline    |
-|-------------|-------------|
-| Zaliczenie  | 10.04.2018  |
-| Egzamin     | 22.05.2018  |
+| Projekt         | Deadline   |
+|-----------------|------------|
+| GitHub Classrom | 27.02.2018 |
+| Zaliczenie      | 10.04.2018 |
+| Egzamin         | 22.05.2018 |
 
-Projekty oddane do tygodnia po wyznaczonym terminie – ocena obniżona,
-oddane później – egzamin poprawkowy.
+1. Brak akceptacji zaproszenia: ocena **NUZ** –
+nie uczęszczał na zajęcia.
+1. Projekty na zaliczenie i egzamin oddane do tygodnia po wyznaczonym terminie – ocena obniżona, oddane później – egzamin poprawkowy.
 
 
 ## Materiały do wykładów
