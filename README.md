@@ -1,13 +1,13 @@
 # Technologie NoSQL
 
-Terminarz akceptacji zaproszenia do GC oraz rozliczania się
-z projektów na zaliczenie i egzamin
+Terminarz akceptacji zaproszenia do GitHub classroom oraz
+rozliczania się z projektów na zaliczenie i egzamin
 
-| Projekt         | Deadline   |
-|-----------------|------------|
-| GitHub Classrom | 27.02.2018 |
-| Zaliczenie      | 10.04.2018 |
-| Egzamin         | 22.05.2018 |
+| Projekt          | Deadline   |
+|------------------|------------|
+| GitHub Classroom | 27.02.2018 |
+| Zaliczenie       | 10.04.2018 |
+| Egzamin          | 22.05.2018 |
 
 1. Brak akceptacji zaproszenia: ocena **NUZ** –
 nie uczęszczał na zajęcia.
