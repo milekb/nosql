@@ -5,7 +5,7 @@ rozliczania się z projektów na zaliczenie i egzamin
 
 | Projekt          | Deadline   |
 |------------------|------------|
-| GitHub Classroom | 27.02.2018 |
+| GitHub Classroom | 01.03.2018 |
 | Zaliczenie       | 10.04.2018 |
 | Egzamin          | 22.05.2018 |
 
