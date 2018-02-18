@@ -1,7 +1,7 @@
 # Technologie NoSQL
 
 Terminy akceptacji zaproszenia do GitHub classroom oraz
-rozliczania się z projektów na zaliczenie i egzamin
+rozliczania się z projektów na zaliczenie i egzamin.
 
 | Projekt          | Deadline   |
 |------------------|------------|
