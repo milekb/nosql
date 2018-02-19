@@ -68,6 +68,8 @@ oraz imiona i nazwiska autorów.
 Wyniki agregacji należy zamienić na grafiki, mapki, stron HTML itp.
 i umieścić w dokumentacji.
 
+* https://github.com/susam/gitpr[*Fork and Pull Request Workflow*].
+
 
 ## Simple Rules for Reproducible Computations
 
