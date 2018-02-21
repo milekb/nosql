@@ -115,13 +115,19 @@ cursor.readPref("secondary")
 .Terminal
 ----
 mongoexport --port 27002 -c dostojewski | gzip -c > dostojewski.json.gz
-gunzip -c dostojewski.json.gz | mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 \
+gunzip -c datasets/dostojewski.json.gz | \
+  mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 \
   -d test -c dostojewski --drop
 ----
 
 
 ## Connecting to SECONDARIES
 
+[source,sh]
+.Terminal
+----
+mongo --host localhost:27003 # assume that this host is SECONDARY
+----
 [source,js]
 .mongo SECONDARY
 ----
