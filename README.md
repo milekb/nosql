@@ -95,6 +95,11 @@ Plus two more rules:
 1. Record all intermediate results, when possible in standardized formats.
 1. Connect textual statements to underlying results.
 
+Uwaga: Jeśli to ma sens, to dane należy uporządkować i w bazie danych zapisać
+**tidy dataset**. Oczywiście, wcześniej należy przeczytać ten artykuł:
+[Hadley Wickham, *Tidy data*](https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf)
+w którym wyjaśniono co to oznacza.
+
 
 ## Praca z gigabajtowymi plikami danych
 
