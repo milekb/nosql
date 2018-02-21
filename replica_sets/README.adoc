@@ -129,7 +129,7 @@ gunzip -c datasets/dostojewski.json.gz | \
 [source,sh]
 .Terminal
 ----
-mongo --host localhost:27003 # assume that this host is SECONDARY
+mongo --quiet --host localhost:27003 # assume that this host is SECONDARY
 ----
 [source,js]
 .mongo SECONDARY
