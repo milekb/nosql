@@ -30,15 +30,15 @@ In empty directory create the necessary directories:
 ----
 mkdir -p carbon
 cd carbon
-mkdir -p carbon-{1,2,3}
+mkdir -p data-{1,2,3}
 ----
 
 Start _mongod_ instances in their own shell windows:
 [source,sh]
 ----
-mongod --port 27001 --replSet carbon --dbpath carbon-1 --bind_ip localhost --smallfiles --oplogSize 128
-mongod --port 27002 --replSet carbon --dbpath carbon-2 --bind_ip localhost --smallfiles --oplogSize 128
-mongod --port 27003 --replSet carbon --dbpath carbon-3 --bind_ip localhost --smallfiles --oplogSize 128
+mongod --port 27001 --replSet carbon --dbpath data-1 --bind_ip localhost --smallfiles --oplogSize 128
+mongod --port 27002 --replSet carbon --dbpath data-2 --bind_ip localhost --smallfiles --oplogSize 128
+mongod --port 27003 --replSet carbon --dbpath data-3 --bind_ip localhost --smallfiles --oplogSize 128
 ----
 We named our replica set *carbon*.
 
@@ -115,13 +115,19 @@ cursor.readPref("secondary")
 .Terminal
 ----
 mongoexport --port 27002 -c dostojewski | gzip -c > dostojewski.json.gz
-gunzip -c dostojewski.json.gz | mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 \
+gunzip -c datasets/dostojewski.json.gz | \
+  mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 \
   -d test -c dostojewski --drop
 ----
 
 
 ## Connecting to SECONDARIES
 
+[source,sh]
+.Terminal
+----
+mongo --host localhost:27003 # assume that this host is SECONDARY
+----
 [source,js]
 .mongo SECONDARY
 ----
