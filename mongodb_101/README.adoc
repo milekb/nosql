@@ -4,9 +4,12 @@
 :icons: font
 :figure-caption!:
 
-https://docs.mongodb.com/manual/crud/[MongoDB CRUD Operations].
+. https://docs.mongodb.com/manual/introduction/[Introduction to MongoDB]
+.. https://docs.mongodb.com/manual/reference/mongodb-extended-json/[MongoDB Extended JSON]
+. https://docs.mongodb.com/manual/crud/[MongoDB CRUD Operations].
 
-## Getting Started
+
+## Getting Started: Insert
 
 MongoDB adds the `_id` field with an `ObjectId` if `_id` is not present
 [source,js]
@@ -239,10 +242,26 @@ db.places.find(
 
 ### https://docs.mongodb.com/manual/tutorial/geospatial-tutorial/[Find Restaurants with Geospatial Queries]
 
+Download the example datasets from:
 
+* https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json[neighborhoods]
+* https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/restaurants.json[restaurants]
 
+Import these collections into the test database, and create geospatial indexes:
+[source,js]
+.mongo
+----
+# db.myColl.createIndex(
+#  { score: 1, price: 1, category: 1 },
+#  { collation: { locale: "fr" } }
+# )
 
+db.restaurants.createIndex({ location: "2dsphere" })
+db.neighborhoods.createIndex({ geometry: "2dsphere" })
 
+db.restaurants.findOne()
+db.neighborhoods.findOne()
+----
 
 [NOTE]
 ====
@@ -253,6 +272,16 @@ db.places.find(
 ====
 
 
-
-
 ## Indexes
+
+. https://docs.mongodb.com/manual/core/crud/[Query Plan, Performance, and Analysis]
+
+
+## To be cont.
+
+https://docs.mongodb.com/manual/aggregation/[Aggregation].
+
+
+
+
+.
