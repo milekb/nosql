@@ -1,0 +1,24 @@
+# Laboratoria
+
+## 28.02.2018 & 7.03.2018
+
+. Wykonać pull request z wpisanym swoim dużym zbiorem danych
+  (co najmniej 1 mln dokumentów). Link należy wpisać w pliku
+  link:my_data.md[my_data.md].
+. Dane należy zapisać w bazie danych MongoDB:
+.. standalone
+.. replica set na localhost
+.. replica set na trzech komputerach
+. Do zapisu należy użyć programu _mongoimport_.
+. Dane importujemy przy czterech różnych ustawieniach
+  https://docs.mongodb.com/manual/reference/write-concern/[write concern]:
+  dla replica set (jednym domyślnym dla standalone)
+.. domyślnych (należy sprawdzić jakie są)
+.. w: 1, j: false
+.. w: 1, j: true
+.. w: 2, j: false
+.. w: 2, j: true
+. Każdy import powtarzamy pięć razy. Wyniki przedstawiamy w tabelce.
+  Dopisujemy swoje wnioski i uwagi.
+
+Cały proces należy zautomatyzować, łącznie z wygenerowaniem tabelki.
