@@ -17,17 +17,19 @@ rozliczania się z projektów na zaliczenie i egzamin.
 
 Zaczynamy:
 
-1. [Introduction to MongoDB](https://docs.mongodb.com/manual/introduction/)
+1.  [The MongoDB 3.6 Manual](https://docs.mongodb.com/manual/contents/):
+    * [Introduction to MongoDB](https://docs.mongodb.com/manual/introduction/)
 1. [The mongo Shell](https://docs.mongodb.com/manual/mongo/)
 1. [MongoDB CRUD Operations](https://docs.mongodb.com/manual/crud/)
-1. [Aggregation](https://docs.mongodb.com/manual/aggregation/)
+1. [Indexes](https://docs.mongodb.com/manual/indexes/):
+    * [Explain Results](https://docs.mongodb.com/manual/reference/explain-results/)
+1. [Aggregation](https://docs.mongodb.com/manual/core/aggregation-pipeline/).
+    * [Aggregation Pipeline Stages](https://docs.mongodb.com/manual/reference/operator/aggregation-pipeline/);
+      zob. $bucket, $facet, $graphLookup.
+    * [Aggregation Pipeline Operators](https://docs.mongodb.com/manual/reference/operator/aggregation/)
 1. [Replication](https://docs.mongodb.com/manual/replication/)
     * [Change Stream Examples](https://docs.mongodb.com/manual/tutorial/change-streams-example/)
-
-Następnie:
-
-1. [The MongoDB 3.6 Manual](https://docs.mongodb.com/manual/contents/)
-1. [MongoDB Shell Edition](https://docs.mongodb.com/getting-started/shell)
+1. [Data Models](https://docs.mongodb.com/manual/data-modeling/)
 1. Drivers Manuals:
     * [Ruby](https://docs.mongodb.com/ruby-driver/master/quick-start)
     * [NodeJS](http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start)
