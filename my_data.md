@@ -1,3 +1,11 @@
+## Dane wzrocowe
+[Punkty adresowe z terenu Polski w formacie geojson](https://drive.google.com/file/d/1c76CsnoARrlPwRoOsInwhvXnYVPWgiZx/view?usp=sharing)
+
+Import za pomocą mongoimport
+```bash
+mongoimport --db nazwaBazy --collection nazwaKolekcji --jsonArray --file nazwaPliku.geojson
+```
+
 ## Moje dane
 
 Każdy powinien mieć swój unikalny zbiór danych.
