@@ -15,3 +15,5 @@ Tutaj wpisujemy link do danych z informacją co dane zawierają.
 List of dpw maintained street trees including: Planting date, species, and location
 2. K. Narożnik. [Local Data for Better Health](https://catalog.data.gov/dataset/500-cities-local-data-for-better-health-b32fd).
 This dataset includes 2013, 2014 model-based small area estimates for 27 measures of chronic disease related to unhealthy behaviors, health outcomes, and use of preventive services. Data were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. 
+3. K. Lubiejewski. [Vehicle, Snowmobile, and Boat Registrations](https://data.ny.gov/Transportation/Vehicle-Snowmobile-and-Boat-Registrations/w4pv-hbkt).
+This dataset contains the file of vehicle, snowmobile and boat registrations in NYS. Registrations expired more than 2 years are excluded. Records that have a scofflaw, revocation and/or suspension are included with indicators specifying those kinds of records.
