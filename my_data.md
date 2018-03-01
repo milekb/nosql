@@ -4,6 +4,10 @@ Import do kolekcji _pa_ w bazie _test_:
 ```bash
 mongoimport --db test --collection pa --jsonArray --file nazwaPliku.geojson
 ```
+### Dodatkowe dane wzorcowe - [Polskie miejsowości w formacie GeoJSON](https://drive.google.com/open?id=1poYWhc7618s_0-qOm6e3k9xH542HCp5Q)
+```
+mongoimport --db test --collection miejscowosci --file miejscowosci.mongodb.geojson --jsonArray
+```
 
 ## Moje dane
 
