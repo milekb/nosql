@@ -1,5 +1,2765 @@
-{"_id": "oakland",  "loc":{"type":"Point","coordinates":[-122.270833,37.804444]}}
-{"_id": "augsburg", "loc":{"type":"Point","coordinates":[10.898333,48.371667]}}
-{"_id": "namibia",  "loc":{"type":"Point","coordinates":[17.15,-22.566667]}}
-{"_id": "australia","loc":{"type":"Point","coordinates":[135,-25]}}
-{"_id": "brasilia", "loc":{"type":"Point","coordinates":[-52.95,-10.65]}}
+{"city":"Borzytuchom"}
+{"city":"Rzeczenica"}
+{"city":"Krokowa"}
+{"city":"Kulice"}
+{"city":"Kwidzyn"}
+{"city":"Nowa Wieś Malborska"}
+{"city":"Miastko"}
+{"city":"Bobowo"}
+{"city":"Lisewo"}
+{"city":"Kościerzyna"}
+{"city":"Pasieka"}
+{"city":"Parszczyce"}
+{"city":"Prusewo"}
+{"city":"Pelplin"}
+{"city":"Skórcz"}
+{"city":"Dębki"}
+{"city":"Rajkowy"}
+{"city":"Rudno"}
+{"city":"Tczew"}
+{"city":"Łeba"}
+{"city":"Rożental"}
+{"city":"Białogóra"}
+{"city":"Lisewo Malborskie"}
+{"city":"Szymankowo"}
+{"city":"Lichnowy"}
+{"city":"Parszewo"}
+{"city":"Sopot"}
+{"city":"Wierzchucino"}
+{"city":"Odargowo"}
+{"city":"Lubkowo"}
+{"city":"Żarnowiec"}
+{"city":"Minkowice"}
+{"city":"Brzyno"}
+{"city":"Tyłowo"}
+{"city":"Goszczyno"}
+{"city":"Sławoszyno"}
+{"city":"Karwieńskie Błoto Pierwsze"}
+{"city":"Karlikowo"}
+{"city":"Kartoszyno"}
+{"city":"Gniew"}
+{"city":"Tymawa"}
+{"city":"Opalenie"}
+{"city":"Nicponia"}
+{"city":"Miłoradz"}
+{"city":"Potęgowo"}
+{"city":"Karwieńskie Błoto Drugie"}
+{"city":"Szary Dwór"}
+{"city":"Łętowice"}
+{"city":"Brzezie"}
+{"city":"Studzienice"}
+{"city":"Czersk"}
+{"city":"Sławoszynko"}
+{"city":"Włynkówko"}
+{"city":"Bydlino"}
+{"city":"Krępa Słupska"}
+{"city":"Jezierzyce"}
+{"city":"Siemianice"}
+{"city":"Bierkowo"}
+{"city":"Swochowo"}
+{"city":"Głobino"}
+{"city":"Strzelino"}
+{"city":"Redzikowo"}
+{"city":"Płaszewko"}
+{"city":"Chojnice"}
+{"city":"Lębork"}
+{"city":"Bytów"}
+{"city":"Rzepnica"}
+{"city":"Dąbie"}
+{"city":"Mądrzechowo"}
+{"city":"Konewki"}
+{"city":"Ustka"}
+{"city":"Rowy"}
+{"city":"Poddąbie"}
+{"city":"Machowino"}
+{"city":"Dębina"}
+{"city":"Przewłoka"}
+{"city":"Wodnica"}
+{"city":"Grabno"}
+{"city":"Udorpie"}
+{"city":"Brusy"}
+{"city":"Męcikał"}
+{"city":"Lubnia"}
+{"city":"Skoszewo"}
+{"city":"Charnowo"}
+{"city":"Duninowo"}
+{"city":"Wytowno"}
+{"city":"Gąbino"}
+{"city":"Męcikał-Struga"}
+{"city":"Wieck"}
+{"city":"Nowęcin"}
+{"city":"Wicko"}
+{"city":"Bałamątek"}
+{"city":"Czarna Dąbrówka"}
+{"city":"Zalesie"}
+{"city":"Parchowo"}
+{"city":"Nakla"}
+{"city":"Żarnowska"}
+{"city":"Czernica"}
+{"city":"Kosobudy"}
+{"city":"Dębnica Kaszubska"}
+{"city":"Wiele"}
+{"city":"Karsin"}
+{"city":"Osowo"}
+{"city":"Strzebielino"}
+{"city":"Strzebielino-Osiedle"}
+{"city":"Bożepole Wielkie"}
+{"city":"Łęczyce"}
+{"city":"Mosty"}
+{"city":"Kosakowo"}
+{"city":"Pogórze"}
+{"city":"Suchy Dwór"}
+{"city":"Pierwoszyno"}
+{"city":"Rewa"}
+{"city":"Dębogórze"}
+{"city":"Kazimierz"}
+{"city":"Bożepole Małe"}
+{"city":"Rozłazino"}
+{"city":"Górki"}
+{"city":"Rakowiec"}
+{"city":"Brachlewo"}
+{"city":"Tychnowy"}
+{"city":"Dankowo"}
+{"city":"Korzeniewo"}
+{"city":"Mechelinki"}
+{"city":"Nowy Barkoczyn"}
+{"city":"Nowa Karczma"}
+{"city":"Mareza"}
+{"city":"Dąbrówka Wielka"}
+{"city":"Lubań"}
+{"city":"Grabowo Kościerskie"}
+{"city":"Kamionka"}
+{"city":"Kołczygłowy"}
+{"city":"Jezierze"}
+{"city":"Dębogórze-Wybudowanie"}
+{"city":"Koczała"}
+{"city":"Kalisz"}
+{"city":"Dziemiany"}
+{"city":"Rozpędziny"}
+{"city":"Hel"}
+{"city":"Kiełpino"}
+{"city":"Borowo"}
+{"city":"Kartuzy"}
+{"city":"Łapalice"}
+{"city":"Dzierżążno"}
+{"city":"Brodnica Górna"}
+{"city":"Mirachowo"}
+{"city":"Prokowo"}
+{"city":"Grzybno"}
+{"city":"Mezowo"}
+{"city":"Brodnica Dolna"}
+{"city":"Smętowo Chmieleńskie"}
+{"city":"Kiełpino-Leszno"}
+{"city":"Prokowo-Prokowskie Chrósty"}
+{"city":"Dzierżążno-Pikarnia"}
+{"city":"Sztutowo"}
+{"city":"Kąty Rybackie"}
+{"city":"Sianowo"}
+{"city":"Brodnica Górna-Kalka"}
+{"city":"Kębłowo Nowowiejskie"}
+{"city":"Nowa Wieś Lęborska"}
+{"city":"Obliwice"}
+{"city":"Lędowo-Osiedle"}
+{"city":"Niestkowo"}
+{"city":"Kosy"}
+{"city":"Objazda"}
+{"city":"Łapalice-Kozłowy Staw"}
+{"city":"Zimowiska"}
+{"city":"Redwanki"}
+{"city":"Mirachowo-Strysza Buda"}
+{"city":"Koleczkowo"}
+{"city":"Częstkowo"}
+{"city":"Dobrzewino"}
+{"city":"Kamień"}
+{"city":"Kielno"}
+{"city":"Donimierz"}
+{"city":"Przetoczyno"}
+{"city":"Kowalewo"}
+{"city":"Rębiska"}
+{"city":"Bojano"}
+{"city":"Warzno"}
+{"city":"Grabowiec"}
+{"city":"Łebno"}
+{"city":"Szemud"}
+{"city":"Leśno"}
+{"city":"Jeleńska Huta"}
+{"city":"Charzykowy"}
+{"city":"Nowa Cerkiew"}
+{"city":"Swornegacie"}
+{"city":"Nowy Dwór Gdański"}
+{"city":"Kmiecin"}
+{"city":"Borkowo"}
+{"city":"Goszyn"}
+{"city":"Borzęcin"}
+{"city":"Roszkowo"}
+{"city":"Rusocin"}
+{"city":"Wiślinka"}
+{"city":"Straszyn"}
+{"city":"Rokitnica"}
+{"city":"Rotmanka"}
+{"city":"Osieczna"}
+{"city":"Szlachta"}
+{"city":"Zęblewo"}
+{"city":"Łebieńska Huta"}
+{"city":"Szemudzka Huta"}
+{"city":"Będargowo"}
+{"city":"Kieleńska Huta"}
+{"city":"Orłowo"}
+{"city":"Marzęcino"}
+{"city":"Silno"}
+{"city":"Chojniczki"}
+{"city":"Powałki"}
+{"city":"Cieplewo"}
+{"city":"Juszkowo"}
+{"city":"Lubiatowo"}
+{"city":"Kopalino"}
+{"city":"Sasino"}
+{"city":"Karczemki"}
+{"city":"Głazica"}
+{"city":"Małe Swornegacie"}
+{"city":"Krojanty"}
+{"city":"Ogorzeliny"}
+{"city":"Żuławka"}
+{"city":"Jackowo"}
+{"city":"Choczewo"}
+{"city":"Klawkowo"}
+{"city":"Pawłówko"}
+{"city":"Pawłowo"}
+{"city":"Marynowy"}
+{"city":"Rekcin"}
+{"city":"Jagatowo"}
+{"city":"Żukczyn"}
+{"city":"Lipienice"}
+{"city":"Łęgowo"}
+{"city":"Jarcewo"}
+{"city":"Ostrowite"}
+{"city":"Sławęcin"}
+{"city":"Nowy Staw"}
+{"city":"Osiek"}
+{"city":"Ostaszewo"}
+{"city":"Wiślina"}
+{"city":"Przejazdowo"}
+{"city":"Radunica"}
+{"city":"Bystra"}
+{"city":"Wojanowo"}
+{"city":"Garcz"}
+{"city":"Perlino"}
+{"city":"Miechucino"}
+{"city":"Chmielno"}
+{"city":"Banino"}
+{"city":"Chwaszczyno"}
+{"city":"Przyjaźń"}
+{"city":"Żukowo"}
+{"city":"Łapino Kartuskie"}
+{"city":"Rębiechowo"}
+{"city":"Tuchom"}
+{"city":"Małkowo"}
+{"city":"Skrzeszewo"}
+{"city":"Glincz"}
+{"city":"Leźno"}
+{"city":"Żukowo G"}
+{"city":"Niestępowo"}
+{"city":"Lniska"}
+{"city":"Gardeja"}
+{"city":"Nowy Świat"}
+{"city":"Wierzchowo-Dworzec"}
+{"city":"Rychnowy"}
+{"city":"Ględowo"}
+{"city":"Nieżywięć"}
+{"city":"Jaromierz"}
+{"city":"Pępowo"}
+{"city":"Cedry Wielkie"}
+{"city":"Koszwały"}
+{"city":"Błotnik"}
+{"city":"Trutnowy"}
+{"city":"Cedry Małe"}
+{"city":"Nadole"}
+{"city":"Gniewino"}
+{"city":"Rybno"}
+{"city":"Tuchomie"}
+{"city":"Kramarzyny"}
+{"city":"Miszewo"}
+{"city":"Krzykosy"}
+{"city":"Miszewko"}
+{"city":"Piaskowo"}
+{"city":"Wierzchowo"}
+{"city":"Wocławy"}
+{"city":"Kostkowo"}
+{"city":"Czarne Dolne"}
+{"city":"Kiezmark"}
+{"city":"Borowiec"}
+{"city":"Nowy Tuchom"}
+{"city":"Czymanowo"}
+{"city":"Siemirowice"}
+{"city":"Cewice"}
+{"city":"Łebunia"}
+{"city":"Maszewo Lęborskie"}
+{"city":"Barniewice"}
+{"city":"Skarszewy"}
+{"city":"Pogódki"}
+{"city":"Godziszewo"}
+{"city":"Szczodrowo"}
+{"city":"Bukowina"}
+{"city":"Kaliska"}
+{"city":"Frank"}
+{"city":"Iwiczno"}
+{"city":"Piece"}
+{"city":"Koryta"}
+{"city":"Bolesławowo"}
+{"city":"Miechucińskie Chrósty"}
+{"city":"Główczyce"}
+{"city":"Chmielonko"}
+{"city":"Dziewcza Góra"}
+{"city":"Kiełpin"}
+{"city":"Pszczółki"}
+{"city":"Kleszczewko"}
+{"city":"Skowarcz"}
+{"city":"Różyny"}
+{"city":"Reda"}
+{"city":"Kolnik"}
+{"city":"Ulkowy"}
+{"city":"Sadlinki"}
+{"city":"Nebrowo Wielkie"}
+{"city":"Gardna Wielka"}
+{"city":"Smołdzino"}
+{"city":"Wielbrandowo"}
+{"city":"Mikołajki Pomorskie"}
+{"city":"Czarny Młyn"}
+{"city":"Domatowo"}
+{"city":"Błądzikowo"}
+{"city":"Starzyno"}
+{"city":"Połczyno"}
+{"city":"Werblinia"}
+{"city":"Żelistrzewo"}
+{"city":"Smolno"}
+{"city":"Leśniewo"}
+{"city":"Osłonino"}
+{"city":"Sławutowo"}
+{"city":"Mrzezino"}
+{"city":"Rekowo Górne"}
+{"city":"Łebcz"}
+{"city":"Domatówko"}
+{"city":"Darzlubie"}
+{"city":"Celbowo"}
+{"city":"Mieroszyno"}
+{"city":"Swarzewo"}
+{"city":"Gnieżdżewo"}
+{"city":"Radoszewo"}
+{"city":"Widlino"}
+{"city":"Ocypel"}
+{"city":"Pruszcz Gdański"}
+{"city":"Połchowo"}
+{"city":"Mechowo"}
+{"city":"Brudzewo"}
+{"city":"Strzelno"}
+{"city":"Lubichowo"}
+{"city":"Wda"}
+{"city":"Szteklin"}
+{"city":"Mościska"}
+{"city":"Wielka Piaśnica"}
+{"city":"Zelgoszcz"}
+{"city":"Lipinki Królewskie"}
+{"city":"Mściszewice"}
+{"city":"Sulęczyno"}
+{"city":"Starzyński Dwór"}
+{"city":"Morzeszczyn"}
+{"city":"Zielona Góra"}
+{"city":"Puck"}
+{"city":"Bietowo"}
+{"city":"Osowo Leśne"}
+{"city":"Smolniki"}
+{"city":"Mermet"}
+{"city":"Mała Piaśnica"}
+{"city":"Kaczyniec"}
+{"city":"Drewnica"}
+{"city":"Junoszyno"}
+{"city":"Stegna"}
+{"city":"Jantar"}
+{"city":"Mikoszewo"}
+{"city":"Goręczyno"}
+{"city":"Ostrzyce"}
+{"city":"Hopowo"}
+{"city":"Somonino"}
+{"city":"Lipinki Szlacheckie"}
+{"city":"Koteże"}
+{"city":"Dąbrówka"}
+{"city":"Jabłowo"}
+{"city":"Trzcińsk"}
+{"city":"Rokocin"}
+{"city":"Nowa Wieś Rzeczna"}
+{"city":"Kokoszkowy"}
+{"city":"Rywałd"}
+{"city":"Owidz"}
+{"city":"Szpęgawsk"}
+{"city":"Kolincz"}
+{"city":"Tępcz"}
+{"city":"Robakowo"}
+{"city":"Barłomino"}
+{"city":"Janowo"}
+{"city":"Barchnowy"}
+{"city":"Brzeźno Wielkie"}
+{"city":"Okole"}
+{"city":"Zelewo"}
+{"city":"Wyszecino"}
+{"city":"Sychowo"}
+{"city":"Klonówka"}
+{"city":"Milwino"}
+{"city":"Krąg"}
+{"city":"Lędowo"}
+{"city":"Grabiny-Zameczek"}
+{"city":"Suchy Dąb"}
+{"city":"Siwiałka"}
+{"city":"Subkowy"}
+{"city":"Wielka Słońca"}
+{"city":"Wielgłowy"}
+{"city":"Mała Słońca"}
+{"city":"Narkowy"}
+{"city":"Liniewo"}
+{"city":"Wysin"}
+{"city":"Tuszkowy"}
+{"city":"Śluza"}
+{"city":"Lipusz"}
+{"city":"Papiernia"}
+{"city":"Gostomko"}
+{"city":"Nowe Karpno"}
+{"city":"Radostowo"}
+{"city":"Rybaki"}
+{"city":"Gorzędziej"}
+{"city":"Brzuśce"}
+{"city":"Wyrówno"}
+{"city":"Bałachy"}
+{"city":"Waćmierz"}
+{"city":"Linowiec"}
+{"city":"Żuława"}
+{"city":"Mały Garc"}
+{"city":"Szklana Huta"}
+{"city":"Huta Dolna"}
+{"city":"Stara Huta"}
+{"city":"Przywidz"}
+{"city":"Trzepowo"}
+{"city":"Borowina"}
+{"city":"Rumia"}
+{"city":"Huta Kalna"}
+{"city":"Czarna Woda"}
+{"city":"Stężyca"}
+{"city":"Bolwerk"}
+{"city":"Klukowa Huta"}
+{"city":"Kamienica Szlachecka"}
+{"city":"Zgorzałe"}
+{"city":"Szymbark"}
+{"city":"Klonowo Dolne"}
+{"city":"Huta Górna"}
+{"city":"Pomlewo"}
+{"city":"Miłowo"}
+{"city":"Marszewska Góra"}
+{"city":"Potuły"}
+{"city":"Czarna Huta"}
+{"city":"Marszewo"}
+{"city":"Nowa Wieś Przywidzka"}
+{"city":"Piekło Dolne"}
+{"city":"Lubiki"}
+{"city":"Majdany"}
+{"city":"Michalin"}
+{"city":"Ząbrsko Górne"}
+{"city":"Marszewska Kolonia"}
+{"city":"Jodłowno"}
+{"city":"Klonowo Górne"}
+{"city":"Gowidlino"}
+{"city":"Lubiki Małe"}
+{"city":"Ryjewo"}
+{"city":"Roztoka"}
+{"city":"Linia"}
+{"city":"Strzepcz"}
+{"city":"Kamienica Królewska"}
+{"city":"Lewinko"}
+{"city":"Ostrowo"}
+{"city":"Stara Kiszewa"}
+{"city":"Konarzyny"}
+{"city":"Pobłocie"}
+{"city":"Smętowo Graniczne"}
+{"city":"Czerwińsk"}
+{"city":"Kierzkowo"}
+{"city":"Borowy Młyn"}
+{"city":"Brzeźno Szlacheckie"}
+{"city":"Bliziny"}
+{"city":"Łyśniewo Sierakowickie"}
+{"city":"Stare Pole"}
+{"city":"Czarne"}
+{"city":"Prabuty"}
+{"city":"Człuchów"}
+{"city":"Czarlin"}
+{"city":"Turze"}
+{"city":"Swarożyn"}
+{"city":"Lubiszewo Tczewskie"}
+{"city":"Bałdowo"}
+{"city":"Tczewskie Łąki"}
+{"city":"Rokitki"}
+{"city":"Pinczyn"}
+{"city":"Borzechowo"}
+{"city":"Zblewo"}
+{"city":"Szpęgawa"}
+{"city":"Gniszewo"}
+{"city":"Malenin"}
+{"city":"Kleszczewo Kościerskie"}
+{"city":"Bytonia"}
+{"city":"Semlin"}
+{"city":"Cis"}
+{"city":"Miłobądz"}
+{"city":"Knybawa"}
+{"city":"Przechlewo"}
+{"city":"Gościcino"}
+{"city":"Bolszewo"}
+{"city":"Zbychowo"}
+{"city":"Nowy Dwór Wejherowski"}
+{"city":"Gniewowo"}
+{"city":"Kąpino"}
+{"city":"Zielin"}
+{"city":"Suchorze"}
+{"city":"Gowino"}
+{"city":"Sopieszyno"}
+{"city":"Kniewo"}
+{"city":"Łężyce"}
+{"city":"Góra"}
+{"city":"Orle"}
+{"city":"Bieszkowice"}
+{"city":"Krynica Morska"}
+{"city":"Dzierzgoń"}
+{"city":"Trąbki Wielkie"}
+{"city":"Kleszczewo"}
+{"city":"Trąbki Małe"}
+{"city":"Graniczna Wieś"}
+{"city":"Kłodawa"}
+{"city":"Mierzeszyn"}
+{"city":"Kaczki"}
+{"city":"Ełganowo"}
+{"city":"Gołębiewo Wielkie"}
+{"city":"Sobowidz"}
+{"city":"Stary Targ"}
+{"city":"Korzybie"}
+{"city":"Kępice"}
+{"city":"Otomin"}
+{"city":"Lublewo Gdańskie"}
+{"city":"Kolbudy"}
+{"city":"Pręgowo"}
+{"city":"Łapino"}
+{"city":"Czapielsk"}
+{"city":"Kowale"}
+{"city":"Bielkówko"}
+{"city":"Ostróżki"}
+{"city":"Bielkowo"}
+{"city":"Lisewiec"}
+{"city":"Buszkowy"}
+{"city":"Bąkowo"}
+{"city":"Babidół"}
+{"city":"Jankowo Gdańskie"}
+{"city":"Warszkowo"}
+{"city":"Ustarbowo"}
+{"city":"Widzino"}
+{"city":"Kobylnica"}
+{"city":"Bolesławice"}
+{"city":"Sycewice"}
+{"city":"Łosino"}
+{"city":"Zajączkowo"}
+{"city":"Kończewo"}
+{"city":"Pętkowice"}
+{"city":"Kwakowo"}
+{"city":"Kuleszewo"}
+{"city":"Wielki Klincz"}
+{"city":"Łubiana"}
+{"city":"Nowy Klincz"}
+{"city":"Wąglikowice"}
+{"city":"Wdzydze"}
+{"city":"Skorzewo"}
+{"city":"Kościerzyna-Wybudowanie"}
+{"city":"Mały Klincz"}
+{"city":"Korne"}
+{"city":"Wejherowo"}
+{"city":"Czernin"}
+{"city":"Sztum"}
+{"city":"Nowiny"}
+{"city":"Kinice"}
+{"city":"Sztumskie Pole"}
+{"city":"Sztumska Wieś"}
+{"city":"Gościszewo"}
+{"city":"Jastarnia"}
+{"city":"Kuźnica"}
+{"city":"Jurata"}
+{"city":"Tokary"}
+{"city":"Kosowo"}
+{"city":"Kobysewo"}
+{"city":"Rąb"}
+{"city":"Warzenko"}
+{"city":"Czeczewo"}
+{"city":"Szarłata"}
+{"city":"Załęże"}
+{"city":"Barwik"}
+{"city":"Władysławowo"}
+{"city":"Jastrzębia Góra"}
+{"city":"Tupadły"}
+{"city":"Chłapowo"}
+{"city":"Wilanowo"}
+{"city":"Hopy"}
+{"city":"Kłosowo"}
+{"city":"Pomieczyno"}
+{"city":"Kłosówko"}
+{"city":"Osowa Góra"}
+{"city":"Karwia"}
+{"city":"Rozewie"}
+{"city":"Stanisławy"}
+{"city":"Przodkowo"}
+{"city":"Chałupy"}
+{"city":"Otalżyno"}
+{"city":"Masłowo"}
+{"city":"Nowe Tokary"}
+{"city":"Trzy Rzeki"}
+{"city":"Bielawy"}
+{"city":"Tokarskie Pnie"}
+{"city":"Pomysk Wielki"}
+{"city":"Debrzno"}
+{"city":"Delowo"}
+{"city":"Śnice"}
+{"city":"Starogard Gdański"}
+{"city":"Reblino"}
+{"city":"Wybudowanie Wielbrandowskie"}
+{"city":"Gdańsk"}
+{"city":"Gołubie"}
+{"city":"Nowe Czaple"}
+{"city":"Luzino"}
+{"city":"Kębłowo"}
+{"city":"Kochanowo"}
+{"city":"Wojtal"}
+{"city":"Złotowo"}
+{"city":"Malachin"}
+{"city":"Rytel"}
+{"city":"Gutowiec"}
+{"city":"Odry"}
+{"city":"Łąg"}
+{"city":"Trzebielino"}
+{"city":"Wądoły"}
+{"city":"Wilcze Błota"}
+{"city":"Modlinek"}
+{"city":"Lipnica"}
+{"city":"Damnica"}
+{"city":"Niezabyszewo"}
+{"city":"Kłanino"}
+{"city":"Słupsk"}
+{"city":"Sierakowice"}
+{"city":"Tuchlino"}
+{"city":"Czyczkowy"}
+{"city":"Arciszewo"}
+{"city":"Gdynia"}
+{"city":"Malbork"}
+{"city":"Dampel"}
+{"city":"Prądzona"}
+{"city":"Wygoda"}
+{"city":"Trzebielsk"}
+{"city":"Krępki"}
+{"city":"Sierakowska Huta"}
+{"city":"Dąbrowa Puzdrowska"}
+{"city":"Mrozy"}
+{"city":"Baby"}
+{"city":"Zapędowo"}
+{"city":"Szlaga"}
+{"city":"Dębniczka"}
+{"city":"Puzdrowo"}
+{"city":"Podroże"}
+{"city":"Cegielnia Charbrowska"}
+{"city":"Koszary"}
+{"city":"Juńcza"}
+{"city":"Polana"}
+{"city":"Nowe Prusy"}
+{"city":"Gotelp"}
+{"city":"Zapora"}
+{"city":"Konigórtek"}
+{"city":"Duża Klonia"}
+{"city":"Będźmierowice"}
+{"city":"Wielkie Chełmy-Wybudowanie"}
+{"city":"Krównia"}
+{"city":"Wielkie Chełmy"}
+{"city":"Olszyny - osada"}
+{"city":"Czerska Struga"}
+{"city":"Małe Chełmy"}
+{"city":"Czyczkowy-Wybudowanie"}
+{"city":"Czarnowo"}
+{"city":"Rytel-Nadleśnictwo"}
+{"city":"Rytel-Dworzec"}
+{"city":"Nowy Młyn"}
+{"city":"Gartki"}
+{"city":"Wojtal - osada"}
+{"city":"Zawada"}
+{"city":"Uboga"}
+{"city":"Płecno"}
+{"city":"Żabno"}
+{"city":"Ostrowy"}
+{"city":"Olszyny"}
+{"city":"Modrzejewo"}
+{"city":"Młynki"}
+{"city":"Małe Wędoły"}
+{"city":"Konigort"}
+{"city":"Jeziórko"}
+{"city":"Duże Wędoły"}
+{"city":"Karolewo"}
+{"city":"Błota"}
+{"city":"Odry - osada"}
+{"city":"Listewka"}
+{"city":"Mokre"}
+{"city":"Łukowo"}
+{"city":"Łubna"}
+{"city":"Małe Chełmy-Wybudowanie"}
+{"city":"Leśno-Wybudowanie"}
+{"city":"Czapiewice-Wybudowanie"}
+{"city":"Szałamaje"}
+{"city":"Stare Prusy"}
+{"city":"Windorp"}
+{"city":"Rolbik"}
+{"city":"Warszyn"}
+{"city":"Łąg-Kolonia"}
+{"city":"Bukowa Góra"}
+{"city":"Kaszuba"}
+{"city":"Kosowa Niwa"}
+{"city":"Brda"}
+{"city":"Lutom"}
+{"city":"Szyszkowiec"}
+{"city":"Kęsza"}
+{"city":"Kwieki"}
+{"city":"Dolno"}
+{"city":"Ustronie"}
+{"city":"Sienica"}
+{"city":"Nieżurawa"}
+{"city":"Kurkowo"}
+{"city":"Kłodnia"}
+{"city":"Leśnictwo Czersk"}
+{"city":"Stodółki"}
+{"city":"Krzyż"}
+{"city":"Struga"}
+{"city":"Modła"}
+{"city":"Wielki Podleś"}
+{"city":"Garczyn"}
+{"city":"Czarne Pustkowie"}
+{"city":"Wieprznica"}
+{"city":"Graniczny Młyn"}
+{"city":"Zabrody"}
+{"city":"Gościeradz"}
+{"city":"Kruszyna"}
+{"city":"Gołuń"}
+{"city":"Szenajda"}
+{"city":"Wierzysko-Leśnictwo"}
+{"city":"Kościerzyna-Stare Nadleśnictwo"}
+{"city":"Szarlota"}
+{"city":"Sycowa Huta"}
+{"city":"Małe Stawiska"}
+{"city":"Stawiska"}
+{"city":"Sarnowy"}
+{"city":"Rotembark"}
+{"city":"Puc"}
+{"city":"Nowy Podleś"}
+{"city":"Nowa Wieś Kościerska"}
+{"city":"Nowa Kiszewa"}
+{"city":"Niedamowo"}
+{"city":"Mały Podleś"}
+{"city":"Wawrzynowo"}
+{"city":"Loryniec"}
+{"city":"Szludron"}
+{"city":"Lizaki"}
+{"city":"Fingrowa Huta"}
+{"city":"Kościerska Huta"}
+{"city":"Kłobuczyno"}
+{"city":"Kaliska Kościerskie"}
+{"city":"Dębrzyno"}
+{"city":"Juszki"}
+{"city":"Grzybowski Młyn"}
+{"city":"Grzybowo"}
+{"city":"Gostomie"}
+{"city":"Dobrogoszcz"}
+{"city":"Dębogóry"}
+{"city":"Ludwikowo"}
+{"city":"Skoczkowo"}
+{"city":"Czarlina-Osada"}
+{"city":"Czarlina"}
+{"city":"Kula-Młyn"}
+{"city":"Będominek"}
+{"city":"Zielenin"}
+{"city":"Owśnice"}
+{"city":"Przytocko"}
+{"city":"Żelice"}
+{"city":"Łużki"}
+{"city":"Załęskie Piaski"}
+{"city":"Warcino"}
+{"city":"Pustowo"}
+{"city":"Brzezinka"}
+{"city":"Podgóry"}
+{"city":"Polichno"}
+{"city":"Płocko"}
+{"city":"Chorowo"}
+{"city":"Obłęże"}
+{"city":"Mzdówko"}
+{"city":"Mzdowiec"}
+{"city":"Gliniewo"}
+{"city":"Brzeziny"}
+{"city":"Chorówko"}
+{"city":"Kaczyno"}
+{"city":"Mzdowo"}
+{"city":"Osieki"}
+{"city":"Węgorzyno"}
+{"city":"Darnowo"}
+{"city":"Bagniewo"}
+{"city":"Ciecholub"}
+{"city":"Jabłoniec"}
+{"city":"Bronowo"}
+{"city":"Mielęcino"}
+{"city":"Kawle Dolne"}
+{"city":"Kawle Górne"}
+{"city":"Hejtus"}
+{"city":"Przyjezierze"}
+{"city":"Kawka"}
+{"city":"Biesowiczki"}
+{"city":"Biesowice"}
+{"city":"Barwino"}
+{"city":"Kotłowo"}
+{"city":"Jabłonna"}
+{"city":"Barcino"}
+{"city":"Młynek"}
+{"city":"Bursztynik"}
+{"city":"Kczewo"}
+{"city":"Darżkowo"}
+{"city":"Dziewięć Włók"}
+{"city":"Kalwa"}
+{"city":"Łabuń"}
+{"city":"Jurkowice Drugie"}
+{"city":"Jurkowice Pierwsze"}
+{"city":"Reblinko"}
+{"city":"Igły"}
+{"city":"Jurkowice"}
+{"city":"Śledziówka"}
+{"city":"Prakwice"}
+{"city":"Jordanki"}
+{"city":"Jodłówka"}
+{"city":"Gintro"}
+{"city":"Grzymała"}
+{"city":"Dąbrówka Malborska"}
+{"city":"Czerwony Dwór"}
+{"city":"Pachoły"}
+{"city":"Żuławka Sztumska (osada)"}
+{"city":"Żuławka Sztumska"}
+{"city":"Tywęzy"}
+{"city":"Stanowo"}
+{"city":"Telkwice"}
+{"city":"Kościelec"}
+{"city":"Bukowo"}
+{"city":"Poliksy"}
+{"city":"Piaski Sztumskie"}
+{"city":"Nowiec"}
+{"city":"Stanówko"}
+{"city":"Kuksy"}
+{"city":"Strzeczona"}
+{"city":"Słupia"}
+{"city":"Pędziszewo"}
+{"city":"Morany"}
+{"city":"Stara Wieś"}
+{"city":"Minięta"}
+{"city":"Judyty"}
+{"city":"Litewki"}
+{"city":"Jeziorno"}
+{"city":"Jasna (osada)"}
+{"city":"Rozwory"}
+{"city":"Grzymisław"}
+{"city":"Myśligoszcz"}
+{"city":"Lisi Las"}
+{"city":"Kamienna Góra"}
+{"city":"Kostrzyca"}
+{"city":"Chartowo"}
+{"city":"Chojty"}
+{"city":"Zielonki"}
+{"city":"Waplewko"}
+{"city":"Waplewo Wielkie"}
+{"city":"Olszak"}
+{"city":"Tulice"}
+{"city":"Brzozówka"}
+{"city":"Budzisz"}
+{"city":"Blunaki"}
+{"city":"Krojanty Wybudowania"}
+{"city":"Tropy Sztumskie"}
+{"city":"Trankwice"}
+{"city":"Spalonki"}
+{"city":"Ankamaty"}
+{"city":"Szropy-Niziny"}
+{"city":"Szropy"}
+{"city":"Waplewo-Osiedle"}
+{"city":"Stary Dwór"}
+{"city":"Ramoty"}
+{"city":"Pozolia"}
+{"city":"Nowy Targ"}
+{"city":"Mleczewo"}
+{"city":"Gapowo"}
+{"city":"Malewo"}
+{"city":"Lasy"}
+{"city":"Łoza"}
+{"city":"Klecewo"}
+{"city":"Kątki"}
+{"city":"Zajezierze"}
+{"city":"Węgry"}
+{"city":"Uśnice"}
+{"city":"Witki"}
+{"city":"Szpitalna Wieś"}
+{"city":"Ramzy Małe"}
+{"city":"Postolin"}
+{"city":"Polaszki"}
+{"city":"Piekło"}
+{"city":"Parpary"}
+{"city":"Reszki"}
+{"city":"Pryśniewo"}
+{"city":"Parowy"}
+{"city":"Nowa Wieś"}
+{"city":"Michorowo"}
+{"city":"Koślinka"}
+{"city":"Polanka"}
+{"city":"Grzępa"}
+{"city":"Goraj"}
+{"city":"Koniecwałd"}
+{"city":"Gronajny"}
+{"city":"Pnie"}
+{"city":"Wydry"}
+{"city":"Biała Góra"}
+{"city":"Barlewiczki"}
+{"city":"Barlewice"}
+{"city":"Zamostne"}
+{"city":"Żelki"}
+{"city":"Żelkówko"}
+{"city":"Zębowo"}
+{"city":"Wędkowy"}
+{"city":"Śliwiny"}
+{"city":"Szczerbięcin"}
+{"city":"Zwierzynek"}
+{"city":"Zbyszewo"}
+{"city":"Zagórki"}
+{"city":"Wrząca"}
+{"city":"Zabagno"}
+{"city":"Waćmierek"}
+{"city":"Ścięgnica"}
+{"city":"Miedzno"}
+{"city":"Słonowiczki"}
+{"city":"Słonowice"}
+{"city":"Stanisławie"}
+{"city":"Rukosin"}
+{"city":"Sierakowo Słupskie"}
+{"city":"Runowo Sławieńskie"}
+{"city":"Mały Miłobądz"}
+{"city":"Żelkowiec"}
+{"city":"Płaszewo"}
+{"city":"Maszkowo"}
+{"city":"Lulemino"}
+{"city":"Lubuń"}
+{"city":"Giełdoń"}
+{"city":"Ciechomice"}
+{"city":"Komorczyn"}
+{"city":"Komiłowo"}
+{"city":"Dobrzęcino"}
+{"city":"Rozłęka"}
+{"city":"Bzowo"}
+{"city":"Pietrzwałd"}
+{"city":"Lądy"}
+{"city":"Mieścin"}
+{"city":"Małżewo"}
+{"city":"Łukocin"}
+{"city":"Kępina"}
+{"city":"Dąbrówka Tczewska"}
+{"city":"Świetlikowo"}
+{"city":"Dalwin"}
+{"city":"Czatkowy"}
+{"city":"Cygusy"}
+{"city":"Damaszka"}
+{"city":"Boroszewo"}
+{"city":"Małżewko"}
+{"city":"Zajączkowo-Dworzec"}
+{"city":"Liniewko"}
+{"city":"Zła Wieś"}
+{"city":"Rzuski Las"}
+{"city":"Rzuszcze"}
+{"city":"Święcino"}
+{"city":"Ciemino"}
+{"city":"Zaskoczyn"}
+{"city":"Domachowo"}
+{"city":"Warcz"}
+{"city":"Rościszewko"}
+{"city":"Rościszewo"}
+{"city":"Cząstkowo"}
+{"city":"Postołowo"}
+{"city":"Klępiny"}
+{"city":"Żychckie Osady"}
+{"city":"Żychce"}
+{"city":"Zielona Huta"}
+{"city":"Złota Góra"}
+{"city":"Łaguszewo"}
+{"city":"Gołębiewo Średnie"}
+{"city":"Parszczenica"}
+{"city":"Niepszczołąg"}
+{"city":"Jonki"}
+{"city":"Dzięgiel"}
+{"city":"Boryń"}
+{"city":"Zielona Chocina"}
+{"city":"Jaranty"}
+{"city":"Nierostowo"}
+{"city":"Pierszczewko"}
+{"city":"Konarzynki"}
+{"city":"Rowista"}
+{"city":"Teklowo"}
+{"city":"Pierszczewo"}
+{"city":"Stare Czaple"}
+{"city":"Ciecholewy"}
+{"city":"Popielewo"}
+{"city":"Duża Kępina"}
+{"city":"Binduga"}
+{"city":"Gołębiewko"}
+{"city":"Drzewina"}
+{"city":"Czerniec"}
+{"city":"Czerniewo"}
+{"city":"Błotnia"}
+{"city":"Jasna"}
+{"city":"Stara Kiszewa Wybudowanie"}
+{"city":"Stary Kamień"}
+{"city":"Stańkowo"}
+{"city":"Rodowo Małe"}
+{"city":"Grodziec"}
+{"city":"Górowychy"}
+{"city":"Gonty"}
+{"city":"Gilwa"}
+{"city":"Rodowo"}
+{"city":"Kleczewo"}
+{"city":"Gdakowo"}
+{"city":"Antonin"}
+{"city":"Raniewo"}
+{"city":"Pólko"}
+{"city":"Pilichowo"}
+{"city":"Wałdówko"}
+{"city":"Tomaszewo"}
+{"city":"Sucha"}
+{"city":"Pachutki"}
+{"city":"Orkusz"}
+{"city":"Szyszka"}
+{"city":"Radziejewo"}
+{"city":"Piesienica"}
+{"city":"Lipczynek"}
+{"city":"Żołna"}
+{"city":"Szczytno"}
+{"city":"Dolinka"}
+{"city":"Wiśnica"}
+{"city":"Pałubinek"}
+{"city":"Trzosowo"}
+{"city":"Suszka"}
+{"city":"Trzęsacz"}
+{"city":"Zdrójki"}
+{"city":"Czosnowo"}
+{"city":"Sąpolno"}
+{"city":"Rudniki"}
+{"city":"Przechlewko (leśniczówka)"}
+{"city":"Nowa Brda"}
+{"city":"Przechlewko"}
+{"city":"Płaszczyca"}
+{"city":"Miradowo"}
+{"city":"Mały Bukowiec"}
+{"city":"Wandzin"}
+{"city":"Kleśnik"}
+{"city":"Koprzywnica"}
+{"city":"Pakotulsko"}
+{"city":"Miroszewo"}
+{"city":"Krasne"}
+{"city":"Jarzębnik"}
+{"city":"Łubianka"}
+{"city":"Dobrzyń"}
+{"city":"Garbek"}
+{"city":"Dąbrowa Człuchowska"}
+{"city":"Obrzynowo"}
+{"city":"Laskowice"}
+{"city":"Pazda"}
+{"city":"Królewski Bukowiec"}
+{"city":"Lipia Góra Mała"}
+{"city":"Biały Bukowiec"}
+{"city":"Jezierce"}
+{"city":"Wirty"}
+{"city":"Jeziornik"}
+{"city":"Białachówko"}
+{"city":"Białachowo"}
+{"city":"Kołodzieje"}
+{"city":"Kamienna"}
+{"city":"Kałdowo"}
+{"city":"Młynisko"}
+{"city":"Gąski"}
+{"city":"Jakubowo"}
+{"city":"Trumiejki"}
+{"city":"Szramowo"}
+{"city":"Sypanica"}
+{"city":"Julianowo"}
+{"city":"Grazymowo"}
+{"city":"Górowychy Małe"}
+{"city":"Zagony"}
+{"city":"Unieszynko"}
+{"city":"Wyczechy"}
+{"city":"Domyśl"}
+{"city":"Sokole"}
+{"city":"Sierpowo"}
+{"city":"Raciniewo"}
+{"city":"Wronkowo"}
+{"city":"Wierzbnik"}
+{"city":"Janowiec"}
+{"city":"Nadziejewo"}
+{"city":"Łoża"}
+{"city":"Prądy"}
+{"city":"Malinowo"}
+{"city":"Krzemieniewo"}
+{"city":"Lestnica"}
+{"city":"Lędyczek Drugi"}
+{"city":"Kijno"}
+{"city":"Domisław"}
+{"city":"Wygonki"}
+{"city":"Bińcze"}
+{"city":"Biernatka"}
+{"city":"Klęcino"}
+{"city":"Izbica"}
+{"city":"Gorzysław"}
+{"city":"Gorzyno"}
+{"city":"Gać"}
+{"city":"Lipno"}
+{"city":"Parwark"}
+{"city":"Krzyżanowo"}
+{"city":"Kasparus (osada leśna)"}
+{"city":"Gęby"}
+{"city":"Kasparus"}
+{"city":"Wierzbiny"}
+{"city":"Karcznia"}
+{"city":"Głuche"}
+{"city":"Grodzisko"}
+{"city":"Drzeżewo"}
+{"city":"Dargoleza"}
+{"city":"Mokrzyn"}
+{"city":"Duninówko"}
+{"city":"Dominek"}
+{"city":"Szaleniec"}
+{"city":"Krasnołęka"}
+{"city":"Kraszewo"}
+{"city":"Karszanek"}
+{"city":"Recice"}
+{"city":"Jaszczerek"}
+{"city":"Jeżewnica"}
+{"city":"Udzierz"}
+{"city":"Zgierz"}
+{"city":"Choćmirówko"}
+{"city":"Choćmirowo"}
+{"city":"Zdrzewno"}
+{"city":"Wrześcienko"}
+{"city":"Wojciechowo"}
+{"city":"Królewo"}
+{"city":"Kławki"}
+{"city":"Klecie"}
+{"city":"Kikojty"}
+{"city":"Cecenowo"}
+{"city":"Będziechowo"}
+{"city":"Zebrdowo"}
+{"city":"Wracławek"}
+{"city":"Wilkowo"}
+{"city":"Dymnica"}
+{"city":"Ulinia"}
+{"city":"Strzelki"}
+{"city":"Zamek Kiszewski"}
+{"city":"Wygonin"}
+{"city":"Sulmin"}
+{"city":"Otomino"}
+{"city":"Wandowo"}
+{"city":"Trumieje"}
+{"city":"Strzeszewo"}
+{"city":"Skarszewo"}
+{"city":"Sarbsk"}
+{"city":"Wilcze Błota Kościerskie"}
+{"city":"Dąbrowa"}
+{"city":"Rozajny Małe"}
+{"city":"Przęsławek"}
+{"city":"Nieznachowo"}
+{"city":"Roszczyce"}
+{"city":"Zakrzewo"}
+{"city":"Tłuczewo"}
+{"city":"Stary Bukowiec"}
+{"city":"Stare Polaszki"}
+{"city":"Pałubin"}
+{"city":"Cięgardło"}
+{"city":"Olpuch"}
+{"city":"Nowy Bukowiec"}
+{"city":"Czaple"}
+{"city":"Rutki"}
+{"city":"Rozajny"}
+{"city":"Otoczyn"}
+{"city":"Otłówko"}
+{"city":"Osadniki"}
+{"city":"Otłowiec"}
+{"city":"Poraj"}
+{"city":"Lucin"}
+{"city":"Gąska"}
+{"city":"Maszewko"}
+{"city":"Smażyno"}
+{"city":"Niepoczołowice"}
+{"city":"Nowe Polaszki"}
+{"city":"Foshuta"}
+{"city":"Lipy"}
+{"city":"Babi Dół"}
+{"city":"Zawory"}
+{"city":"Olszówka"}
+{"city":"Nowa Wioska"}
+{"city":"Albertowo"}
+{"city":"Morawy"}
+{"city":"Steknica"}
+{"city":"Charbrowski Bór"}
+{"city":"Kopaniewo"}
+{"city":"Miłoszewo"}
+{"city":"Rosochy"}
+{"city":"Lewino"}
+{"city":"Kobylasz"}
+{"city":"Kobyle"}
+{"city":"Dolne Maliki"}
+{"city":"Górne Maliki"}
+{"city":"Góra-Nowy Dworzec"}
+{"city":"Czerniki"}
+{"city":"Maks"}
+{"city":"Haska"}
+{"city":"Sznurki"}
+{"city":"Lipowiec"}
+{"city":"Dejk"}
+{"city":"Reskowo"}
+{"city":"Przewóz"}
+{"city":"Strysza Góra"}
+{"city":"Borzestowo"}
+{"city":"Czubek"}
+{"city":"Kocia Góra"}
+{"city":"Stara Lipa"}
+{"city":"Płociczno"}
+{"city":"Okoniny"}
+{"city":"Okoninki"}
+{"city":"Lipski Młyn"}
+{"city":"Kazub"}
+{"city":"Dunajki"}
+{"city":"Cieciorka"}
+{"city":"Bartel Mały"}
+{"city":"Krakulice"}
+{"city":"Komaszewo"}
+{"city":"Górka"}
+{"city":"Gęś"}
+{"city":"Białogarda"}
+{"city":"Chwarzno"}
+{"city":"Chwarzenko"}
+{"city":"Wygoda Sierakowska"}
+{"city":"Sosnowa Góra"}
+{"city":"Poręby"}
+{"city":"Piekiełko"}
+{"city":"Karczewko"}
+{"city":"Moczydło"}
+{"city":"Glinno"}
+{"city":"Rzym"}
+{"city":"Młyn Górny"}
+{"city":"Młyn Dolny"}
+{"city":"Borczaki"}
+{"city":"Kożyczkowo"}
+{"city":"Bartel Wielki"}
+{"city":"Murowaniec"}
+{"city":"Żoruchowo"}
+{"city":"Żelkowo"}
+{"city":"Zgojewko"}
+{"city":"Zgojewo"}
+{"city":"Stołczno"}
+{"city":"Skórzewo"}
+{"city":"Gozdnica"}
+{"city":"Bargędzino"}
+{"city":"Nowa Kiszewa Chrósty"}
+{"city":"Bożepole Szlacheckie"}
+{"city":"Ruda"}
+{"city":"Bartoszylas"}
+{"city":"Migi"}
+{"city":"Pałubice"}
+{"city":"Paczewo"}
+{"city":"Stara Maszyna"}
+{"city":"Mojuszewska Huta"}
+{"city":"Cieszenie"}
+{"city":"Węgliska"}
+{"city":"Rekowo"}
+{"city":"Lampa"}
+{"city":"Wykosowo"}
+{"city":"Sieroczyn"}
+{"city":"Stara Rogoźnica"}
+{"city":"Polniczka"}
+{"city":"Czarze"}
+{"city":"Gostudz"}
+{"city":"Polnica"}
+{"city":"Chrząstowo"}
+{"city":"Mirogniew"}
+{"city":"Bukowo Człuchowskie"}
+{"city":"Brzeźno"}
+{"city":"Biskupnica"}
+{"city":"Rogowo"}
+{"city":"Barkowo"}
+{"city":"Kaczynos-Kolonia"}
+{"city":"Kaczynos"}
+{"city":"Janówka"}
+{"city":"Karwacja"}
+{"city":"Mojusz"}
+{"city":"Olszewko"}
+{"city":"Szramnica"}
+{"city":"Srocze Góry"}
+{"city":"Nowa Ameryka"}
+{"city":"Kamienicka Huta"}
+{"city":"Jagodowo"}
+{"city":"Piecki"}
+{"city":"Komorze"}
+{"city":"Frąca"}
+{"city":"Długolas"}
+{"city":"Cisowy"}
+{"city":"Lubstowo"}
+{"city":"Laski"}
+{"city":"Kącik"}
+{"city":"Pękalin"}
+{"city":"Wolinia"}
+{"city":"Płonica"}
+{"city":"Mosiny"}
+{"city":"Krzyżanki"}
+{"city":"Kujanki"}
+{"city":"Krępsk"}
+{"city":"Zabłocie"}
+{"city":"Zaleskie"}
+{"city":"Zapadłe"}
+{"city":"Orzechowo"}
+{"city":"Dalimierz Przewłocki"}
+{"city":"Załakowo"}
+{"city":"Rębienica"}
+{"city":"Karłowo"}
+{"city":"Tuchlinek"}
+{"city":"Ameryka"}
+{"city":"Leszczynki"}
+{"city":"Lemany"}
+{"city":"Zarębisko"}
+{"city":"Kujaty"}
+{"city":"Tralewo"}
+{"city":"Chlebówka"}
+{"city":"Dochówko"}
+{"city":"Dochowo"}
+{"city":"Wielka Wieś"}
+{"city":"Warblino"}
+{"city":"Szczypkowice"}
+{"city":"Szelewo"}
+{"city":"Michałowo"}
+{"city":"Nowosiółki"}
+{"city":"Zbrzyca"}
+{"city":"Murzynowo"}
+{"city":"Dąbki"}
+{"city":"Kołdowo"}
+{"city":"Zielątkowo"}
+{"city":"Krery"}
+{"city":"Kiełpinek"}
+{"city":"Krężołki"}
+{"city":"Golęcino"}
+{"city":"Starkowo"}
+{"city":"Kętrzyno"}
+{"city":"Łączki"}
+{"city":"Bór"}
+{"city":"Szopa"}
+{"city":"Kukówka"}
+{"city":"Kamienicki Młyn"}
+{"city":"Nowalczysko"}
+{"city":"Kokwino"}
+{"city":"Ciechomie"}
+{"city":"Kawle"}
+{"city":"Lisie Jamy"}
+{"city":"Bukowiny"}
+{"city":"Trępnowy"}
+{"city":"Świerki"}
+{"city":"Stawiec"}
+{"city":"Pręgowo Żuławskie"}
+{"city":"Brzózki"}
+{"city":"Leśna Huta"}
+{"city":"Smolnik"}
+{"city":"Gostkowo"}
+{"city":"Cegielnia"}
+{"city":"Stowięcino"}
+{"city":"Skórzyno"}
+{"city":"Siodłonie"}
+{"city":"Rumsko"}
+{"city":"Czarnoszki"}
+{"city":"Jęczniki Wielkie"}
+{"city":"Mąkowo"}
+{"city":"Jęczniki Małe"}
+{"city":"Gębarzewo"}
+{"city":"Międzylesie"}
+{"city":"Klasztorek"}
+{"city":"Kalmuzy"}
+{"city":"Czarne Małe"}
+{"city":"Pęplino"}
+{"city":"Osieki Słupskie"}
+{"city":"Podlesie"}
+{"city":"Kamionna"}
+{"city":"Przylesie"}
+{"city":"Szklana"}
+{"city":"Długi Kierz"}
+{"city":"Kamionka Gowidlińska"}
+{"city":"Borowy Las"}
+{"city":"Bącka Huta"}
+{"city":"Okarpiec"}
+{"city":"Wymysłowo"}
+{"city":"Jaszczerz"}
+{"city":"Wycinki"}
+{"city":"Półmieście"}
+{"city":"Nidowo"}
+{"city":"Myszewo"}
+{"city":"Mirowo"}
+{"city":"Trzechowo"}
+{"city":"Kamienna Karczma"}
+{"city":"Czechowo"}
+{"city":"Biedaczek"}
+{"city":"Młyńsk"}
+{"city":"Rówienko"}
+{"city":"Równo"}
+{"city":"Przebędowo Słupskie"}
+{"city":"Dobojewo"}
+{"city":"Przytok"}
+{"city":"Dębnica"}
+{"city":"Czarnoszyce"}
+{"city":"Czarne Górne"}
+{"city":"Cygany"}
+{"city":"Możdżanowo"}
+{"city":"Dolina Jadwigi"}
+{"city":"Pieczyska"}
+{"city":"Suchobrzeźnica"}
+{"city":"Skrzynia"}
+{"city":"Skórzenno"}
+{"city":"Trzebiechowo"}
+{"city":"Kałębnica"}
+{"city":"Dębia Góra"}
+{"city":"Radogoszcz"}
+{"city":"Cisowa Góra"}
+{"city":"Martąg"}
+{"city":"Lipinka"}
+{"city":"Łążek"}
+{"city":"Strych"}
+{"city":"Kokoszki"}
+{"city":"Będzimierz"}
+{"city":"Podole Wielkie"}
+{"city":"Następowo"}
+{"city":"Klęcinko"}
+{"city":"Chrząstówko"}
+{"city":"Czachówek"}
+{"city":"Bądki"}
+{"city":"Machowinko"}
+{"city":"Ząbrowo"}
+{"city":"Szlagnowo"}
+{"city":"Welk"}
+{"city":"Patoki"}
+{"city":"Jelonko"}
+{"city":"Markocin"}
+{"city":"Błędno"}
+{"city":"Łuby"}
+{"city":"Lisówko"}
+{"city":"Żurawki"}
+{"city":"Szlaga-Młyn"}
+{"city":"Chmieleńskie Chrósty"}
+{"city":"Bukowinki"}
+{"city":"Babino"}
+{"city":"Łączyńska Huta"}
+{"city":"Borzestowska Huta"}
+{"city":"Huta"}
+{"city":"Brusy-Wybudowanie"}
+{"city":"Brusy-Jaglie"}
+{"city":"Nożyno"}
+{"city":"Nożynko"}
+{"city":"Rudka"}
+{"city":"Głusino-Stążki"}
+{"city":"Głusino-Nowinki"}
+{"city":"Głusino"}
+{"city":"Czarniż"}
+{"city":"Czapiewice"}
+{"city":"Mydlita"}
+{"city":"Mikorowo"}
+{"city":"Jaszewo"}
+{"city":"Łupawsko"}
+{"city":"Lipieniec"}
+{"city":"Kozin"}
+{"city":"Kostroga"}
+{"city":"Kozy"}
+{"city":"Kotuszewo"}
+{"city":"Kłosy"}
+{"city":"Kartuzy-Burchardztwo"}
+{"city":"Brodnica Dolna-Sarnówko"}
+{"city":"Brodnica Dolna-Ostowo"}
+{"city":"Brodnica Górna-Złota Góra"}
+{"city":"Brodnica Górna-Kamionka"}
+{"city":"Połupino"}
+{"city":"Kleszczyniec"}
+{"city":"Soszyce"}
+{"city":"Podkomorki"}
+{"city":"Brodnica Górna-Grzebieniec"}
+{"city":"Żelazkowo"}
+{"city":"Wilkowo Nowowiejskie"}
+{"city":"Bącz-Olszowe Błoto"}
+{"city":"Bącz"}
+{"city":"Płonina"}
+{"city":"Tawęcino"}
+{"city":"Graniczna"}
+{"city":"Rozgorze"}
+{"city":"Łaszka"}
+{"city":"Kobyla Kępa"}
+{"city":"Rekowo Lęborskie"}
+{"city":"Redkowice"}
+{"city":"Pogorzelice"}
+{"city":"Zalesie-Wybudowanie"}
+{"city":"Lubnia-Wybudowanie"}
+{"city":"Leśnictwo Giełdon"}
+{"city":"Kosobudy-Wybudowanie"}
+{"city":"Pogorszewo"}
+{"city":"Niebędzino"}
+{"city":"Dębowa Góra"}
+{"city":"Gacnik"}
+{"city":"Wysoka Zaborska"}
+{"city":"Staniszewo-Szade Góry"}
+{"city":"Staniszewo-Raj"}
+{"city":"Staniszewo-Przytoki"}
+{"city":"Sianowo-Lesińce"}
+{"city":"Staniszewo-Krzewino"}
+{"city":"Staniszewo-Kępa"}
+{"city":"Peplin"}
+{"city":"Parzyn"}
+{"city":"Laska"}
+{"city":"Widno"}
+{"city":"Staniszewo-Kamionka"}
+{"city":"Staniszewo-Bukowa Góra"}
+{"city":"Staniszewo"}
+{"city":"Sitno"}
+{"city":"Broda"}
+{"city":"Sianowska Huta-Smolne Błoto"}
+{"city":"Rudziny"}
+{"city":"Sianowska Huta"}
+{"city":"Sianowo-Młyńsko"}
+{"city":"Sianowo-Cieszonko"}
+{"city":"Lendy"}
+{"city":"Przymuszewo"}
+{"city":"Orlik"}
+{"city":"Skowronki"}
+{"city":"Groszkowo"}
+{"city":"Grochowo Trzecie"}
+{"city":"Grochowo Pierwsze"}
+{"city":"Grochowo Drugie"}
+{"city":"Rybki"}
+{"city":"Małoszyce"}
+{"city":"Łebień"}
+{"city":"Nowe Karwno"}
+{"city":"Flisów"}
+{"city":"Drążkowo"}
+{"city":"Karwno"}
+{"city":"Lubowidz"}
+{"city":"Sieromino"}
+{"city":"Piaskowa"}
+{"city":"Leśnice"}
+{"city":"Krępa Kaszubska"}
+{"city":"Łowcze"}
+{"city":"Karlikowo Lęborskie"}
+{"city":"Turowiec"}
+{"city":"Pokrzywno"}
+{"city":"Parowa"}
+{"city":"Okręglik"}
+{"city":"Giełdon"}
+{"city":"Ługi"}
+{"city":"Jamy"}
+{"city":"Lędziechowo"}
+{"city":"Wargówko"}
+{"city":"Jerzkowice"}
+{"city":"Przylaski"}
+{"city":"Obrowo"}
+{"city":"Jasień"}
+{"city":"Święchowo"}
+{"city":"Kanin"}
+{"city":"Janowiczki"}
+{"city":"Ręboszewo"}
+{"city":"Prokowo-Ucisk"}
+{"city":"Prokowo-Sytna Góra"}
+{"city":"Spierwia"}
+{"city":"Małe Gliśno"}
+{"city":"Wargowo"}
+{"city":"Kartkowo"}
+{"city":"Skotawsko"}
+{"city":"Unichowo"}
+{"city":"Rokity"}
+{"city":"Rokiciny"}
+{"city":"Podkomorzyce"}
+{"city":"Bochówko"}
+{"city":"Gliśnica"}
+{"city":"Bochowo"}
+{"city":"Janowice"}
+{"city":"Janisławiec"}
+{"city":"Garczegorze"}
+{"city":"Dziechlino"}
+{"city":"Darżewo"}
+{"city":"Czarnówko"}
+{"city":"Pomieczyńska Huta-Nowiny"}
+{"city":"Pomieczyńska Huta"}
+{"city":"Nowa Huta-Kamienna Góra"}
+{"city":"Asmus"}
+{"city":"Wybudowanie Antoniewskie"}
+{"city":"Antoniewo"}
+{"city":"Zawiat"}
+{"city":"Dęby"}
+{"city":"Chocielewko"}
+{"city":"Bąsewice"}
+{"city":"Nowa Huta"}
+{"city":"Kosy-Smętowo Leśne"}
+{"city":"Kolonia-Diable Kopyto"}
+{"city":"Kolonia-Chojna"}
+{"city":"Kolonia-Borowiec"}
+{"city":"Lamk"}
+{"city":"Blewiec"}
+{"city":"Popówka"}
+{"city":"Kruszyn"}
+{"city":"Otnoga"}
+{"city":"Osowskie"}
+{"city":"Kolonia"}
+{"city":"Grzybno-Sarnowo"}
+{"city":"Grzybno-Pieciska"}
+{"city":"Grzybno-Melgrowa Góra"}
+{"city":"Chłopowy"}
+{"city":"Główczewice"}
+{"city":"Mokry Dwór"}
+{"city":"Krępiec"}
+{"city":"Budy"}
+{"city":"Będzieszyn"}
+{"city":"Świńcz"}
+{"city":"Wdecki Młyn"}
+{"city":"Lasek"}
+{"city":"Sowi Dół"}
+{"city":"Bogatka"}
+{"city":"Krępka"}
+{"city":"Brzóski"}
+{"city":"Sławutówko"}
+{"city":"Zdrada"}
+{"city":"Rzucewo"}
+{"city":"Szwedzki Ostrów"}
+{"city":"Zielony Dwór"}
+{"city":"Szczeblewo"}
+{"city":"Jasna Gwiazda"}
+{"city":"Ząbinowice"}
+{"city":"Półczynek"}
+{"city":"Czajki-Błoto"}
+{"city":"Bartkowa Stajnia"}
+{"city":"Żelewiec"}
+{"city":"Rzepiska"}
+{"city":"Mały Jabłuszek"}
+{"city":"Przyborzyce"}
+{"city":"Nieczulice"}
+{"city":"Chomice"}
+{"city":"Świątkowo"}
+{"city":"Sierzenko"}
+{"city":"Pyszno"}
+{"city":"Sierzno"}
+{"city":"Pustkowie Rekowskie"}
+{"city":"Duży Jabłuszek"}
+{"city":"Bagna"}
+{"city":"Trawice"}
+{"city":"Krosewo"}
+{"city":"Kula"}
+{"city":"Płocice"}
+{"city":"Zdroje"}
+{"city":"Brynki Rekowskie"}
+{"city":"Bory"}
+{"city":"Szarzyn"}
+{"city":"Pomyski Młyn"}
+{"city":"Mała Wieś"}
+{"city":"Międzygórze"}
+{"city":"Celbówko"}
+{"city":"Szady Kierz"}
+{"city":"Stare Karpno"}
+{"city":"Rzeżęcin"}
+{"city":"Lipia Góra"}
+{"city":"Królów Las"}
+{"city":"Kierwałd"}
+{"city":"Wiśliny"}
+{"city":"Rusinowo"}
+{"city":"Stary Wiec"}
+{"city":"Milonki"}
+{"city":"Pomysk Mały"}
+{"city":"Płotowo"}
+{"city":"Świerkówko"}
+{"city":"Grzmiąca"}
+{"city":"Zbysław"}
+{"city":"Sarniak"}
+{"city":"Zielnowo"}
+{"city":"Konitop"}
+{"city":"Krugliniec"}
+{"city":"Lipuska Huta"}
+{"city":"Żółno"}
+{"city":"Gętomie"}
+{"city":"Majewo"}
+{"city":"Gąsiorki"}
+{"city":"Olsze"}
+{"city":"Bielsk"}
+{"city":"Olszanica"}
+{"city":"Okrągła Łąka"}
+{"city":"Kaniczki"}
+{"city":"Grabowo"}
+{"city":"Mestwinowo"}
+{"city":"Deka"}
+{"city":"Stefanowo"}
+{"city":"Wolental"}
+{"city":"Drewniaczki"}
+{"city":"Bojanowo"}
+{"city":"Wielki Bukowiec"}
+{"city":"Zajączek"}
+{"city":"Nebrowo Małe"}
+{"city":"Glina"}
+{"city":"Bronisławowo"}
+{"city":"Białki"}
+{"city":"Boraszewo"}
+{"city":"Kranek"}
+{"city":"Mieliczki"}
+{"city":"Ryzowie"}
+{"city":"Pączewo"}
+{"city":"Miryce"}
+{"city":"Bukowe Pole"}
+{"city":"Sobącz"}
+{"city":"Płachty"}
+{"city":"Lubieszynek"}
+{"city":"Lubieszyn"}
+{"city":"Liniewskie Góry"}
+{"city":"Karpiny"}
+{"city":"Mirotki"}
+{"city":"Malentyn"}
+{"city":"Iłownica"}
+{"city":"Głodowo"}
+{"city":"Równe"}
+{"city":"Chrztowo"}
+{"city":"Rymanowiec"}
+{"city":"Chrósty Wysińskie"}
+{"city":"Czarnylas"}
+{"city":"Barłożno"}
+{"city":"Wróblewo"}
+{"city":"Jamrzyno"}
+{"city":"Ochodza"}
+{"city":"Niepoględzie"}
+{"city":"Grabówko"}
+{"city":"Strzegomino"}
+{"city":"Widna Góra"}
+{"city":"Amalka"}
+{"city":"Podjazy"}
+{"city":"Ostrów Mausz"}
+{"city":"Nowy Dwór"}
+{"city":"Zimne Zdroje"}
+{"city":"Kamiony"}
+{"city":"Olszowy Kierz"}
+{"city":"Horniki Dolne"}
+{"city":"Gniewskie Pole"}
+{"city":"Zagaje"}
+{"city":"Pietrzykówko"}
+{"city":"Adamki"}
+{"city":"Pietrzykowo"}
+{"city":"Dźwierzno"}
+{"city":"Łękinia"}
+{"city":"Strużka"}
+{"city":"Płocicz"}
+{"city":"Dymin"}
+{"city":"Redystowo"}
+{"city":"Jeżewo"}
+{"city":"Pużyce"}
+{"city":"Paraszyno"}
+{"city":"Nawcz"}
+{"city":"Łówcz Górny"}
+{"city":"Łęczyn"}
+{"city":"Steblewo"}
+{"city":"Osice"}
+{"city":"Krzywe Koło"}
+{"city":"Koźliny"}
+{"city":"Ostrzy Wilk"}
+{"city":"Chojny"}
+{"city":"Wiele-Wybudowanie"}
+{"city":"Niemczewo"}
+{"city":"Motarzyno"}
+{"city":"Kłodno"}
+{"city":"Kistówko"}
+{"city":"Chojna"}
+{"city":"Kistowo"}
+{"city":"Liniewko Kaszubskie"}
+{"city":"Gilwa Mała"}
+{"city":"Dubiel"}
+{"city":"Potoki"}
+{"city":"Bryle"}
+{"city":"Niedźwiady"}
+{"city":"Bielsko"}
+{"city":"Kisewo"}
+{"city":"Niedarzyno"}
+{"city":"Kaczkowo"}
+{"city":"Godętowo"}
+{"city":"Dzięcielec"}
+{"city":"Chrzanowo"}
+{"city":"Przytarnia-Wybudowanie"}
+{"city":"Niebo"}
+{"city":"Krzywe"}
+{"city":"Osowo-Wybudowanie"}
+{"city":"Popia Góra"}
+{"city":"Pionki"}
+{"city":"Buchta"}
+{"city":"Zamość"}
+{"city":"Rogalewo"}
+{"city":"Przydół"}
+{"city":"Mielno"}
+{"city":"Dobrzykowo"}
+{"city":"Bielawki"}
+{"city":"Liniewko Kościerskie"}
+{"city":"Brokowo"}
+{"city":"Mały Baldram"}
+{"city":"Bukowiec"}
+{"city":"Książęce Żuławy"}
+{"city":"Żuławki"}
+{"city":"Nowotna"}
+{"city":"Tujsk"}
+{"city":"Witków"}
+{"city":"Chmieleniec"}
+{"city":"Brzeźno Lęborskie"}
+{"city":"Wierszynko"}
+{"city":"Wądół"}
+{"city":"Piątkowo"}
+{"city":"Mrówkowo"}
+{"city":"Będomin"}
+{"city":"Bekasowo"}
+{"city":"Abisynia (Wiele)"}
+{"city":"Lipa"}
+{"city":"Czyste"}
+{"city":"Dargacz"}
+{"city":"Łysomice"}
+{"city":"Boguszyce"}
+{"city":"Łabiszewo"}
+{"city":"Borek"}
+{"city":"Groblica"}
+{"city":"Piaskowiec"}
+{"city":"Baldram"}
+{"city":"Świerznica"}
+{"city":"Stobiec"}
+{"city":"Witanowo"}
+{"city":"Gęślice"}
+{"city":"Wierszyno"}
+{"city":"Radusz"}
+{"city":"Przyborze"}
+{"city":"Osowie"}
+{"city":"Wdzydze Tucholskie"}
+{"city":"Robaczkowo"}
+{"city":"Joniny Duże"}
+{"city":"Knieja"}
+{"city":"Przytarnia"}
+{"city":"Joniny Małe"}
+{"city":"Osówko"}
+{"city":"Białe Błoto"}
+{"city":"Leśnia"}
+{"city":"Spole"}
+{"city":"Krzywań"}
+{"city":"Krzynia"}
+{"city":"Kotowo"}
+{"city":"Jawory"}
+{"city":"Gałęzów"}
+{"city":"Dobieszewko"}
+{"city":"Palczewo"}
+{"city":"Pułkownikówka"}
+{"city":"Nowa Kościelnica"}
+{"city":"Jasiowa Huta"}
+{"city":"Stegienka-Osada"}
+{"city":"Stegienka"}
+{"city":"Popowo"}
+{"city":"Rybina"}
+{"city":"Przemysław"}
+{"city":"Podgórze"}
+{"city":"Łubno"}
+{"city":"Łobzowo"}
+{"city":"Kołczygłówki"}
+{"city":"Mniszek"}
+{"city":"Kąty"}
+{"city":"Dębowiec"}
+{"city":"Karsin-Wybudowanie"}
+{"city":"Dobieszewo"}
+{"city":"Łysomiczki"}
+{"city":"Grabin"}
+{"city":"Lubiszynek Pierwszy"}
+{"city":"Komarówka"}
+{"city":"Jeziernik"}
+{"city":"Gniazdowo"}
+{"city":"Niedźwiedziówka"}
+{"city":"Niedźwiedzica"}
+{"city":"Zatoki"}
+{"city":"Smolewo"}
+{"city":"Malary"}
+{"city":"Kliczkowy"}
+{"city":"Abisynia Górska"}
+{"city":"Dudzicze"}
+{"city":"Brzeziniec"}
+{"city":"Budówko"}
+{"city":"Zielona Wieś"}
+{"city":"Śledziowa Huta"}
+{"city":"Jantar-Leśniczówka"}
+{"city":"Izbiska"}
+{"city":"Świelubie"}
+{"city":"Sierowo"}
+{"city":"Różki"}
+{"city":"Gałąźnia Wielka"}
+{"city":"Gałąźnia Mała"}
+{"city":"Barnowo"}
+{"city":"Barnowiec"}
+{"city":"Budowo"}
+{"city":"Borzęcinko"}
+{"city":"Borzęcino"}
+{"city":"Gogolewo"}
+{"city":"Maleniec"}
+{"city":"Głobica"}
+{"city":"Stare Babki"}
+{"city":"Wybicko"}
+{"city":"Dworek"}
+{"city":"Barkocin"}
+{"city":"Turzonka"}
+{"city":"Rozwalewo"}
+{"city":"Pełk"}
+{"city":"Mutkowo"}
+{"city":"Dywan"}
+{"city":"Gogolewko"}
+{"city":"Dobrzec"}
+{"city":"Dobra"}
+{"city":"Chorążówka"}
+{"city":"Chełmek-Osada"}
+{"city":"Chełmek"}
+{"city":"Wiśniówka"}
+{"city":"Szkarpawa"}
+{"city":"Borsztal"}
+{"city":"Żabowo"}
+{"city":"Zimny Dwór"}
+{"city":"Zatrzebionka"}
+{"city":"Lampkowo"}
+{"city":"Wilczewo"}
+{"city":"Białe Błota"}
+{"city":"Broniewo"}
+{"city":"Zielin Górny"}
+{"city":"Uliszkowice"}
+{"city":"Toczek"}
+{"city":"Szczyciec"}
+{"city":"Grądki Dolne"}
+{"city":"Glewnik"}
+{"city":"Trzebuń"}
+{"city":"Schodno"}
+{"city":"Tkalnia"}
+{"city":"Raduń-Osiedle"}
+{"city":"Milkowo"}
+{"city":"Kolano"}
+{"city":"Guzy"}
+{"city":"Szadowo"}
+{"city":"Wola-Sosenka"}
+{"city":"Nowa Wieś Kwidzyńska"}
+{"city":"Starkówko"}
+{"city":"Owczary"}
+{"city":"Poborowo"}
+{"city":"Myślimierz"}
+{"city":"Objezierze"}
+{"city":"Gumieniec"}
+{"city":"Radaczewo"}
+{"city":"Ciemnica"}
+{"city":"Kalwaria"}
+{"city":"Wargoszewo"}
+{"city":"Raduń"}
+{"city":"Rów"}
+{"city":"Ostrów"}
+{"city":"Płęsy"}
+{"city":"Szablewo"}
+{"city":"Zduny"}
+{"city":"Przerębska Huta"}
+{"city":"Sumin"}
+{"city":"Sucumin"}
+{"city":"Wybudowania Dąbrowskie"}
+{"city":"Żebrowo"}
+{"city":"Rysiny"}
+{"city":"Podrąbiona"}
+{"city":"Jeziorna"}
+{"city":"Jasnochówka"}
+{"city":"Szałwinek"}
+{"city":"Szadowski Młyn"}
+{"city":"Rakowieckie Pole"}
+{"city":"Rakowice"}
+{"city":"Podzamcze"}
+{"city":"Pawlice"}
+{"city":"Pastwa"}
+{"city":"Ośno"}
+{"city":"Cetyń"}
+{"city":"Czarnkowo"}
+{"city":"Broczyna"}
+{"city":"Bożanka"}
+{"city":"Dąbrowa Brzezieńska"}
+{"city":"Wysokie"}
+{"city":"Kloc"}
+{"city":"Głuchy Bór"}
+{"city":"Piechowice"}
+{"city":"Stare Słone"}
+{"city":"Stary Las"}
+{"city":"Borsk"}
+{"city":"Czarnowodzianka"}
+{"city":"Cisewie"}
+{"city":"Abisynia"}
+{"city":"Bąk"}
+{"city":"Wyczechowo"}
+{"city":"Starkowa Huta"}
+{"city":"Sławki"}
+{"city":"Rąty"}
+{"city":"Ramleje"}
+{"city":"Obory"}
+{"city":"Lipianki"}
+{"city":"Grabowska Huta"}
+{"city":"Świetlino"}
+{"city":"Słupinko"}
+{"city":"Nowe Słone"}
+{"city":"Leżuchowo"}
+{"city":"Jałowe"}
+{"city":"Stony"}
+{"city":"Żarkowo"}
+{"city":"Troszki"}
+{"city":"Starniczki"}
+{"city":"Połęczyno"}
+{"city":"Piotrowo"}
+{"city":"Kaplica"}
+{"city":"Kamela"}
+{"city":"Szumleś Szlachecki"}
+{"city":"Szumleś Królewski"}
+{"city":"Sztofrowa Huta"}
+{"city":"Szpon"}
+{"city":"Bronno"}
+{"city":"Licze"}
+{"city":"Wielistowo"}
+{"city":"Węgornia"}
+{"city":"Świchówko"}
+{"city":"Świchowo"}
+{"city":"Jastrzębie Dziemiańskie"}
+{"city":"Zarośle"}
+{"city":"Belfort"}
+{"city":"Janin"}
+{"city":"Skarszów Dolny"}
+{"city":"Skarszów Górny"}
+{"city":"Egiertowo"}
+{"city":"Borcz"}
+{"city":"Borek Kamienny"}
+{"city":"Szatarpy"}
+{"city":"Stary Barkoczyn"}
+{"city":"Gurcz"}
+{"city":"Strzelęcino"}
+{"city":"Starnice"}
+{"city":"Podwilczyn"}
+{"city":"Podole Małe"}
+{"city":"Żakowo"}
+{"city":"Ogonki"}
+{"city":"Zdunowice"}
+{"city":"Czarlino"}
+{"city":"Węsiory"}
+{"city":"Zagóry"}
+{"city":"Nowe Pole"}
+{"city":"Skrzydłówko"}
+{"city":"Skrzydłowo"}
+{"city":"Rekownica"}
+{"city":"Kałka"}
+{"city":"Działek"}
+{"city":"Stara Brda Pilska"}
+{"city":"Stara Brda"}
+{"city":"Niesiłowo"}
+{"city":"Trzyniec"}
+{"city":"Ostrówek"}
+{"city":"Starzno"}
+{"city":"Starzęcin"}
+{"city":"Kulmaga"}
+{"city":"Leśna Jania"}
+{"city":"Sikorzyno"}
+{"city":"Bychowo"}
+{"city":"Uniechówek"}
+{"city":"Uniechów"}
+{"city":"Długie Pole"}
+{"city":"Luchowo"}
+{"city":"Lalkowy"}
+{"city":"Kościelna Jania"}
+{"city":"Stare Gronowo"}
+{"city":"Pokrzywy"}
+{"city":"Skowarnki"}
+{"city":"Cierznie"}
+{"city":"Zagórzyczki"}
+{"city":"Zagórzyca"}
+{"city":"Świtały"}
+{"city":"Jeziorka"}
+{"city":"Kopytkowo"}
+{"city":"Główna"}
+{"city":"Stanisławka"}
+{"city":"Przypólsko"}
+{"city":"Jeleniec"}
+{"city":"Ostrza"}
+{"city":"Nowe Gronowo"}
+{"city":"Wiszno"}
+{"city":"Wielogłowy"}
+{"city":"Mrówczyno"}
+{"city":"Świecichowo"}
+{"city":"Bobrowiec"}
+{"city":"Stążki"}
+{"city":"Sadłuki"}
+{"city":"Czapielski Młyn"}
+{"city":"Nowa Sikorska Huta"}
+{"city":"Pustka"}
+{"city":"Prusinowo"}
+{"city":"Unieszyniec"}
+{"city":"Unieszyno"}
+{"city":"Pieski"}
+{"city":"Malczyce"}
+{"city":"Osowiec"}
+{"city":"Osowo Lęborskie"}
+{"city":"Oskowo"}
+{"city":"Okalice"}
+{"city":"Strzyżyno"}
+{"city":"Stara Dąbrowa"}
+{"city":"Sąborze"}
+{"city":"Watkowice Małe"}
+{"city":"Watkowice"}
+{"city":"Trzciano"}
+{"city":"Straszewo"}
+{"city":"Szkaradowo Szlacheckie"}
+{"city":"Pułkowice"}
+{"city":"Namirowo"}
+{"city":"Pierzchowice"}
+{"city":"Perklice"}
+{"city":"Niesiołowice"}
+{"city":"Stare Łosienice"}
+{"city":"Nowy Ostrów"}
+{"city":"Nowe Łosienice"}
+{"city":"Lesiaki"}
+{"city":"Roztopczyn"}
+{"city":"Krępkowo"}
+{"city":"Dziechno"}
+{"city":"Cyganka"}
+{"city":"Cyganek"}
+{"city":"Żelichowo"}
+{"city":"Wierciny"}
+{"city":"Tuja"}
+{"city":"Nowinki"}
+{"city":"Szklana Góra"}
+{"city":"Sucha Huta"}
+{"city":"Częstocin"}
+{"city":"Paprzyce"}
+{"city":"Mianowice"}
+{"city":"Łojewo"}
+{"city":"Łężyca"}
+{"city":"Karzniczka"}
+{"city":"Szkaradowo Wielkie"}
+{"city":"Mątowskie Pastwiska"}
+{"city":"Nowe Minięta"}
+{"city":"Mirowice"}
+{"city":"Linki"}
+{"city":"Wygoda Łączyńska"}
+{"city":"Łączyński Młyn"}
+{"city":"Łączyno"}
+{"city":"Krępkowice"}
+{"city":"Karwica"}
+{"city":"Leśnik"}
+{"city":"Kamieniec"}
+{"city":"Wilki"}
+{"city":"Wilcze Góry"}
+{"city":"Wałachowo"}
+{"city":"Stobna"}
+{"city":"Starocin"}
+{"city":"Solnica"}
+{"city":"Ryki"}
+{"city":"Rychnowo Żuławskie"}
+{"city":"Rakowo"}
+{"city":"Rakowiska"}
+{"city":"Gromadzin"}
+{"city":"Domaradz"}
+{"city":"Wiatrowo"}
+{"city":"Mątki"}
+{"city":"Klecewko"}
+{"city":"Jarzębina"}
+{"city":"Krastudy"}
+{"city":"Balewko"}
+{"city":"Jastrzębie"}
+{"city":"Danachowo"}
+{"city":"Rusia"}
+{"city":"Krabusin"}
+{"city":"Wolny Dwór"}
+{"city":"Probostwo"}
+{"city":"Więckowy"}
+{"city":"Szczodrowski Młyn"}
+{"city":"Celmerostwo"}
+{"city":"Pogódki Jastrzębce"}
+{"city":"Jastrzębie Skarszewskie"}
+{"city":"Powalina"}
+{"city":"Osłonka"}
+{"city":"Piekło Górne"}
+{"city":"Damno"}
+{"city":"Skibin"}
+{"city":"Bobrowniki"}
+{"city":"Bięcino"}
+{"city":"Zdrójno"}
+{"city":"Przyrowie"}
+{"city":"Obozin"}
+{"city":"Nowy Wiec"}
+{"city":"Mirowo Duże"}
+{"city":"Koźmin"}
+{"city":"Trzcianka"}
+{"city":"Kamierowskie Piece"}
+{"city":"Kamierowo"}
+{"city":"Zamkowa Góra"}
+{"city":"Orłówko"}
+{"city":"Olszanka"}
+{"city":"Pólka"}
+{"city":"Osówek"}
+{"city":"Szary Kierz"}
+{"city":"Starzyska"}
+{"city":"Owcze Błota"}
+{"city":"Mestwin"}
+{"city":"Stężycka Huta"}
+{"city":"Szczukowo"}
+{"city":"Czysta Woda"}
+{"city":"Junkrowy"}
+{"city":"Barka"}
+{"city":"Jaroszewy"}
+{"city":"Marianka"}
+{"city":"Nowe Gołębiewko"}
+{"city":"Czarnocin"}
+{"city":"Orliniec"}
+{"city":"Myszkowo"}
+{"city":"Myszewko"}
+{"city":"Lubiszynek Drugi"}
+{"city":"Leśny Dwór"}
+{"city":"Duże Krówno"}
+{"city":"Małe Krówno"}
+{"city":"Kamienny Dół"}
+{"city":"Borucino"}
+{"city":"Tuchomko"}
+{"city":"Tągowie"}
+{"city":"Demlin"}
+{"city":"Bożepole Królewskie"}
+{"city":"Nygut"}
+{"city":"Zapowiednik"}
+{"city":"Bączek"}
+{"city":"Lubieszewo Pierwsze"}
+{"city":"Lubieszewo"}
+{"city":"Różewo"}
+{"city":"Rakowe Pole"}
+{"city":"Kępki"}
+{"city":"Klaniny"}
+{"city":"Długie (osada leśna)"}
+{"city":"Cisiny"}
+{"city":"Krasna Łąka"}
+{"city":"Kołoząb Mały"}
+{"city":"Kołoząb"}
+{"city":"Trzebiatkowa"}
+{"city":"Piaszno"}
+{"city":"Nowe Huty"}
+{"city":"Masłowiczki"}
+{"city":"Sośnica"}
+{"city":"Masłowice Tuchomskie"}
+{"city":"Wężowiec"}
+{"city":"Kępiny Małe"}
+{"city":"Jazowa Druga"}
+{"city":"Jazowa"}
+{"city":"Gozdawa"}
+{"city":"Gozdawa (osada)"}
+{"city":"Jałowiec"}
+{"city":"Sołtyski"}
+{"city":"Kuliki"}
+{"city":"Benowo"}
+{"city":"Barcice"}
+{"city":"Długie"}
+{"city":"Dąbrówka Pruska"}
+{"city":"Cieszymowo"}
+{"city":"Cierpięta"}
+{"city":"Masłowice Trzebiatkowskie"}
+{"city":"Ciemno"}
+{"city":"Toliszczek"}
+{"city":"Służewo"}
+{"city":"Gniewno"}
+{"city":"Drozdowo"}
+{"city":"Buka"}
+{"city":"Buchowo"}
+{"city":"Strzeszyn"}
+{"city":"Smug"}
+{"city":"Boboszewo"}
+{"city":"Kozia Góra"}
+{"city":"Balewo"}
+{"city":"Chróstowo"}
+{"city":"Dubowo"}
+{"city":"Żuromino"}
+{"city":"Uniradze"}
+{"city":"Smokowo"}
+{"city":"Płaczewo"}
+{"city":"Tadzino"}
+{"city":"Strzebielinko"}
+{"city":"Strzebielinek"}
+{"city":"Słuszewo"}
+{"city":"Salino"}
+{"city":"Mierzynko"}
+{"city":"Salinko"}
+{"city":"Nierybie"}
+{"city":"Trzcinisko"}
+{"city":"Wieżyca"}
+{"city":"Opalino"}
+{"city":"Rybienko"}
+{"city":"Stanisławowo"}
+{"city":"Leszkowy"}
+{"city":"Stara Jania"}
+{"city":"Smętówko"}
+{"city":"Zdrębowo"}
+{"city":"Pażęce"}
+{"city":"Kucborowo"}
+{"city":"Mierzyno"}
+{"city":"Łęczyn Dolny"}
+{"city":"Jęczewo"}
+{"city":"Miłocin"}
+{"city":"Smarzewo"}
+{"city":"Rudawki"}
+{"city":"Rynkówka"}
+{"city":"Pypkowo"}
+{"city":"Stara Sikorska Huta"}
+{"city":"Krzeszna"}
+{"city":"Gniewinko"}
+{"city":"Chynowie"}
+{"city":"Giemlice"}
+{"city":"Buszkowo"}
+{"city":"Nowe Ostrowite"}
+{"city":"Bachorze"}
+{"city":"Klosnowo"}
+{"city":"Kamionka  k/Doręgowic"}
+{"city":"Doręgowice"}
+{"city":"Czartołomie"}
+{"city":"Sierzywk"}
+{"city":"Karcz"}
+{"city":"Kiedrowice"}
+{"city":"Brzozowo"}
+{"city":"Zbeniny"}
+{"city":"Wielkie Zanie"}
+{"city":"Wączos"}
+{"city":"Ciechocin"}
+{"city":"Chojnaty"}
+{"city":"Wolność"}
+{"city":"Stary Młyn"}
+{"city":"Pomoc"}
+{"city":"Józefowo"}
+{"city":"Łukomie"}
+{"city":"Karpno"}
+{"city":"Gliśno Wielkie"}
+{"city":"Szpręgelówka"}
+{"city":"Pupkowo"}
+{"city":"Stare Brzeźno"}
+{"city":"Nowe Brzeźno"}
+{"city":"Brzezieński Młyn"}
+{"city":"Brzósk"}
+{"city":"Holandia"}
+{"city":"Sepiot"}
+{"city":"Płęsno"}
+{"city":"Funka"}
+{"city":"Angowice"}
+{"city":"Borzyszkowy"}
+{"city":"Smolne"}
+{"city":"Wierzchocina"}
+{"city":"Wieczywno"}
+{"city":"Zgnity Most"}
+{"city":"Upiłka"}
+{"city":"Stary Most"}
+{"city":"Rosocha"}
+{"city":"Owink"}
+{"city":"Małe Zanie"}
+{"city":"Kulki"}
+{"city":"Kokoszka"}
+{"city":"Kocieł"}
+{"city":"Kobyle Góry"}
+{"city":"Klasztor"}
+{"city":"Katarzynki"}
+{"city":"Dębowo"}
+{"city":"Bydgoszcz"}
+{"city":"Chociński Młyn"}
+{"city":"Drzewicz"}
+{"city":"Pod Ostrowite"}
+{"city":"Pod Obrowo"}
+{"city":"Pod Ciechocin"}
+{"city":"Lisia Góra"}
+{"city":"Sątoczno"}
+{"city":"Kłonecznica"}
+{"city":"Zapceń"}
+{"city":"Racławki"}
+{"city":"Wojsk"}
+{"city":"Klewiska"}
+{"city":"Soszyca"}
+{"city":"Bylina"}
+{"city":"Żukówko"}
+{"city":"Zwartówko"}
+{"city":"Smołdzino Leśniczówka"}
+{"city":"Żelazo"}
+{"city":"Wysoka"}
+{"city":"Witkowo"}
+{"city":"Garbacz"}
+{"city":"Sylczno"}
+{"city":"Parchowski Młyn"}
+{"city":"Parchowski Bór"}
+{"city":"Frydrychowo"}
+{"city":"Żelazno"}
+{"city":"Zwartowo"}
+{"city":"Starbienino"}
+{"city":"Słajszewo"}
+{"city":"Słajszewko"}
+{"city":"Słajkowo"}
+{"city":"Przebendówko"}
+{"city":"Przebendowo"}
+{"city":"Melanówek"}
+{"city":"Melanowo"}
+{"city":"Pod Sławęcin"}
+{"city":"Pod Dąbrówkę"}
+{"city":"Nad Szosą"}
+{"city":"Wierzchocino"}
+{"city":"Stojcino"}
+{"city":"Czołpino"}
+{"city":"Smołdziński Las"}
+{"city":"Wiślany"}
+{"city":"Baranowo"}
+{"city":"Jeleńcz"}
+{"city":"Osieki Lęborskie"}
+{"city":"Łętówko"}
+{"city":"Łętowo"}
+{"city":"Lublewo Lęborskie"}
+{"city":"Lublewko"}
+{"city":"Cołdanki"}
+{"city":"Szlachetna Nowa Cerkiew"}
+{"city":"Siecie"}
+{"city":"Retowo"}
+{"city":"Jamnowski Młyn"}
+{"city":"Jamno"}
+{"city":"Grabowo Parchowskie"}
+{"city":"Gołczewo"}
+{"city":"Folwark"}
+{"city":"Chośnica"}
+{"city":"Chałupa"}
+{"city":"Kurowo"}
+{"city":"Karczemka Kierzkowska"}
+{"city":"Gościęcino"}
+{"city":"Władysławek"}
+{"city":"Topole"}
+{"city":"Nieżychowice"}
+{"city":"Moszczenica"}
+{"city":"Przybynin"}
+{"city":"Łokciowe"}
+{"city":"Kluki"}
+{"city":"Karczemka Gardkowska"}
+{"city":"Gardkowice"}
+{"city":"Ciekocino"}
+{"city":"Ciekocinko"}
+{"city":"Choczewko"}
+{"city":"Borkówko"}
+{"city":"Borkowo Lęborskie"}
+{"city":"Biebrowo"}
+{"city":"Sternowo"}
+{"city":"Nicponie"}
+{"city":"Lotyń"}
+{"city":"Gardna Mała"}
+{"city":"Komnino"}
+{"city":"Czysta"}
+{"city":"Człuchy"}
+{"city":"Bukowa"}
+{"city":"Jeziorki"}
+{"city":"Kruszka"}
+{"city":"Jasnowo (kolonia)"}
+{"city":"Prądzona-Wybudowanie"}
+{"city":"Rucowe Lasy"}
+{"city":"Owsne Ostrowy"}
+{"city":"Osowo Małe"}
+{"city":"Osowo Duże"}
+{"city":"Osusznica"}
+{"city":"Nowa Osusznica"}
+{"city":"Styporc"}
+{"city":"Borne"}
+{"city":"Babilon"}
+{"city":"Dolne Ostrowite"}
+{"city":"Mogiel"}
+{"city":"Modziel"}
+{"city":"Kopernica"}
+{"city":"Kłodawka"}
+{"city":"Kłodawa (osada leśna)"}
+{"city":"Tebowizna"}
+{"city":"Rokitniki"}
+{"city":"Łącki Młyn"}
+{"city":"Jeruzalem"}
+{"city":"Łąkie"}
+{"city":"Żelisławki"}
+{"city":"Rębielcz"}
+{"city":"Granowo"}
+{"city":"Gockowice"}
+{"city":"Stoltmany"}
+{"city":"Hamer-Młyn"}
+{"city":"Luboń"}
+{"city":"Smołdziny"}
+{"city":"Warszawa"}
+{"city":"Bawernica"}
+{"city":"Złe Mięso"}
+{"city":"Lipki Górne"}
+{"city":"Lipki Dolne"}
+{"city":"Twarożnica"}
+{"city":"Kurcze"}
+{"city":"Mosna"}
+{"city":"Klaskawa"}
+{"city":"Przyjaźnia"}
+{"city":"Stara Juńcza"}
+{"city":"Pustki"}
+{"city":"Nowa Juńcza"}
+{"city":"Mała Klonia"}
+{"city":"Klonowice"}
+{"city":"Uroża"}
+{"city":"Rówki"}
+{"city":"Budziska"}
+{"city":"Bukówka"}
+{"city":"Bruskowo Wielkie"}
+{"city":"Wierzbięcin"}
+{"city":"Bruskowo Małe"}
+{"city":"Grąsino"}
+{"city":"Gałęzinowo"}
+{"city":"Gać Leśna"}
+{"city":"Kępno"}
+{"city":"Wrzeście"}
+{"city":"Włynkowo"}
+{"city":"Wiklino"}
+{"city":"Wieszyno"}
+{"city":"Gajki"}
+{"city":"Wielichowo"}
+{"city":"Warblewo"}
+{"city":"Warblewko"}
+{"city":"Swołowo"}
+{"city":"Lubuczewo"}
+{"city":"Kukowo"}
+{"city":"Krzemienica"}
+{"city":"Strzelinko"}
+{"city":"Stanięcino"}
+{"city":"Niewierowo"}
+{"city":"Łupiny"}
+{"city":"Karzcino"}
+{"city":"Rogawica"}
+{"city":"Redęcin"}
+{"city":"Kusowo"}
+{"city":"Lękwica"}
+{"city":"Pronie"}
+{"city":"Węgierskie"}
+{"city":"Malczkowo"}
+{"city":"Okunino"}
+{"city":"Polskie Gronowo"}
+{"city":"Międzyłęż"}
+{"city":"Małe Walichnowy"}
+{"city":"Pogorzała Wieś"}
+{"city":"Gręblin"}
+{"city":"Wielki Garc"}
+{"city":"Rombark"}
+{"city":"Glinki"}
+{"city":"Sporysz"}
+{"city":"Dmuchowo"}
+{"city":"Porąb"}
+{"city":"Parszkowo"}
+{"city":"Przeręba"}
+{"city":"Zadębie"}
+{"city":"Pieniężnica"}
+{"city":"Breńsk"}
+{"city":"Połchówko"}
+{"city":"Trzmielewo"}
+{"city":"Lubocino"}
+{"city":"Sulicice"}
+{"city":"Kamieńc"}
+{"city":"Ryczyn"}
+{"city":"Sobieńczyce"}
+{"city":"Kolonia Sobieńczyce"}
+{"city":"Słuchowo"}
+{"city":"Struszewo"}
+{"city":"Mątowy Wielkie"}
+{"city":"Stocki Młyn"}
+{"city":"Kończewice"}
+{"city":"Gnojewo"}
+{"city":"Wola"}
+{"city":"Bystrze"}
+{"city":"Stara Wisła"}
+{"city":"Latkowo"}
+{"city":"Wieliszewo"}
+{"city":"Skórowo"}
+{"city":"Bądze"}
+{"city":"Tabory"}
+{"city":"Warcimino"}
+{"city":"Runowo"}
+{"city":"Radosław"}
+{"city":"Bucznik"}
+{"city":"Borzykowo"}
+{"city":"Cieszanowo"}
+{"city":"Stachowo"}
+{"city":"Kawczyn"}
+{"city":"Toczeń"}
+{"city":"Gołębsko"}
+{"city":"Łosośniki"}
+{"city":"Olszewiec"}
+{"city":"Najatki"}
+{"city":"Łodzierz"}
+{"city":"Męciny"}
+{"city":"Czarnica"}
+{"city":"Świeszynko"}
+{"city":"Jeżewsko"}
+{"city":"Grapice"}
+{"city":"Podwiejki"}
+{"city":"Łąkoć"}
+{"city":"Łaziska"}
+{"city":"Ponikła"}
+{"city":"Przeradz"}
+{"city":"Nowe Skórowo"}
+{"city":"Popity"}
+{"city":"Przezmark"}
+{"city":"Miłocice"}
+{"city":"Malęcino"}
+{"city":"Kowalewice"}
+{"city":"Wesoła Kępa"}
+{"city":"Piaski Morąskie"}
+{"city":"Biała"}
+{"city":"Dretyń"}
+{"city":"Dretynek"}
+{"city":"Znakowo"}
+{"city":"Nowa Dąbrowa"}
+{"city":"Nieckowo"}
+{"city":"Mortąg"}
+{"city":"Wołcza Wielka"}
+{"city":"Wałdowo"}
+{"city":"Trzcinno"}
+{"city":"Świerzno"}
+{"city":"Słosinko"}
+{"city":"Popowice"}
+{"city":"Głuszyno"}
+{"city":"Milikowo"}
+{"city":"Głuszynko"}
+{"city":"Dąbrówno"}
+{"city":"Matule"}
+{"city":"Lubochowo"}
+{"city":"Grapiczki"}
+{"city":"Darżynko"}
+{"city":"Żychlin"}
+{"city":"Chlewnica"}
+{"city":"Pożyczki"}
+{"city":"Smoląg"}
+{"city":"Zakręty"}
+{"city":"Wartule"}
+{"city":"Rębowo"}
+{"city":"Kawcze"}
+{"city":"Cisy"}
+{"city":"Sominy"}
+{"city":"Starynia"}
+{"city":"Pordenowo"}
+{"city":"Lichnówki Pierwsze"}
+{"city":"Lichnówki Drugie"}
+{"city":"Lichnówki"}
+{"city":"Chlebowo"}
+{"city":"Kamnica"}
+{"city":"Szydlice"}
+{"city":"Byczyna"}
+{"city":"Boręty Pierwsze"}
+{"city":"Boręty Drugie"}
+{"city":"Boręty"}
+{"city":"Zadry"}
+{"city":"Tursko"}
+{"city":"Dolsko"}
+{"city":"Krzeszewo"}
+{"city":"Świerzenko"}
+{"city":"Świeszyno"}
+{"city":"Przęsin"}
+{"city":"Piaszczyna"}
+{"city":"Trzebieszyno"}
+{"city":"Kwisno"}
+{"city":"Węgorzynko"}
+{"city":"Stara Kościelnica"}
+{"city":"Studnica"}
+{"city":"Kielmy"}
+{"city":"Nowy Folwark"}
+{"city":"Myślice"}
+{"city":"Stary Dzierzgoń"}
+{"city":"Kornele"}
+{"city":"Gisiel"}
+{"city":"Chotkowo"}
+{"city":"Krosnowo"}
+{"city":"Pudłowiec"}
+{"city":"Bartne Łąki"}
+{"city":"Bruk"}
+{"city":"Bągart"}
+{"city":"Rabacino"}
+{"city":"Prądzonka"}
+{"city":"Półczno"}
+{"city":"Skwierawy"}
+{"city":"Przemkowo"}
+{"city":"Cicholas"}
+{"city":"Skolwity"}
+{"city":"Stare Miasto"}
+{"city":"Lipiec"}
+{"city":"Monasterzysko Wielkie"}
+{"city":"Jeldzino"}
+{"city":"Górczyn"}
+{"city":"Świecino"}
+{"city":"Osława Dąbrowa"}
+{"city":"Kłączno"}
+{"city":"Lubaszki"}
+{"city":"Ugoszcz"}
+{"city":"Zajączki"}
+{"city":"Gomole"}
+{"city":"Węglewo"}
+{"city":"Międzybórz"}
+{"city":"Czarna Dąbrowa"}
+{"city":"Danielówka"}
+{"city":"Potok"}
+{"city":"Grądzień"}
+{"city":"Łuszczyn"}
+{"city":"Myśliwka"}
+{"city":"Domanice"}
+{"city":"Zamek"}
+{"city":"Protajny"}
+{"city":"Bagnica"}
+{"city":"Nowina"}
+{"city":"Mątowy Małe"}
+{"city":"Jutrzenka"}
+{"city":"Nowy Dwór Pelpliński"}
+{"city":"Łupawa"}
+{"city":"Jabłówko"}
+{"city":"Bobięcino"}
+{"city":"Gatka"}
+{"city":"Turowo"}
+{"city":"Dzików"}
+{"city":"Wołcza Mała"}
+{"city":"Żochowo"}
+{"city":"Wiatrołom"}
+{"city":"Ropuchy"}
+{"city":"Role"}
+{"city":"Czerwieniec"}
+{"city":"Piaseczno"}
+{"city":"Grąbkowo"}
+{"city":"Gaje"}
+{"city":"Rzechcino"}
+{"city":"Malczkówko"}
+{"city":"Darżyno"}
+{"city":"Karznica"}
+{"city":"Poganice"}
+{"city":"Kapustowo"}
+{"city":"Tragamin"}
+{"city":"Lasowice Małe"}
+{"city":"Gajewo"}
+{"city":"Czerwone Stogi"}
+{"city":"Kraśniewo"}
+{"city":"Kościeleczki"}
+{"city":"Kolonia Ostrowicka"}
+{"city":"Kursztyn"}
+{"city":"Stogi"}
+{"city":"Kuchnia"}
+{"city":"Jaźwiska"}
+{"city":"Jeleń"}
+{"city":"Ciepłe"}
+{"city":"Wielkie Walichnowy"}
+{"city":"Widlice"}
+{"city":"Szprudowo"}
+{"city":"Półwieś"}
+{"city":"Brody Pomorskie"}
+{"city":"Pieniążkowo"}
+{"city":"Szawałd"}
+{"city":"Lasowice Wielkie"}
+{"city":"Kamienica"}
+{"city":"Grobelno"}
+{"city":"Pielica"}
+{"city":"Gockowo"}
+{"city":"Przyrzecze"}
+{"city":"Gwieździn"}
+{"city":"Olszanowo"}
+{"city":"Garsk"}
+{"city":"Bielawski Las"}
+{"city":"Janiszewko"}
+{"city":"Lignowy Szlacheckie"}
+{"city":"Pelplin-Nadleśnictwo"}
+{"city":"Janiszewo"}
+{"city":"Pomyje"}
+{"city":"Tropiszewo"}
