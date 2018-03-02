@@ -1,0 +1,58 @@
+# MongoDB 101 – Collation
+:source-highlighter: pygments
+:pygments-style: manni
+:icons: font
+:figure-caption!:
+
+Collation allows users to specify language-specific rules for string comparison,
+such as rules for lettercase and accent marks.
+
+You can specify collation for a collection or a view, an index, or specific
+operations that support collation.
+
+[source,json]
+places.json – a sample document
+----
+{
+  "city": "Borzytuchom"
+}
+----
+
+## Collation document for _places.json_
+
+[source,js]
+.Mongo Console
+----
+let collation_doc = {
+  "locale": "pl"
+}
+db.createCollection("places", { collation: collation_doc })
+----
+
+[source,bash]
+.Terminal
+----
+mongoimport -c places ../datasets/places.json
+----
+
+[source,js]
+.Mongo Console
+----
+db.places.find({ city: /^[ĆŁŃ]/ }, { _id:0 }).sort({ city: 1 })
+----
+
+
+## Collation and Index Use
+
+```js
+db.places.createIndex( { city: 1 }, { collation: { locale: "pl" } } )
+
+db.places.explain("executionStats").find( { city: "Łeba" } )
+db.places.find( { city: "Łeba" } ).explain("executionStats")
+db.places.find( { city: "Łeba" } ).explain()
+
+# does not use index?
+db.places.find( { city: /^Ł/ } ).count() # => 62
+db.places.find( { city: /^Ł/ } ).explain()
+db.places.find( { city: /^Ł/ } ).explain("executionStats")
+```
