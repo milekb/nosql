@@ -1,12 +1,17 @@
-## Dane wzorcowe – [Punkty adresowe z terenu Polski w formacie GeoJSON](https://drive.google.com/file/d/1c76CsnoARrlPwRoOsInwhvXnYVPWgiZx/view?usp=sharing)
+## Dane wzorcowe – Punkty adresowe z terenu Polski w formacie GeoJSON
+
+<!-- (https://drive.google.com/file/d/1c76CsnoARrlPwRoOsInwhvXnYVPWgiZx/view?usp=sharing) -->
 
 Import do kolekcji _pa_ w bazie _test_:
 ```bash
-mongoimport --db test --collection pa --jsonArray --file nazwaPliku.geojson
+mongoimport --db test --collection pa --file nazwa_pliku.json
 ```
-### Dodatkowe dane wzorcowe - [Polskie miejsowości w formacie GeoJSON](https://drive.google.com/open?id=1poYWhc7618s_0-qOm6e3k9xH542HCp5Q)
+### Dodatkowe dane wzorcowe - Polskie miejsowości w formacie GeoJSON
+
+<!-- https://drive.google.com/open?id=1poYWhc7618s_0-qOm6e3k9xH542HCp5Q) -->
+
 ```
-mongoimport --db test --collection miejscowosci --file miejscowosci.mongodb.geojson --jsonArray
+? mongoimport --db test --collection miejscowosci --file miejscowosci.geojson --jsonArray
 ```
 
 ## Moje dane
