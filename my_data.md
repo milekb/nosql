@@ -19,6 +19,10 @@ mongoimport --db test --collection pa --file nazwa_pliku.json
 Każdy powinien mieć swój unikalny zbiór danych.
 Tutaj wpisujemy link do danych z informacją co dane zawierają.
 
+
+1. D. Kalinowski [Fire Department Calls for Service](https://data.sfgov.org/Public-Safety/Fire-Department-Calls-for-Service/nuek-vuh3).
+Fire Calls-For-Service includes all fire units responses to calls since December 17, 2015. 1.6 GB, 4.59M rows and growing with daily updates.
+
 1. M. Krakowiak. [311 Cases](https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6) List of cases in San Francisco. The case data represents each case submitted via one of the many SF311 channels and the general characteristics and disposition of the case.
 
 1. D. Kotowicz [USA Airport Dataset](https://www.kaggle.com/flashgordon/usa-airport-dataset/version/2#).
@@ -41,8 +45,3 @@ List of street trees in San Francisco including: Planting date, species, and loc
 
 1. J. Warzocha. [London Crime Data, 2008-2016](https://www.kaggle.com/jboysen/london-crime/data)
 Crime Counts, by Borough, Category, and Month.
-
-1. D. Kalinowski [Fire Department Calls for Service](https://data.sfgov.org/Public-Safety/Fire-Department-Calls-for-Service/nuek-vuh3)
-Fire Calls-For-Service includes all fire units responses to calls since December 17, 2015. 1.6 GB, 4.59M rows and growing with daily updates.
-
-
