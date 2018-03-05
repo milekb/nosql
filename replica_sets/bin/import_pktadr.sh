@@ -23,5 +23,6 @@ for plik in "$@"
 do
   printf 'Import danych z pliku: %s\n' "$plik"
   gunzip -c $plik \
-  | mongoimport --db=test --collection=pa
+  | mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 \
+        --db=test --collection=pa
 done
