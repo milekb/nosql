@@ -142,7 +142,6 @@ show collections
 
 ## Replica Set in lab 109
 
-TODO.
 
 
 
