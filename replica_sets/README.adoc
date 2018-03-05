@@ -118,9 +118,9 @@ cursor.readPref("secondary")
 .Terminal
 ----
 mongoexport --port 27002 -c dostojewski | gzip -c > dostojewski.json.gz
-gunzip -c datasets/dostojewski.json.gz | \
-  mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 \
-  -d test -c dostojewski --drop
+gunzip -c datasets/dostojewski.json.gz \
+| mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 \
+      --drop-d test -c dostojewski
 ----
 
 
@@ -143,9 +143,45 @@ count docs # defined by mongo-hacker
 
 ## Replica Set in lab 109
 
-
-
-
-
-
-.
+. Czas importu (pojedyncze spakowane pliki) wszystkich punktów adresowych
+  do replica set to ok. 13 min. (user 7 min.)
+. Dane w replica set zajmują:
++
+```js
+show collections
+// pa → 1938.917MB / 573.523MB
+db.pa.stats( { scale : 1024 * 1024 } )
+{
+  "ns": "test.pa",
+  "size": 1938,
+  "count": 7528942,
+  "avgObjSize": 270,
+  "storageSize": 573,
+  ...
+}
+```
+. Wszystkich punktów adresowych jest dokładnie: 7_528_942.
+. Przykładowy punkt adresowy:
++
+```json
+{
+  "place": "Warszawa",
+  "street": "ulica Pitagorasa",
+  "zipcode": "01-483",
+  "nr": "7",
+  "status": "istniejacy",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.89271842077074,
+      52.25755023183274
+    ]
+  },
+  "admunit": [
+    "Polska",
+    "mazowieckie",
+    "Warszawa",
+    "Warszawa"
+  ]
+}
+```
