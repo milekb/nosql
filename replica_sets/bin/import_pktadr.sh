@@ -23,14 +23,14 @@ for plik in "$@"
 do
   printf 'Import danych z pliku: %s\n' "$plik"
   gunzip -c $plik \
-  jq --compact-output '{
+  | jq --compact-output '{
       place: .properties.miejscowosc,
       street: .properties.ulica,
       zipcode: .properties.kodPocztowy,
       nr: .properties.numerPorzadkowy,
       status: .properties.status,
       geometry,
-      adm_unit: .properties.jednostkaAdmnistracyjna
+      admunit: .properties.jednostkaAdmnistracyjna
     }' \
   | mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 \
         --drop --db=test --collection=pa
