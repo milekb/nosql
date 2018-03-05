@@ -35,6 +35,13 @@ Zaczynamy:
     * [NodeJS](http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start)
 
 
+## Narzędzia
+
+1. [jq](https://stedolan.github.io/jq) – a lightweight and flexible command-line JSON processor.
+1. [VisiData](https://github.com/saulpw/visidata) – a terminal spreadsheet multitool for discovering and arranging data.
+1. [CSVKit](https://csvkit.readthedocs.io/en/1.0.2) – a suite of command-line tools for converting to and working with CSV.
+
+
 ## Projekt na zaliczenie
 
 Aplikacja uruchamiana z linii poleceń korzystająca z jednego
