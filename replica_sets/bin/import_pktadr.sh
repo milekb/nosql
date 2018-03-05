@@ -33,5 +33,5 @@ do
       admunit: .properties.jednostkaAdmnistracyjna
     }' \
   | mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 \
-        --drop --db=test --collection=pa
+      --db=test --collection=pa
 done
