@@ -137,6 +137,7 @@ mongo --quiet --host localhost:27003 # assume that this host is SECONDARY
 rs.slaveOk()
 show dbs
 show collections
+count docs # defined by mongo-hacker
 ----
 
 
