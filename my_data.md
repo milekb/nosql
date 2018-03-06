@@ -54,3 +54,6 @@ List of street trees in San Francisco including: Planting date, species, and loc
 
 1. J. Warzocha. [London Crime Data, 2008-2016](https://www.kaggle.com/jboysen/london-crime/data)
 Crime Counts, by Borough, Category, and Month.
+
+1. R. Lewandowski. [Police Department Incidents](https://data.sfgov.org/Public-Safety/Police-Department-Incidents/tmnf-yvry).
+Incidents derived from SFPD Crime Incident Reporting system updated daily, showing data from 1/1/2003 up until two weeks ago from current date.
