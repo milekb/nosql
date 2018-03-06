@@ -1,6 +1,6 @@
 # Laboratoria
 
-## 28.02.2018 & 7.03.2018
+## Moje Dane
 
 . Wykonać pull request z wpisanym swoim dużym zbiorem danych
   (co najmniej 1 mln dokumentów). Link należy wpisać w pliku
