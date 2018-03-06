@@ -26,8 +26,7 @@ mongoimport --db test --collection pa --file nazwa_pliku.json
 
 ## Moje dane
 
-*Uwaga:* Każdy powinien mieć swój unikalny zbiór danych.
-
+**Uwaga:** Każdy powinien mieć swój unikalny zbiór danych.
 
 1. D. Kalinowski. [Fire Department Calls for Service](https://data.sfgov.org/Public-Safety/Fire-Department-Calls-for-Service/nuek-vuh3).
 Fire Calls-For-Service includes all fire units responses to calls since December 17, 2015. 1.6 GB, 4.59M rows and growing with daily updates.
