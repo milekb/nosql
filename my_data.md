@@ -57,3 +57,6 @@ Crime Counts, by Borough, Category, and Month.
 
 1. R. Lewandowski. [Police Department Incidents](https://data.sfgov.org/Public-Safety/Police-Department-Incidents/tmnf-yvry).
 Incidents derived from SFPD Crime Incident Reporting system updated daily, showing data from 1/1/2003 up until two weeks ago from current date.
+
+1. W. Łojkowski. [NFL Football Player Stats](https://www.kaggle.com/zynicide/nfl-football-player-stats).
+This is the most complete public source of NFL player stats available online. It scraped every NFL player in database going back to the 1940s. That's over 25,000 players who have played over 1,000,000 football games.
