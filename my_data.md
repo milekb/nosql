@@ -57,3 +57,5 @@ Crime Counts, by Borough, Category, and Month.
 
 1. R. Lewandowski. [Police Department Incidents](https://data.sfgov.org/Public-Safety/Police-Department-Incidents/tmnf-yvry).
 Incidents derived from SFPD Crime Incident Reporting system updated daily, showing data from 1/1/2003 up until two weeks ago from current date.
+
+1. A. Tejszerska. [National Statistics Postcode Lookup UK](https://data.gov.uk/dataset/national-statistics-postcode-lookup-uk). This dataset contains the National Statistics Postcode Lookup (NSPL) for the United Kingdom. The NSPL relates current postcodes to a range of current statutory administrative, electoral, health and other statistical geographies via ‘best-fit’ allocation from the 2011 Census output areas.
