@@ -10,8 +10,8 @@ rozliczania się z projektów na zaliczenie i egzamin.
 | Zaliczenie       | 10.04.2018 |
 | Egzamin          | 22.05.2018 |
 
-1. Brak akceptacji zaproszenia do 01.03.2018: ocena **NUZ** – nie uczęszczał na zajęcia.
-1. Projekty na zaliczenie i egzamin oddane do tygodnia po wyznaczonym terminie – ocena obniżona, oddane później – egzamin poprawkowy.
+Projekty na zaliczenie i egzamin oddane do tygodnia po wyznaczonym terminie –
+ocena obniżona; oddane później – egzamin poprawkowy.
 
 
 ## Materiały do wykładów
