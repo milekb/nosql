@@ -17,10 +17,15 @@
 .. w: 2, j: true
 . Import do bazy standalone wykonujemy tylko przy domyslnych ustawieniach;
   oczywiście należy też sprawdzić jakie one są.
-. Każdy import powtarzamy pięć razy. Wyniki przedstawiamy w tabelce.
-  Dopisujemy swoje wnioski i uwagi.
 
+Każdy import powtarzamy pięć razy. Wyniki przedstawiamy w tabelce.
+Dopisujemy swoje wnioski i uwagi.
+
+Dla porównania importujemy dane wzorcowe: **województwo mazowieckie**
+z punktów adresowych.
+
+Czy można porównać czasy importów dla obu zbiorów danych?
+Jeśli tak, to jak?
+
+**Uwaga:**
 Cały proces należy zautomatyzować, łącznie z wygenerowaniem tabelki.
-
-Dla porównania importujemy dane wzorcowe (punkty adresowe).
-Czy można porównać oba importy danych? Jak?
