@@ -1,6 +1,6 @@
 ## Dane wzorcowe
 
-Zbiór punktów adresowych opracował pan P. Jaszczyszyn,
+Zbiór punktów adresowych opracował P. Jaszczyszyn,
 a polskie miejsowości A. Stefański.
 
 Dane będą udostępniane na zajęciach w laboratorium.
