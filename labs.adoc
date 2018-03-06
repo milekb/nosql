@@ -1,5 +1,3 @@
-# Laboratoria
-
 ## Moje Dane
 
 . Wykonać pull request z wpisanym swoim dużym zbiorem danych
