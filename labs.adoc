@@ -1,12 +1,15 @@
 ## Moje Dane
 
-. Wykonać pull request z wpisanym swoim dużym zbiorem danych
-  (co najmniej 1 mln dokumentów). Link należy wpisać w pliku
-  link:my_data.md[my_data.md].
+Wykonać pull request z wpisanym swoim dużym zbiorem danych
+(co najmniej 1 mln dokumentów). Link do swoich danych należy wpisać w pliku
+link:my_data.md[my_data.md].
+
+Następnie:
+
 . Dane należy zapisać w bazie danych MongoDB:
 .. standalone
 .. replica set na localhost
-.. replica set na trzech komputerach
+.. replica set na trzech komputerach w laboratorium
 . Do zapisu należy użyć programu _mongoimport_.
 . Dane importujemy do replica set przy pięciu różnych ustawieniach
   https://docs.mongodb.com/manual/reference/write-concern/[write concern]:
@@ -15,8 +18,8 @@
 .. w: 1, j: true
 .. w: 2, j: false
 .. w: 2, j: true
-. Import do bazy standalone wykonujemy tylko przy domyslnych ustawieniach;
-  oczywiście należy też sprawdzić jakie one są.
+. Import do bazy standalone wykonujemy tylko przy domyslnych ustawieniach.
+  Oczywiście należy też sprawdzić jakie one są.
 
 Każdy import powtarzamy pięć razy. Wyniki przedstawiamy w tabelce.
 Dopisujemy swoje wnioski i uwagi.
