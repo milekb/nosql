@@ -1,6 +1,9 @@
 ## Dane wzorcowe
 
-Dane będą udostępniane na zajęciach.
+Zbiór punktów adresowych opracował pan P. Jaszczyszyn,
+a polskie miejsowości A. Stefański.
+
+Dane będą udostępniane na zajęciach w laboratorium.
 
 <!--
   https://drive.google.com/file/d/1c76CsnoARrlPwRoOsInwhvXnYVPWgiZx/view?usp=sharing
