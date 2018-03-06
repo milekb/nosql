@@ -17,6 +17,7 @@
 * valid longitude values are between -180 and 180, both inclusive.
 * valid latitude values are between -90 and 90 (both inclusive).
 
+
 ## Geospatial Indexes & Queries
 
 Geospatial Indexes: 2dsphere
