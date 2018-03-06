@@ -1,4 +1,4 @@
-# Technologie NoSQL
+# :new: Technologie NoSQL
 
 Terminy akceptacji zaproszenia do GitHub classroom oraz
 rozliczania się z projektów na zaliczenie i egzamin.
