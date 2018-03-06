@@ -1,23 +1,29 @@
-## Dane wzorcowe – Punkty adresowe z terenu Polski w formacie GeoJSON
+## Dane wzorcowe
 
-<!-- (https://drive.google.com/file/d/1c76CsnoARrlPwRoOsInwhvXnYVPWgiZx/view?usp=sharing) -->
+Dane będą udostępniane na zajęciach.
 
-Import do kolekcji _pa_ w bazie _test_:
+<!--
+  https://drive.google.com/file/d/1c76CsnoARrlPwRoOsInwhvXnYVPWgiZx/view?usp=sharing
+  https://drive.google.com/open?id=1poYWhc7618s_0-qOm6e3k9xH542HCp5Q
+-->
+
+### Punkty adresowe z terenu Polski w formacie JSON
+
+Dane importujemy do kolekcji _pa_ w bazie _test_:
 ```bash
 mongoimport --db test --collection pa --file nazwa_pliku.json
 ```
-### Dodatkowe dane wzorcowe - Polskie miejsowości w formacie GeoJSON
 
-<!-- https://drive.google.com/open?id=1poYWhc7618s_0-qOm6e3k9xH542HCp5Q) -->
+### Polskie miejsowości w formacie JSON
 
 ```
 ? mongoimport --db test --collection miejscowosci --file miejscowosci.geojson --jsonArray
 ```
 
+
 ## Moje dane
 
-Każdy powinien mieć swój unikalny zbiór danych.
-Tutaj wpisujemy link do danych z informacją co dane zawierają.
+*Uwaga:* Każdy powinien mieć swój unikalny zbiór danych.
 
 
 1. D. Kalinowski. [Fire Department Calls for Service](https://data.sfgov.org/Public-Safety/Fire-Department-Calls-for-Service/nuek-vuh3).
@@ -32,10 +38,11 @@ This dataset is a record of 3.5 Million+ US Domestic Flights from 1990 to 2009.
 This dataset contains the file of vehicle, snowmobile and boat registrations in NYS. Registrations expired more than 2 years are excluded. Records that have a scofflaw, revocation and/or suspension are included with indicators specifying those kinds of records.
 
 1. K. Narożnik. [Local Data for Better Health](https://catalog.data.gov/dataset/500-cities-local-data-for-better-health-b32fd).
-This dataset includes 2013, 2014 model-based small area estimates for 27 measures of chronic disease related to unhealthy behaviors, health outcomes, and use of preventive services. Data were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. 
+This dataset includes 2013, 2014 model-based small area estimates for 27 measures of chronic disease related to unhealthy behaviors, health outcomes, and use of preventive services. Data were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch.
 
 1. A. Novik. [Death in the United States 2015](https://www.kaggle.com/cdc/mortality/data).
 This dataset is a collection of data about deceased people in the US in 2015.
+
 1. A. Porębski. [Trees in San Francisco](https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq).
 List of street trees in San Francisco including: Planting date, species, and location.
 [Addresses from Germany](http://results.openaddresses.io/). List of freely available addresses from Germany. (lon, lat, street, city, district, region, postcode)
