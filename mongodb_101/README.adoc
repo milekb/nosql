@@ -8,6 +8,24 @@
 .. https://docs.mongodb.com/manual/reference/mongodb-extended-json/[MongoDB Extended JSON]
 . https://docs.mongodb.com/manual/crud/[MongoDB CRUD Operations].
 
+[source,sh]
+----
+gunzip -c datasets/dostojewski.json.gz \
+| mongoimport --host localhost:27017 --drop -d test -c dostojewski
+
+gunzip -c datasets/pomorskie.json.gz \
+| jq --compact-output '{
+    place: .properties.miejscowosc,
+    street: .properties.ulica,
+    zipcode: .properties.kodPocztowy,
+    nr: .properties.numerPorzadkowy,
+    status: .properties.status,
+    geometry,
+    admunit: .properties.jednostkaAdmnistracyjna
+  }' \
+| mongoimport --drop -d test -c pomorskie
+----
+
 
 ## Getting Started: Insert
 
