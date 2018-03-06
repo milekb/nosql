@@ -55,6 +55,7 @@ db.inventory.insertMany([
 count docs
 ----
 
+
 ## Match
 
 [source,js]
@@ -114,11 +115,10 @@ db.inventory.find({ item: "paper" })
 db.inventory.drop()
 ----
 
-[NOTE]
-====
+Check this:
+
 . atomicity, document size, upsert option, write acknowledgement
 . https://docs.mongodb.com/manual/reference/update-methods/[additional update methods]
-=====
 
 
 ## https://docs.mongodb.com/manual/tutorial/remove-documents/[Delete Documents]
@@ -137,11 +137,10 @@ db.inventory.deleteMany({ status : "A" })
 db.inventory.deleteOne( { status: "D" } )
 ----
 
-[NOTE]
-====
+Check this:
+
 . atomicity, write acknowledgement
 . https://docs.mongodb.com/manual/reference/update-methods/[additional delete methods]
-=====
 
 
 ## https://docs.mongodb.com/manual/core/bulk-write-operations/[Bulk Write Operations]
@@ -300,9 +299,4 @@ db.neighborhoods.findOne()
 
 ## To be cont.
 
-https://docs.mongodb.com/manual/aggregation/[Aggregation].
-
-
-
-
-.
+* https://docs.mongodb.com/manual/aggregation/[Aggregation].
