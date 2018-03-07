@@ -150,20 +150,20 @@ count docs # defined by mongo-hacker
 . Czas importu (pojedyncze spakowane pliki) wszystkich punktów adresowych
   do replica set to ok. 13 min. (user 7 min.).
 
-. Przykładowy import do standalone MongoDB:
+. Przykładowy import do standalone MongoDB punktów adresowych woj. mazowieckiego:
 +
 ```sh
 gunzip --to-stdout 2018_02_26_08_16_11__14_mazowieckie.json.gz \
 | jq --compact-output '{
-   place: .properties.miejscowosc,
-   street: .properties.ulica,
-   zipcode: .properties.kodPocztowy,
-   nr: .properties.numerPorzadkowy,
-   status: .properties.status,
-   geometry,
-   admunit: .properties.jednostkaAdmnistracyjna
-}' \
-| mongoimport -d $nazwaBazy -c $nazwaKolekcji
+    place: .properties.miejscowosc,
+    street: .properties.ulica,
+    zipcode: .properties.kodPocztowy,
+    nr: .properties.numerPorzadkowy,
+    status: .properties.status,
+    geometry,
+    admunit: .properties.jednostkaAdmnistracyjna
+  }' \
+| mongoimport -d test -c mazowieckie
 ```
 
 . Dane w replica set zajmują:
