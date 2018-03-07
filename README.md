@@ -142,12 +142,12 @@ Plik _restaurants.json_ zawiera informacje o restauracjach w Nowym Jorku.
 
 ```bash
 curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json \
-  | gzip --stdout  > restaurants.json.gz
+| gzip --stdout  > restaurants.json.gz
 
-  #                          use  shuf -n 1  on Linux
-  gunzip -c restaurants.json.gz | shuf -n 1  # macOS, brew install coreutils (gshuf)
-  gunzip -c restaurants.json.gz | rl   -c 1  # macOS, brew install randomize-lines
-  ```
+#                          use  shuf -n 1  on Linux
+gunzip -c restaurants.json.gz | shuf -n 1  # macOS, brew install coreutils (gshuf)
+gunzip -c restaurants.json.gz | rl   -c 1  # macOS, brew install randomize-lines
+```
 
 IMPORTANT: Unikamy zapisywania plików na dysku. Zwłaszcza dużych plików!
 
