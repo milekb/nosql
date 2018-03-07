@@ -81,3 +81,6 @@ This dataset contains the spirits purchase information of Iowa Class “E” liq
 Used cars for sale in Germany and Czech Republic since 2015.
 
 1. K. Wyrzykowski. [Asia and Oceania](https://www.kaggle.com/openaddresses/openaddresses-asia-and-oceania). OpenAddresses's goal is to connect the digital and physical worlds by sharing geographic coordinates, street names, house numbers and postal codes.
+
+1. M. Piecuch. [New York City - Citywide Payroll Data](https://www.kaggle.com/new-york-city/nyc-citywide-payroll-data)
+This dataset contains the salary, pay rate, and total compensation of every New York City employee. In this dataset this information is provided for the 2014, 2015, 2016, and 2017 fiscal years, and provides a transparent lens into who gets paid how much and for what.
