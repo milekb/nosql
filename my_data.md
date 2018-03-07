@@ -41,6 +41,8 @@ This dataset contains the file of vehicle, snowmobile and boat registrations in 
 1. W. Łojkowski. [NFL Football Player Stats](https://www.kaggle.com/zynicide/nfl-football-player-stats).
 This is the most complete public source of NFL player stats available online. It scraped every NFL player in database going back to the 1940s. That's over 25,000 players who have played over 1,000,000 football games.
 
+1. O. Marcinkiewicz. [Vietnam War Bombing Operations](https://www.kaggle.com/usaf/vietnam-war-bombing-operations). List of bombing operations during Vietnam War.
+
 1. R. Matuszak. [GitHub Issues Database](https://www.kaggle.com/davidshinn/github-issues). Over 8 million GitHub issue titles and descriptions from 2017, based on GitHub Archive.
 
 1. K. Narożnik. [Local Data for Better Health](https://catalog.data.gov/dataset/500-cities-local-data-for-better-health-b32fd).
@@ -78,5 +80,3 @@ Used cars for sale in Germany and Czech Republic since 2015.
 Crime Counts, by Borough, Category, and Month.
 
 1. K. Wyrzykowski. [Asia and Oceania](https://www.kaggle.com/openaddresses/openaddresses-asia-and-oceania). OpenAddresses's goal is to connect the digital and physical worlds by sharing geographic coordinates, street names, house numbers and postal codes.
-
-1. O. Marcinkiewicz. [Vietnam War Bombing Operations](https://www.kaggle.com/usaf/vietnam-war-bombing-operations). List of bombing operations during vietnam war.
