@@ -153,18 +153,18 @@ IMPORTANT: Unikamy zapisywania plików na dysku. Zwłaszcza dużych plików!
 
 ```bash
 curl -s 'https://inf.ug.edu.pl/plan/?format=json' \
-  | mongoimport --drop --jsonArray -c plan
+| mongoimport --drop --jsonArray -c plan
 
 curl -s 'https://inf.ug.edu.pl/plan/?format=json' \
-  | jq -c '.[]' \
-  | mongoimport --drop -c plan
+| jq -c '.[]' \
+| mongoimport --drop -c plan
 
 curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/restaurants.json \
-  | gshuf -n 100 \
-  | mongoimport --drop -c restaurants100
+| gshuf -n 100 \
+| mongoimport --drop -c restaurants100
 
 curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json \
-  | mongoimport --drop -c restaurants
+| mongoimport --drop -c restaurants
 ```
 
 
