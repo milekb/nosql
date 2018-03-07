@@ -60,3 +60,21 @@ Incidents derived from SFPD Crime Incident Reporting system updated daily, showi
 
 1. W. Łojkowski. [NFL Football Player Stats](https://www.kaggle.com/zynicide/nfl-football-player-stats).
 This is the most complete public source of NFL player stats available online. It scraped every NFL player in database going back to the 1940s. That's over 25,000 players who have played over 1,000,000 football games.
+
+1. J. Puchalski. [Dota 2 Matches](https://www.kaggle.com/devinanzelmo/dota-2-matches).
+This dataset contains 50000 ranked ladder matches from the Dota 2 data dump created by Opendota. It was inspired by the Dota 2 Matches data published here by Joe Ramir. The aim of this dataset is to enable the exploration of player behavior, skill estimation, or anything you find interesting. I interested in chat data which contains all chat for the 50k matches. There is plenty of profanity, and good natured trolling.
+
+1. S. Piekarek. [Library Collection Inventory](https://www.kaggle.com/seattle-public-library/seattle-library-checkout-records) This dataset includes a log of all physical item checkouts from Seattle Public Library.
+
+1. M. Gierszewski. [Police Department Calls for Service](https://data.sfgov.org/Public-Safety/Police-Department-Calls-for-Service/hz9m-tj6z).
+Calls for service regarding criminal activity (unverified), from SFPD. Data covers the period 03/31/2016-present(Last updated
+    March 6, 2018).
+    
+1. A. Półgęsek. [Iowa Liquor Sales](https://data.iowa.gov/Economy/Iowa-Liquor-Sales/m3tr-qhgy)
+This dataset contains the spirits purchase information of Iowa Class “E” liquor licensees by product and date of purchase from January 1, 2012 to current.
+
+1. A. Onych. [Medallion Vehicles - Authorized](https://catalog.data.gov/dataset/medallion-vehicles-authorized-44673)
+This list contains information on the status of current medallion vehicles authorized to operate in New York City. This list is accurate to the date and time represented in the Last Date Updated and Last Time Updated fields. 
+
+1. M. Tracki. [Classified Ads for Cars](https://www.kaggle.com/mirosval/personal-cars-classifieds/data)
+Used cars for sale in Germany and Czech Republic since 2015.
