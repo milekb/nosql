@@ -16,6 +16,8 @@ ocena obniżona; oddane później – egzamin poprawkowy.
 
 ## Materiały do wykładów
 
+Link do notatek S. Tuszyńskiego [Kontenery Docker na Sigmie](https://www.evernote.com/shard/s168/sh/dfc584c3-b700-4833-99f9-6c6915b928ac/4fac47892645640b).
+
 Zaczynamy:
 
 1.  [The MongoDB 3.6 Manual](https://docs.mongodb.com/manual/contents/):
