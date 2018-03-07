@@ -1,27 +1,18 @@
 ## Dane wzorcowe
 
-Zbiór punktów adresowych opracował P. Jaszczyszyn,
-a polskie miejsowości A. Stefański.
+### Punkty adresowe w formacie JSON
 
-Dane będą udostępniane na zajęciach w laboratorium.
+Dane wyszukał i przygotował Piotr Jaszczyszyn.
 
-<!--
-  https://drive.google.com/file/d/1c76CsnoARrlPwRoOsInwhvXnYVPWgiZx/view?usp=sharing
-  https://drive.google.com/open?id=1poYWhc7618s_0-qOm6e3k9xH542HCp5Q
--->
+Instrukcję jak samemu wygenerować dane adresowe i jak wykonać import do bazy
+standalone MongoDB są w klonie repozytorium Piotra
+[tutaj](https://github.com/nosql/pktadr-pjaszczyszyn).
 
-### Punkty adresowe z terenu Polski w formacie JSON
-
-Dane importujemy do kolekcji _pa_ w bazie _test_:
-```bash
-mongoimport --db test --collection pa --file nazwa_pliku.json
-```
+Dane te będą też udostępniane na zajęciach w laboratorium.
 
 ### Polskie miejsowości w formacie JSON
 
-```
-TODO: mongoimport --db test --collection miejscowosci --file miejscowosci.geojson --jsonArray
-```
+Dane wyszukał i przygotował A. Stefański.
 
 
 ## Moje dane

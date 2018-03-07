@@ -6,10 +6,13 @@ link:my_data.md[my_data.md].
 
 Następnie:
 
-. Dane należy zapisać w bazie danych MongoDB:
+. Wybrane dane należy zapisać w bazie danych MongoDB:
 .. standalone
 .. replica set na localhost
-.. replica set na trzech komputerach w laboratorium
+.. replica set na trzech komputerach w laboratorium; można też
+  uruchomić replica set trzech innych komputerów, np. na laptopach innych
+  studentów. Oczywiście tylko jeśli wyrażą na to zgodę. Wtedy wystarczy
+  jeden opis.
 . Do zapisu należy użyć programu _mongoimport_.
 . Dane importujemy do replica set przy pięciu różnych ustawieniach
   https://docs.mongodb.com/manual/reference/write-concern/[write concern]:
@@ -21,14 +24,19 @@ Następnie:
 . Import do bazy standalone wykonujemy tylko przy domyslnych ustawieniach.
   Oczywiście należy też sprawdzić jakie one są.
 
-Każdy import powtarzamy pięć razy. Wyniki przedstawiamy w tabelce.
-Dopisujemy swoje wnioski i uwagi.
+Każdy import powtarzamy pięć razy, liczymy średnie czasy, wielkości kolekcji.
+Wyniki przedstawiamy w tabelce.
 
-Dla porównania importujemy dane wzorcowe: **województwo mazowieckie**
-z punktów adresowych.
+Dla porównania powtarzamy cały proces dla wzorcowych punktów adresowych
+dla **województwa mazowieckiego**.
 
-Czy można porównać czasy importów dla obu zbiorów danych?
-Jeśli tak, to jak?
+Czy jest sens porównywania czasów importów / wielkości kolekcji
+dla obu zbiorów danych? Jeśli tak, to jak?
 
-**Uwaga:**
-Cały proces należy zautomatyzować, łącznie z wygenerowaniem tabelki.
+
+## Uwaga
+
+Cały proces opisany poniżej należy zautomatyzować, łącznie z wygenerowaniem
+tabelki. Wyniki – czyli czasy, wielkości kolekcji i wnioski – należy opisać
+w notacji [Asciidoctor](https://asciidoctor.org/docs/) w pliku _README.adoc_
+w repozytorium na GitHub Classroom.
