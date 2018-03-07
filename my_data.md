@@ -61,3 +61,8 @@ Incidents derived from SFPD Crime Incident Reporting system updated daily, showi
 1. A. Półgęsek. [Iowa Liquor Sales](https://data.iowa.gov/Economy/Iowa-Liquor-Sales/m3tr-qhgy)
 This dataset contains the spirits purchase information of Iowa Class “E” liquor licensees by product and date of purchase from January 1, 2012 to current.
 
+1. A. Onych. [Medallion Vehicles - Authorized](https://catalog.data.gov/dataset/medallion-vehicles-authorized-44673)
+This list contains information on the status of current medallion vehicles authorized to operate in New York City. This list is accurate to the date and time represented in the Last Date Updated and Last Time Updated fields. 
+
+1. M. Tracki. [Classified Ads for Cars](https://www.kaggle.com/mirosval/personal-cars-classifieds/data)
+Used cars for sale in Germany and Czech Republic since 2015.
