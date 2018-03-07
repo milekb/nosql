@@ -58,6 +58,9 @@ Crime Counts, by Borough, Category, and Month.
 1. R. Lewandowski. [Police Department Incidents](https://data.sfgov.org/Public-Safety/Police-Department-Incidents/tmnf-yvry).
 Incidents derived from SFPD Crime Incident Reporting system updated daily, showing data from 1/1/2003 up until two weeks ago from current date.
 
+1. J. Puchalski. [Dota 2 Matches](https://www.kaggle.com/devinanzelmo/dota-2-matches).
+This dataset contains 50000 ranked ladder matches from the Dota 2 data dump created by Opendota. It was inspired by the Dota 2 Matches data published here by Joe Ramir. The aim of this dataset is to enable the exploration of player behavior, skill estimation, or anything you find interesting. I interested in chat data which contains all chat for the 50k matches. There is plenty of profanity, and good natured trolling.
+
 1. S. Piekarek. [Library Collection Inventory](https://www.kaggle.com/seattle-public-library/seattle-library-checkout-records) This dataset includes a log of all physical item checkouts from Seattle Public Library.
 
 1. M. Gierszewski. [Police Department Calls for Service](https://data.sfgov.org/Public-Safety/Police-Department-Calls-for-Service/hz9m-tj6z).
