@@ -31,6 +31,8 @@ TODO: mongoimport --db test --collection miejscowosci --file miejscowosci.geojso
 1. M. Gierszewski. [Police Department Calls for Service](https://data.sfgov.org/Public-Safety/Police-Department-Calls-for-Service/hz9m-tj6z).
 Calls for service regarding criminal activity (unverified), from SFPD. Data covers the period 03/31/2016-present(Last updated March 6, 2018).
 
+1. M. Kassjański. [Baltimore 911 Calls](https://www.kaggle.com/sohier/baltimore-911-calls). Records of 2.8 million calls from 2015 onwards. This dataset records the time, location, priority, and reason for calls to 911 in the city of Baltimore.
+
 1. D. Kalinowski. [Fire Department Calls for Service](https://data.sfgov.org/Public-Safety/Fire-Department-Calls-for-Service/nuek-vuh3).
 Fire Calls-For-Service includes all fire units responses to calls since December 17, 2015. 1.6 GB, 4.59M rows and growing with daily updates.
 
