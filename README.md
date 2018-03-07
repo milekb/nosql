@@ -58,7 +58,7 @@ oraz imię i nazwisko autora.
 Dokumentacja powinna zawierać grafiki, mapki, linki do stron HTML itp.
 wygenerowane za pomocą skrypt(ów) aplikacji.
 
-Dodatkowe punkty za użycie **Replica Set** (ale bez **shardingu**);
+Dane należy zapisać w **replica set**;
 zob. [Convert a Standalone to a Replica Set](https://docs.mongodb.com/manual/tutorial/convert-standalone-to-replica-set/).
 
 
@@ -68,7 +68,8 @@ zob. [Convert a Standalone to a Replica Set](https://docs.mongodb.com/manual/tut
 
 * [Aggregation Pipeline](https://docs.mongodb.com/manual/aggregation/#aggregation-pipeline) i [Map-Reduce](https://docs.mongodb.com/manual/aggregation/#map-reduce)
 
-Dane należy zapisać w Replica Set, zob. [Replica Set Deployment Tutorials](https://docs.mongodb.com/manual/administration/replica-set-deployment/).
+Dane należy zapisać w **replica set** w trzech kontenerach Docker;
+zob. [Replica Set Deployment Tutorials](https://docs.mongodb.com/manual/administration/replica-set-deployment/).
 
 Do uruchamiania agregacji należy użyć skryptów napisanych w Bash
 lub jednym z języków Node.js, Python lub Ruby. Wyniki agregacji można
