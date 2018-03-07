@@ -86,6 +86,7 @@ Check which mongod instance is the PRIMARY.
 Now, read https://docs.mongodb.com/manual/applications/replication/[Replica Set Read and Write Semantics].
 
 1. Display the default write concern:
++
 [source,js]
 ----
 cfg = rs.conf()
@@ -144,8 +145,27 @@ count docs # defined by mongo-hacker
 
 ## Replica Set in lab 109
 
+. Wszystkich punktów adresowych jest dokładnie: 7_528_942.
+
 . Czas importu (pojedyncze spakowane pliki) wszystkich punktów adresowych
-  do replica set to ok. 13 min. (user 7 min.)
+  do replica set to ok. 13 min. (user 7 min.).
+
+. Przykładowy import do standalone MongoDB:
++
+```sh
+gunzip --to-stdout 2018_02_26_08_16_11__14_mazowieckie.json.gz \
+| jq --compact-output '{
+   place: .properties.miejscowosc,
+   street: .properties.ulica,
+   zipcode: .properties.kodPocztowy,
+   nr: .properties.numerPorzadkowy,
+   status: .properties.status,
+   geometry,
+   admunit: .properties.jednostkaAdmnistracyjna
+}' \
+| mongoimport -d $nazwaBazy -c $nazwaKolekcji
+```
+
 . Dane w replica set zajmują:
 +
 ```js
@@ -161,7 +181,7 @@ db.pa.stats( { scale : 1024 * 1024 } )
   ...
 }
 ```
-. Wszystkich punktów adresowych jest dokładnie: 7_528_942.
+
 . Przykładowy punkt adresowy:
 +
 ```json
@@ -174,15 +194,11 @@ db.pa.stats( { scale : 1024 * 1024 } )
   "geometry": {
     "type": "Point",
     "coordinates": [
-      20.89271842077074,
-      52.25755023183274
+      20.89271842077074, 52.25755023183274
     ]
   },
   "admunit": [
-    "Polska",
-    "mazowieckie",
-    "Warszawa",
-    "Warszawa"
+    "Polska", "mazowieckie", "Warszawa", "Warszawa"
   ]
 }
 ```
