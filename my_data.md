@@ -78,3 +78,5 @@ Used cars for sale in Germany and Czech Republic since 2015.
 Crime Counts, by Borough, Category, and Month.
 
 1. K. Wyrzykowski. [Asia and Oceania](https://www.kaggle.com/openaddresses/openaddresses-asia-and-oceania). OpenAddresses's goal is to connect the digital and physical worlds by sharing geographic coordinates, street names, house numbers and postal codes.
+
+1. O. Marcinkiewicz. [Vietnam War Bombing Operations](https://www.kaggle.com/usaf/vietnam-war-bombing-operations). List of bombing operations during vietnam war.
