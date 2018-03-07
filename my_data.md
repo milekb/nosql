@@ -58,6 +58,9 @@ Crime Counts, by Borough, Category, and Month.
 1. R. Lewandowski. [Police Department Incidents](https://data.sfgov.org/Public-Safety/Police-Department-Incidents/tmnf-yvry).
 Incidents derived from SFPD Crime Incident Reporting system updated daily, showing data from 1/1/2003 up until two weeks ago from current date.
 
+1. W. Łojkowski. [NFL Football Player Stats](https://www.kaggle.com/zynicide/nfl-football-player-stats).
+This is the most complete public source of NFL player stats available online. It scraped every NFL player in database going back to the 1940s. That's over 25,000 players who have played over 1,000,000 football games.
+
 1. J. Puchalski. [Dota 2 Matches](https://www.kaggle.com/devinanzelmo/dota-2-matches).
 This dataset contains 50000 ranked ladder matches from the Dota 2 data dump created by Opendota. It was inspired by the Dota 2 Matches data published here by Joe Ramir. The aim of this dataset is to enable the exploration of player behavior, skill estimation, or anything you find interesting. I interested in chat data which contains all chat for the 50k matches. There is plenty of profanity, and good natured trolling.
 
