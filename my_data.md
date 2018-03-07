@@ -80,3 +80,5 @@ Used cars for sale in Germany and Czech Republic since 2015.
 Crime Counts, by Borough, Category, and Month.
 
 1. K. Wyrzykowski. [Asia and Oceania](https://www.kaggle.com/openaddresses/openaddresses-asia-and-oceania). OpenAddresses's goal is to connect the digital and physical worlds by sharing geographic coordinates, street names, house numbers and postal codes.
+
+1.M.Breza [SFO Gate and Stand Assignment Information](https://data.sfgov.org/Transportation/SFO-Gate-and-Stand-Assignment-Information/chfu-j7tc) - This data provides information related to actual departure and arrival time of all airline flights arriving and departing out of assigned gates and stands at San Francisco International Airport. Additional remarks for delayed or cancelled flight operations are included in this dataset. Airport finance and operations collects this data for statistical and billing purposes. The data starts 1/1/2015 and is updated monthly.
