@@ -55,8 +55,8 @@ List of bombing operations during Vietnam War.
 1. R. Matuszak. [GitHub Issues Database](https://www.kaggle.com/davidshinn/github-issues).
 Over 8 million GitHub issue titles and descriptions from 2017, based on GitHub Archive.
 
-1. K. Narożnik. [Local Data for Better Health](https://catalog.data.gov/dataset/500-cities-local-data-for-better-health-b32fd).
-This dataset includes 2013, 2014 model-based small area estimates for 27 measures of chronic disease related to unhealthy behaviors, health outcomes, and use of preventive services. Data were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch.
+1. K. Narożnik. [Addresses with Units - Enterprise Addressing System (EAS)](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-with-Units-Enterprise-Addressing-System-/dxjs-vqsy).
+All active addresses from the City's Enterprise Addressing System, including sub-addresses, such as units. Includes references to parcel and street centerline data. Updated nightly.See EAS Base Addresses for base addresses not including units.
 
 1. A. Novik. [Death in the United States 2015](https://www.kaggle.com/cdc/mortality/data).
 This dataset is a collection of data about deceased people in the US in 2015.
