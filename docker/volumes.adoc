@@ -130,9 +130,23 @@ docker run --name knuth \
   alpine:latest \
   echo "Knuth collection created."
 
+docker run --name aggregator \
+  --volumes-from fowler \
+  --volumes-from knuth \
+  alpine:latest \
+  echo "Aggregate collection Created."
 
+docker run --rm \
+  --volumes-from aggregator \
+  alpine:latest \
+  ls -l /library/
+
+docker rm -v fowler knuth aggregator
+docker rm -v $(docker ps -aq)                            # remove all containers
 ----
 
+* https://hub.docker.com/r/bitnami/mongodb/[bitnami/mongo];
+see „Setting up a replication” and https://docs.docker.com/network/links/[Legacy container links].
 
 
 
