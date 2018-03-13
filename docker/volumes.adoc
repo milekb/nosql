@@ -91,7 +91,7 @@ docker rm -fv nosql
 [source,sh]
 ----
 docker run --name nosql \
-  --volume $(pwd):/mnt \
+  --volume $(pwd)/datasets:/mnt \
   --volume  ~/.volumes/nosql/data:/data/db \
   --detach  mongo:latest
 
@@ -143,6 +143,7 @@ docker run --rm \
 
 docker rm -v fowler knuth aggregator
 docker rm -v $(docker ps -aq)                            # remove all containers
+# docker volume prune
 ----
 
 * https://hub.docker.com/r/bitnami/mongodb/[bitnami/mongo];
