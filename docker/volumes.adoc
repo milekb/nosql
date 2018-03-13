@@ -86,7 +86,7 @@ docker rm -fv nosql
 ----
 
 
-### Import data into _nosql_ container
+### Import geospatial data into _nosql_ container
 
 [source,sh]
 ----
@@ -106,11 +106,40 @@ docker exec -it nosql mongo nosql
 # db.neighborhoods.count()
 # db.neighborhoods.findOne()
 # exit
-
-docker exec -it nosql /bin/bash
-
 docker rm -fv nosql
 ----
+
+## Sharing volumes
+
+[source,sh]
+----
+mkdir -p ~/.volumes/{fowler,knuth,chomsky,lamport}
+docker pull alpine:latest
+docker images
+
+docker run --name fowler \
+  -v ~/.volumes/fowler:/library/Refactoring \
+  -v /library/DSL \
+  alpine:latest \
+  echo "Fowler collection created."
+
+docker run --name knuth \
+  -v /library/TAOCP \
+  -v /library/TTB \
+  -v /library/TMB \
+  alpine:latest \
+  echo "Knuth collection created."
+
+
+----
+
+
+
+
+
+
+
+
 
 
 
