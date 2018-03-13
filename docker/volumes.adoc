@@ -107,6 +107,8 @@ docker exec -it nosql mongo nosql
 # db.neighborhoods.findOne()
 # exit
 
+docker exec -it nosql /bin/bash
+
 docker rm -fv nosql
 ----
 
