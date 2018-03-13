@@ -26,13 +26,19 @@ bind mount::
 managed::
   use locations in Docker managed space
 
-A bind mount location _~/.volumes/nginx_
+
+### Bind mount
+
+* https://hub.docker.com/_/nginx/[Nginx official repository]
+
+Bind mount location _~/.volumes/nginx_ on host OS:
 [source,sh]
 ----
-docker run --name web \
-  --volume  ~/.volumes/nginx:/usr/share/nginx/html \
+docker run --detach \
   --publish 80:80 \
-  --detach  nginx:latest
+  --volume  ~/.volumes/nginx:/usr/share/nginx/html \
+  --name    web
+  nginx:latest
 
 docker exec -it web /bin/bash
 # echo $PATH
@@ -43,3 +49,59 @@ docker exec -it web /bin/bash
 docker stop web
 docker rm -vf web
 ----
+
+
+### Docker managed mount
+
+* https://hub.docker.com/_/mongo/[Monngo official repository]
+
+Bind mount a data volume inside container’s default mount point.
+[source,sh]
+----
+docker run --detach \
+  --volume /data/db \
+  --name   nosql \
+  mongo:latest
+
+docker exec -it nosql /bin/bash
+# echo $PATH
+# ls /usr/bin/mongo*
+# which gunzip
+# sensible-pager /usr/local/bin/docker-entrypoint.sh
+# ls /usr/bin/
+
+# docker inspect nosql | jq .
+docker inspect -f "{{json .Mounts}}" nosql | jq .
+# host path is relative to the virtual machine root FS (Docker Machine)
+# "Source": "/var/lib/docker/volumes/fb...ab/_data
+# container path
+# "Destination": "/data/db"
+
+docker run --detach \
+  --name nosql \
+  mongo:latest
+
+docker inspect -f "{{json .Mounts}}" nosql | jq .
+----
+
+
+### Import data into container
+
+[source,sh]
+----
+docker run --name nosql \
+  --volume  ~/.volumes/nosql/data:/data/db \
+  --detach  mongo:latest
+----
+
+
+
+
+
+
+
+
+
+
+
+.
