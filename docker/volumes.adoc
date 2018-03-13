@@ -14,7 +14,23 @@ Cleaning up the by stopping and removing containers and volumes you created:
 docker info
 docker images
 
-docker ps --all                  # show all containers
+docker ps --all                  # show running and stopped containers
 docker stop CONTAINER...
 docker rm --volumes CONTAINER... # remove the volumes associated with the container
+----
+
+## Volume types
+
+bind mount::
+  mount directory/file on the host OS
+managed::
+  use locations in Docker managed space
+
+A bind mount location _~/.volumes/nginx_
+[source,sh]
+----
+docker run --name web \
+  -v ~/.volumes/nginx:/usr/share/nginx/html:ro \
+  -p 80:80 \
+  -d nginx:latest
 ----
