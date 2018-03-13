@@ -4,3 +4,10 @@
 :icons: font
 :figure-caption!:
 
+How to verifiy the JSON data?
+
+https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json
+https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/restaurants.json
+
+https://docs.mongodb.com/manual/tutorial/geospatial-tutorial/ Find Restaurants with Geospatial Queries
+
