@@ -30,7 +30,16 @@ A bind mount location _~/.volumes/nginx_
 [source,sh]
 ----
 docker run --name web \
-  -v ~/.volumes/nginx:/usr/share/nginx/html:ro \
-  -p 80:80 \
-  -d nginx:latest
+  --volume  ~/.volumes/nginx:/usr/share/nginx/html \
+  --publish 80:80 \
+  --detach  nginx:latest
+
+docker exec -it web /bin/bash
+# echo $PATH
+# cd /usr/share/nginx/html
+# cat index.html
+
+# visit localhost
+docker stop web
+docker rm -vf web
 ----
