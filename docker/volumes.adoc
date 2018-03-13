@@ -1,13 +1,20 @@
-# Volumes in Containers 
+# Volumes in Containers
 :source-highlighter: pygments
 :pygments-style: manni
 :icons: font
 :figure-caption!:
 
-How to verifiy the JSON data?
+Sample Data from https://docs.mongodb.com/manual/tutorial/geospatial-tutorial[Find Restaurants with Geospatial Queries] tutorial:
+* https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json[neighborhoods.json]
+* https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/restaurants.json[restaurants.json]
 
-https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json
-https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/restaurants.json
+Cleaning up the by stopping and removing containers and volumes you created:
+[source,sh]
+----
+docker info
+docker images
 
-https://docs.mongodb.com/manual/tutorial/geospatial-tutorial/ Find Restaurants with Geospatial Queries
-
+docker ps --all                  # show all containers
+docker stop CONTAINER...
+docker rm --volumes CONTAINER... # remove the volumes associated with the container
+----
