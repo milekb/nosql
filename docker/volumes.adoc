@@ -82,16 +82,32 @@ docker run --detach \
   mongo:latest
 
 docker inspect -f "{{json .Mounts}}" nosql | jq .
+docker rm -fv nosql
 ----
 
 
-### Import data into container
+### Import data into _nosql_ container
 
 [source,sh]
 ----
 docker run --name nosql \
+  --volume $(pwd):/mnt \
   --volume  ~/.volumes/nosql/data:/data/db \
   --detach  mongo:latest
+
+docker exec -it nosql sh -c '
+  gunzip -c /mnt/restaurants.json.gz | mongoimport --drop -d nosql -c restaurants
+'
+docker exec -it nosql sh -c '
+  gunzip -c /mnt/neighborhoods.json.gz | mongoimport --drop -d nosql -c neighborhoods
+'
+docker exec -it nosql mongo nosql
+# show collections
+# db.neighborhoods.count()
+# db.neighborhoods.findOne()
+# exit
+
+docker rm -fv nosql
 ----
 
 
