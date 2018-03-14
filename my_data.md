@@ -55,8 +55,8 @@ List of bombing operations during Vietnam War.
 1. R. Matuszak. [GitHub Issues Database](https://www.kaggle.com/davidshinn/github-issues).
 Over 8 million GitHub issue titles and descriptions from 2017, based on GitHub Archive.
 
-1. K. Narożnik. [Addresses with Units - Enterprise Addressing System (EAS)](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-with-Units-Enterprise-Addressing-System-/dxjs-vqsy).
-All active addresses from the City's Enterprise Addressing System, including sub-addresses, such as units. Includes references to parcel and street centerline data. Updated nightly.See EAS Base Addresses for base addresses not including units.
+1. K. Narożnik. [State of Iowa Salary Book](https://data.iowa.gov/State-Finances/State-of-Iowa-Salary-Book/s3p7-wy6w).
+The dataset contains the name, gender, county or city of residence (when possible), official title, total salary received during each fiscal year, base salary for the employee, and traveling and subsistence expense reimbursed to state personnel.
 
 1. A. Novik. [Death in the United States 2015](https://www.kaggle.com/cdc/mortality/data).
 This dataset is a collection of data about deceased people in the US in 2015.
