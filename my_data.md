@@ -93,6 +93,6 @@ Used cars for sale in Germany and Czech Republic since 2015.
 
 1. B. Wiśniewski. [Building Permits](https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9). This data set pertains to all types of structural permits. Data includes details on application/permit numbers, job addresses, supervisorial districts, and the current status of the applications.
 
-1. M. Zelek. [State of Iowa Checkbook](https://data.iowa.gov/State-Finances/State-of-Iowa-Checkbook/cyqb-8ina). This dataset contains payment transactions recorded in the State’s central accounting system for the Executive Branch
+1. M. Zelek. [BOEE Practitioners, Licenses, & Endorsements](https://data.iowa.gov/Education/BOEE-Practitioners-Licenses-Endorsements/bf6j-xvb7). A list of Teachers, Administrators, Coaches, & Other Education Certification Holders combined with license and endorsement information.
 
 1. M. Kisielewski. [Vendor Payments (Purchase Order Summary)](https://data.sfgov.org/City-Management-and-Ethics/Vendor-Payments-Purchase-Order-Summary-/p5r5-fd7g). The San Francisco Controller's Office maintains a database of payments made to vendors from fiscal year 2007 forward.
