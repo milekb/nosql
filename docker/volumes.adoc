@@ -5,6 +5,7 @@
 :figure-caption!:
 
 Sample Data from https://docs.mongodb.com/manual/tutorial/geospatial-tutorial[Find Restaurants with Geospatial Queries] tutorial:
+
 * https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json[neighborhoods.json]
 * https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/restaurants.json[restaurants.json]
 
