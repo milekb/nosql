@@ -5,6 +5,7 @@
 :figure-caption!:
 
 Sample Data from https://docs.mongodb.com/manual/tutorial/geospatial-tutorial[Find Restaurants with Geospatial Queries] tutorial:
+
 * https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json[neighborhoods.json]
 * https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/restaurants.json[restaurants.json]
 
@@ -36,11 +37,6 @@ Bind mount location _~/.volumes/nginx_ on host OS:
 ----
 docker run --detach \
   --publish 80:80 \
-  --name    web \
-  nginx:latest
- 
-docker run --detach \
-  --publish 80:80 \
   --volume  ~/.volumes/nginx:/usr/share/nginx/html \
   --name    web \
   nginx:latest
@@ -58,7 +54,7 @@ docker rm -vf web
 
 ### Docker managed mount
 
-* https://hub.docker.com/_/mongo/[Monngo official repository]
+* https://hub.docker.com/_/mongo/[Mongo official repository]
 
 Bind mount a data volume inside container’s default mount point.
 [source,sh]
@@ -153,22 +149,3 @@ docker rm -v $(docker ps -aq)                            # remove all containers
 
 * https://hub.docker.com/r/bitnami/mongodb/[bitnami/mongo];
 see „Setting up a replication” and https://docs.docker.com/network/links/[Legacy container links].
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.
