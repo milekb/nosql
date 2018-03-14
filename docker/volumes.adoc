@@ -36,6 +36,11 @@ Bind mount location _~/.volumes/nginx_ on host OS:
 ----
 docker run --detach \
   --publish 80:80 \
+  --name    web \
+  nginx:latest
+ 
+docker run --detach \
+  --publish 80:80 \
   --volume  ~/.volumes/nginx:/usr/share/nginx/html \
   --name    web \
   nginx:latest
