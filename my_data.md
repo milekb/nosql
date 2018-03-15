@@ -22,6 +22,9 @@ Dane wyszukał i przygotował A. Stefański.
 1. M. Breza. [SFO Gate and Stand Assignment Information](https://data.sfgov.org/Transportation/SFO-Gate-and-Stand-Assignment-Information/chfu-j7tc).
 This data provides information related to actual departure and arrival time of all airline flights arriving and departing out of assigned gates and stands at San Francisco International Airport. Additional remarks for delayed or cancelled flight operations are included in this dataset. Airport finance and operations collects this data for statistical and billing purposes. The data starts 1/1/2015 and is updated monthly.
 
+1. K. Daniluk. [Individual inventor records](http://www.nber.org/patents/).
+These data comprise detail information on almost 3 million U.S. patents granted between January 1963 and December 1999.
+
 1. M. Gierszewski. [Police Department Calls for Service](https://data.sfgov.org/Public-Safety/Police-Department-Calls-for-Service/hz9m-tj6z).
 Calls for service regarding criminal activity (unverified), from SFPD. Data covers the period 03/31/2016-present(Last updated March 6, 2018).
 
