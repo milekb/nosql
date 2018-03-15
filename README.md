@@ -16,7 +16,8 @@ ocena obniżona; oddane później – egzamin poprawkowy.
 
 ## Materiały do wykładów
 
-Link do notatek wykładu S. Tuszyńskiego „[Kontenery Docker na Sigmie](https://www.evernote.com/shard/s168/sh/dfc584c3-b700-4833-99f9-6c6915b928ac/4fac47892645640b)”.
+Opracowane notatki z wykładu S. Tuszyńskiego
+„[Kontenery Docker na komputerach w laboratoriach](https://github.com/egzamin/docker)”.
 
 Zaczynamy:
 
@@ -47,16 +48,17 @@ Zaczynamy:
 
 ## Projekt na zaliczenie
 
-Aplikacja uruchamiana z linii poleceń korzystająca z jednego
-[MongoDB Drivers](https://docs.mongodb.com/ecosystem/drivers/):
-C, C++, C#, Java, Node.js, Perl, Python, Scala lub Ruby.
+Aplikacja, zawierająca kilka skryptów, uruchamianych z linii poleceń korzystająca
+z [MongoDB Drivers](https://docs.mongodb.com/ecosystem/drivers/) dla jednego
+z języków: C, C++, C#, Java, Node.js, Perl, Python, Scala lub Ruby.
+
 Przykład takiej aplikacji „[Sample app for the MongoDB Ruby driver](https://github.com/steveren/ruby-driver-sample-app)”
 ([mój fork](https://github.com/nosql/ruby-driver-sample-app)).
 
-Plik **README.{md,adoc,html}** powinien zawierać dokumentację projektu
-oraz imię i nazwisko autora.
-Dokumentacja powinna zawierać grafiki, mapki, linki do stron HTML itp.
-wygenerowane za pomocą skrypt(ów) aplikacji.
+Plik **README.{md,adoc,html}** (w jednym z wymienionych foramtów)
+powinien zawierać dokumentację projektu, imię i nazwisko autora.
+Powinien on zawierać grafiki, mapki, linki do stron HTML itp.
+wygenerowane za pomocą skryptów aplikacji.
 
 Dane należy zapisać w **replica set**;
 zob. [Convert a Standalone to a Replica Set](https://docs.mongodb.com/manual/tutorial/convert-standalone-to-replica-set/).
@@ -68,18 +70,17 @@ zob. [Convert a Standalone to a Replica Set](https://docs.mongodb.com/manual/tut
 
 * [Aggregation Pipeline](https://docs.mongodb.com/manual/aggregation/#aggregation-pipeline) i [Map-Reduce](https://docs.mongodb.com/manual/aggregation/#map-reduce)
 
-Dane należy zapisać w **replica set** w trzech kontenerach Docker;
-zob. [Replica Set Deployment Tutorials](https://docs.mongodb.com/manual/administration/replica-set-deployment/).
+Obliczenia należy przeprowadzić w kontenerach Docker.
 
 Do uruchamiania agregacji należy użyć skryptów napisanych w Bash
 lub jednym z języków Node.js, Python lub Ruby. Wyniki agregacji można
-przekształcić za pomocą poleceń powłoki Bash, programu [jq](https://stedolan.github.io/jq/),
-[R](https://www.r-project.org) lub innych programów zainstalowanych na Sigmie.
+przekształcać za pomocą poleceń powłoki Bash, programu [jq](https://stedolan.github.io/jq/),
+[R](https://www.r-project.org) lub innych programów zainstalowanych.
 
-Plik **README.{md,adoc,html}** powinien zawierać dokumentację projektu
-oraz imiona i nazwiska autorów.
-Wyniki agregacji należy zamienić na grafiki, mapki, stron HTML itp.
-i umieścić w dokumentacji.
+Plik **README.{md,adoc,html}** (w jednym z wymienionych foramtów)
+powinien zawierać dokumentację projektu oraz imiona i nazwiska autorów.
+Wyniki agregacji należy zilustrować grafikami, mapkami, stronami HTML
+opisem itp.
 
 Praca w zespołach: przeczytać [*Fork and Pull Request Workflow*](https://github.com/susam/gitpr).
 
