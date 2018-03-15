@@ -34,6 +34,9 @@ Fire Calls-For-Service includes all fire units responses to calls since December
 1. M. Kassjański. [Baltimore 911 Calls](https://www.kaggle.com/sohier/baltimore-911-calls).
 Records of 2.8 million calls from 2015 onwards. This dataset records the time, location, priority, and reason for calls to 911 in the city of Baltimore.
 
+1. M. Kisielewski. [Vendor Payments (Purchase Order Summary)](https://data.sfgov.org/City-Management-and-Ethics/Vendor-Payments-Purchase-Order-Summary-/p5r5-fd7g).
+The San Francisco Controller's Office maintains a database of payments made to vendors from fiscal year 2007 forward.
+
 1. M. Krakowiak. [311 Cases](https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6).
 List of cases in San Francisco. The case data represents each case submitted via one of the many SF311 channels and the general characteristics and disposition of the case.
 
@@ -85,19 +88,24 @@ This dataset contains the spirits purchase information of Iowa Class “E” liq
 [Dota 2 Matches](https://www.kaggle.com/devinanzelmo/dota-2-matches).
 This dataset contains 50000 ranked ladder matches from the Dota 2 data dump created by Opendota. It was inspired by the Dota 2 Matches data published here by Joe Ramir. The aim of this dataset is to enable the exploration of player behavior, skill estimation, or anything you find interesting. I interested in chat data which contains all chat for the 50k matches. There is plenty of profanity, and good natured trolling.
 
-1. A. Tejszerska. [National Statistics Postcode Lookup UK](https://data.gov.uk/dataset/national-statistics-postcode-lookup-uk). This dataset contains the National Statistics Postcode Lookup (NSPL) for the United Kingdom. The NSPL relates current postcodes to a range of current statutory administrative, electoral, health and other statistical geographies via ‘best-fit’ allocation from the 2011 Census output areas.
+1. A. Tejszerska. [National Statistics Postcode Lookup UK](https://data.gov.uk/dataset/national-statistics-postcode-lookup-uk).
+This dataset contains the National Statistics Postcode Lookup (NSPL) for the United Kingdom. The NSPL relates current postcodes to a range of current statutory administrative, electoral, health and other statistical geographies via ‘best-fit’ allocation from the 2011 Census output areas.
 
 1. M. Tracki. [Classified Ads for Cars](https://www.kaggle.com/mirosval/personal-cars-classifieds/data).
 Used cars for sale in Germany and Czech Republic since 2015.
 
-1. J. Warzocha. [London Crime Data, 2008-2016](https://www.kaggle.com/jboysen/london-crime/data). Crime Counts, by Borough, Category, and Month.
+1. J. Warzocha. [London Crime Data, 2008-2016](https://www.kaggle.com/jboysen/london-crime/data).
+Crime Counts, by Borough, Category, and Month.
 
-1. K. Wyrzykowski. [Asia and Oceania](https://www.kaggle.com/openaddresses/openaddresses-asia-and-oceania). OpenAddresses's goal is to connect the digital and physical worlds by sharing geographic coordinates, street names, house numbers and postal codes.
+1. K. Wyrzykowski. [Asia and Oceania](https://www.kaggle.com/openaddresses/openaddresses-asia-and-oceania).
+OpenAddresses's goal is to connect the digital and physical worlds by sharing geographic coordinates, street names, house numbers and postal codes.
 
-1. B. Wiśniewski. [Building Permits](https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9). This data set pertains to all types of structural permits. Data includes details on application/permit numbers, job addresses, supervisorial districts, and the current status of the applications.
+1. B. Wiśniewski. [Building Permits](https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9).
+This data set pertains to all types of structural permits. Data includes details on application/permit numbers, job addresses, supervisorial districts, and the current status of the applications.
 
-1. M. Zelek. [BOEE Practitioners, Licenses, & Endorsements](https://data.iowa.gov/Education/BOEE-Practitioners-Licenses-Endorsements/bf6j-xvb7). A list of Teachers, Administrators, Coaches, & Other Education Certification Holders combined with license and endorsement information.
+1. M. Zelek. [BOEE Practitioners, Licenses, & Endorsements](https://data.iowa.gov/Education/BOEE-Practitioners-Licenses-Endorsements/bf6j-xvb7).
+A list of Teachers, Administrators, Coaches, & Other Education Certification Holders combined with license and endorsement information.
 
-1. M. Kisielewski. [Vendor Payments (Purchase Order Summary)](https://data.sfgov.org/City-Management-and-Ethics/Vendor-Payments-Purchase-Order-Summary-/p5r5-fd7g). The San Francisco Controller's Office maintains a database of payments made to vendors from fiscal year 2007 forward.
+1. M. Zweigert. [Chicago Taxi Rides 2016](https://www.kaggle.com/chicago/chicago-taxi-rides-2016).
+Details of taxi rides in Chicago.
 
-1. M. Zweigert. [Chicago Taxi Rides 2016](https://www.kaggle.com/chicago/chicago-taxi-rides-2016). Details of taxi rides in Chicago.
