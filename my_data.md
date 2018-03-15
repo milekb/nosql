@@ -34,6 +34,9 @@ Fire Calls-For-Service includes all fire units responses to calls since December
 1. M. Kassjański. [Baltimore 911 Calls](https://www.kaggle.com/sohier/baltimore-911-calls).
 Records of 2.8 million calls from 2015 onwards. This dataset records the time, location, priority, and reason for calls to 911 in the city of Baltimore.
 
+1. T. Kaczmarz. [Wikipedia Article Titles](https://www.kaggle.com/residentmario/wikipedia-article-titles).
+This dataset is a simple newline (\n) delimited list of article titles. No distinction is made between redirects (like Schwarzenegger) and actual article pages (like Arnold Schwarzenegger).
+
 1. M. Kisielewski. [Vendor Payments (Purchase Order Summary)](https://data.sfgov.org/City-Management-and-Ethics/Vendor-Payments-Purchase-Order-Summary-/p5r5-fd7g).
 The San Francisco Controller's Office maintains a database of payments made to vendors from fiscal year 2007 forward.
 
@@ -108,4 +111,3 @@ A list of Teachers, Administrators, Coaches, & Other Education Certification Hol
 
 1. M. Zweigert. [Chicago Taxi Rides 2016](https://www.kaggle.com/chicago/chicago-taxi-rides-2016).
 Details of taxi rides in Chicago.
-
