@@ -136,6 +136,8 @@ time bunzip2 -c RC_2015-01.bz2 | mongoimport --drop --host 127.0.0.1 -d test -c 
 # sys   1m17.074s
 ```
 
+[Gnome System Monitor](https://www.omgubuntu.co.uk/2016/04/gnome-system-monitor-redesign-planned).
+
 ![RC mongoimport](images/RC_mongoimport_WiredTiger.png)
 
 Plik _restaurants.json_ zawiera informacje o restauracjach w Nowym Jorku.
