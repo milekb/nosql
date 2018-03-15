@@ -95,4 +95,4 @@ Used cars for sale in Germany and Czech Republic since 2015.
 
 1. M. Zelek. [BOEE Practitioners, Licenses, & Endorsements](https://data.iowa.gov/Education/BOEE-Practitioners-Licenses-Endorsements/bf6j-xvb7). A list of Teachers, Administrators, Coaches, & Other Education Certification Holders combined with license and endorsement information.
 
-1. M. Kisielewski. [Vendor Payments (Purchase Order Summary)](https://data.sfgov.org/City-Management-and-Ethics/Vendor-Payments-Purchase-Order-Summary-/p5r5-fd7g). The San Francisco Controller's Office maintains a database of payments made to vendors from fiscal year 2007 forward.
+1. M. Kisielewski. [Campaign Contributions Received](https://data.iowa.gov/Government/Campaign-Contributions-Received/smfg-ds7h). This dataset contains information on contributions and in kind donations made by organizations and individuals to state-wide, legislative or local candidate committees, state PACs, county central committees, state parties, and state and local ballot issue committees.
