@@ -58,8 +58,8 @@ Over 8 million GitHub issue titles and descriptions from 2017, based on GitHub A
 1. K. Narożnik. [State of Iowa Salary Book](https://data.iowa.gov/State-Finances/State-of-Iowa-Salary-Book/s3p7-wy6w).
 The dataset contains the name, gender, county or city of residence (when possible), official title, total salary received during each fiscal year, base salary for the employee, and traveling and subsistence expense reimbursed to state personnel.
 
-1. A. Novik. [Death in the United States 2015](https://www.kaggle.com/cdc/mortality/data).
-This dataset is a collection of data about deceased people in the US in 2015.
+1. [Crimes in Los Angeles](https://www.kaggle.com/cityofLA/crime-in-los-angeles/data).
+This dataset reflects incidents of crime in the City of Los Angeles dating back to 2010. This data is transcribed from original crime reports that are typed on paper and therefore there may be some inaccuracies within the data. Some location fields with missing data are noted as (0°, 0°). Address fields are only provided to the nearest hundred block in order to maintain privacy.
 
 1. A. Onych. [Medallion Vehicles - Authorized](https://catalog.data.gov/dataset/medallion-vehicles-authorized-44673).
 This list contains information on the status of current medallion vehicles authorized to operate in New York City. This list is accurate to the date and time represented in the Last Date Updated and Last Time Updated fields.
