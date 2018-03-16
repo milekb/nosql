@@ -171,8 +171,8 @@ see „Setting up a replication” and https://docs.docker.com/network/links/[Le
 
 ## Docker Volumes
 
-Introduced in Docker's 1.9 release, the docker volume create command allows you
-to create a volume without relating it to any particular container.
+Introduced in Docker's 1.9 release, the `docker volume create` command allows
+you to create a volume without relating it to any particular container.
 
 [source,sh]
 ----
@@ -232,5 +232,7 @@ docker run --detach \
 docker exec -it nosql mongo pa
 # > db.pomorskie.count()
 
+docker volume ls
+docker rm -vf nosql
 docker volume ls
 ----
