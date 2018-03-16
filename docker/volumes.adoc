@@ -4,6 +4,15 @@
 :icons: font
 :figure-caption!:
 
+[quote, Melissa Anderson, 'https://www.digitalocean.com/community/tutorials/how-to-share-data-between-docker-containers[How To Share Data between Docker Containers]']
+Docker containers are ephemeral, running just as long as it takes for
+the command issued in the container to complete. Sometimes, however,
+applications need to share access to data or persist data after a container is
+deleted. Databases, user-generated content for a web site, and log files are
+just a few examples of data that is impractical or impossible to include in a
+Docker image but which applications need to access. Persistent access to data is
+provided with Docker Volumes.
+
 Sample Data from https://docs.mongodb.com/manual/tutorial/geospatial-tutorial[Find Restaurants with Geospatial Queries] tutorial:
 
 * https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json[neighborhoods.json]
