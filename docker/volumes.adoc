@@ -44,11 +44,19 @@ managed::
 Bind mount location _~/.volumes/nginx_ on host OS:
 [source,sh]
 ----
+mkdir -p ~/.volumes/nginx
+cd ~/.volumes/nginx
+cat > index.html
+Hello World!
+^D
+
 docker run --detach \
   --publish 80:80 \
   --volume  ~/.volumes/nginx:/usr/share/nginx/html \
   --name    web \
   nginx:latest
+
+curl localhost:80
 
 docker exec -it web /bin/bash
 # echo $PATH
@@ -57,7 +65,8 @@ docker exec -it web /bin/bash
 
 # visit localhost
 docker stop web
-docker rm -vf web
+docker rm --volumes web
+# docker rm -vf web
 ----
 
 
@@ -158,3 +167,70 @@ docker rm -v $(docker ps -aq)                            # remove all containers
 
 * https://hub.docker.com/r/bitnami/mongodb/[bitnami/mongo];
 see „Setting up a replication” and https://docs.docker.com/network/links/[Legacy container links].
+
+
+## Docker Volumes
+
+Introduced in Docker's 1.9 release, the docker volume create command allows you
+to create a volume without relating it to any particular container.
+
+[source,sh]
+----
+docker volume create --name PunktyAdresowe
+docker volume inspect PunktyAdresowe
+# [
+#     {
+#         "CreatedAt": "2018-03-16T09:46:08Z",
+#         "Driver": "local",
+#         "Labels": {},
+#         "Mountpoint": "/var/lib/docker/volumes/PunktyAdresowe/_data",
+#         "Name": "PunktyAdresowe",
+#         "Options": {},
+#         "Scope": "local"
+#     }
+# ]
+docker volume ls
+# DRIVER              VOLUME NAME
+# local               PunktyAdresowe
+----
+
+Let's start a new _mongodb_ container and attach _PunktyAdresowe_:
+
+[source,sh]
+----
+ls -l datasets/pomorskie.json.gz
+# 9888291  2 mar 19:24 datasets/pomorskie.json.gz
+
+docker run --detach \
+  --volume PunktyAdresowe:/data/db \
+  --volume $(pwd)/datasets:/mnt \
+  --name nosql \
+  mongo:latest
+
+docker exec -it nosql sh -c '
+  gunzip -c /mnt/pomorskie.json.gz | mongoimport --drop -d pa -c pomorskie
+'
+
+docker exec -it nosql mongo pa
+# > db.pomorskie.findOne()
+# > db.pomorskie.count()
+
+docker rm -vf nosql
+docker volume ls
+# DRIVER              VOLUME NAME
+# local               PunktyAdresowe
+----
+
+Jeszcze raz łączymy się z kontenerem (tym razem nie podmontowujemy danych):
+[source,sh]
+----
+docker run --detach \
+  --volume PunktyAdresowe:/data/db \
+  --name nosql \
+  mongo:latest
+
+docker exec -it nosql mongo pa
+# > db.pomorskie.count()
+
+docker volume ls
+----
