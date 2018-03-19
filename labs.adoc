@@ -10,10 +10,8 @@ Następnie:
 .. standalone
 .. replica set na localhost
 .. replica set na trzech komputerach w laboratorium; można też
-  uruchomić replica set trzech innych komputerów, np. na laptopach innych
-  studentów. Oczywiście tylko jeśli wyrażą na to zgodę. Wtedy wystarczy
-  jeden opis.
-. Do zapisu należy użyć programu _mongoimport_.
+  uruchomić replica set trzech innych komputerach. Oczywiście jeśli właściciele komputerów wyrażą na to zgodę. Wtedy wystarczy jeden opis.
+. Do zapisu danych należy użyć programu _mongoimport_.
 . Dane importujemy do replica set przy pięciu różnych ustawieniach
   https://docs.mongodb.com/manual/reference/write-concern/[write concern]:
 .. domyślnych (należy sprawdzić jakie to są ustawienia)
