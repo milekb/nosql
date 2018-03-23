@@ -118,8 +118,7 @@ while IFS=, read -r col1 col2 col3 col4 col5 col6
 do
   echo "{type:$type,write_concern:$write_concern,$col2:$col1,$col4:$col3,$col6:$col5}"
 done \
-| \
-mongoimport -d mi -c data
+| mongoimport -d mi -c data
 ----
 gdzie plik _imports_times.csv_ zawiera takie dane:
 [source,text]
