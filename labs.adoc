@@ -40,3 +40,9 @@ Cały proces opisany poniżej należy zautomatyzować, łącznie z wygenerowanie
 tabelki. Wyniki – czyli czasy, wielkości kolekcji i wnioski – należy opisać
 w notacji [Asciidoctor](https://asciidoctor.org/docs/) w pliku _README.adoc_
 w repozytorium na GitHub Classroom.
+
+
+## Wskazówki
+
+Na szybko pierwszą wskazówkę znajdziemy na StackOverflow w odpowiedziach
+do pytania https://stackoverflow.com/questions/29663187/csv-to-json-using-jq[CSV to JSON using jq].
