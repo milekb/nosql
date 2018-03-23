@@ -40,14 +40,15 @@ w notacji https://asciidoctor.org/docs[Asciidoctor] w pliku _README.adoc_
 w repozytorium na GitHub Classroom.
 
 
-## Wskazówka 1
+## Wskazówka 1 – Automatyczne generowanie tabelki
 
-Na szybko pierwszą wskazówkę znajdziemy na StackOverflow w odpowiedziach
-do pytania https://stackoverflow.com/questions/29663187/csv-to-json-using-jq[CSV to JSON using jq].
+Wskazówkę znajdziemy na StackOverflow w odpowiedziach do pytania
+https://stackoverflow.com/questions/29663187/csv-to-json-using-jq[CSV to JSON using jq].
 
-## Wskazówka 2
 
-Każde z dwóch poleceń poniżej należy wykonać po pięć razy.
+## Wskazówka 2 – Automatyczne generowanie tabelki
+
+Każde z dwóch poleceń poniżej należało wykonać po pięć razy.
 [source,bash]
 ----
 /usr/bin/time gunzip -c datasets/pomorskie.json.gz | mongoimport --drop \
