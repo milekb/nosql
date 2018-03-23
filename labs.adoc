@@ -40,7 +40,102 @@ w notacji https://asciidoctor.org/docs[Asciidoctor] w pliku _README.adoc_
 w repozytorium na GitHub Classroom.
 
 
-## Wskazówki
+## Wskazówka 1
 
 Na szybko pierwszą wskazówkę znajdziemy na StackOverflow w odpowiedziach
 do pytania https://stackoverflow.com/questions/29663187/csv-to-json-using-jq[CSV to JSON using jq].
+
+## Wskazówka 2
+
+Każde z dwóch poleceń poniżej należy wykonać po pięć razy.
+[source,bash]
+----
+/usr/bin/time gunzip -c datasets/pomorskie.json.gz | mongoimport --drop \
+  --db mi --collection pomorskie \
+  --writeConcern '{w:1,j:false,wtimeout:500}'
+#         5.94 real         0.21 user         0.08 sys
+#         5.84 real         0.21 user         0.08 sys
+
+/usr/bin/time gunzip -c datasets/pomorskie.json.gz | mongoimport --drop \
+  --db mi --collection pomorskie \
+  --writeConcern '{w:1,j:true,wtimeout:500}'
+#        7.61 real         0.22 user         0.09 sys
+#        7.60 real         0.22 user         0.09 sys
+----
+Wyniki zapisujemy do pliku w formacie JSON-list.
+[source,js]
+.przykładowy JSON
+----
+{
+  type: "standalone"
+  write_concern: "{w:1,j:true}"
+  real: 7.61
+  user: 0.22
+  sys:  0.69
+}
+----
+
+https://docs.mongodb.com/manual/reference/operator/query/jsonSchema[Schema Validation]:
+
+[source,js]
+.mongo mi
+----
+db.createCollection("data", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: [ "type", "write_concern", "real", "user", "sys" ],
+         properties: {
+            type: {
+               bsonType: "string",
+               description: "must be a string and is required"
+            },
+            write_concern: {
+               bsonType: "string",
+               description: "must be a string and is required"
+            },
+            year: {
+               bsonType: "number",
+               minimum: 0.0,
+               maximum: 3600.0,
+               description: "must be an integer in [ 0, 3600 ] and is required"
+            }
+         }
+      }
+   }
+})
+----
+
+https://stackoverflow.com/questions/4286469/how-to-parse-a-csv-file-in-bash[Jak wygenerować taki JSON?]
+
+[source,sh]
+----
+type='"standalone"'
+write_concern='"{w:1,j:true,wtimeout:500}"'
+cat imports_times.csv | tr -s '[:blank:]' ',' | sed 's/,//' | \
+while IFS=, read -r col1 col2 col3 col4 col5 col6
+do
+  echo "{type:$type,write_concern:$write_concern,$col2:$col1,$col4:$col3,$col6:$col5}"
+done \
+| \
+mongoimport -d mi -c data
+----
+gdzie plik _imports_times.csv_ zawiera takie dane:
+[source,text]
+.imports_times.csv
+----
+      7.61 real         0.22 user         0.09 sys
+      7.60 real         0.22 user         0.09 sys
+----
+
+Po zapisaniu wszystkich danych pozostaje w kolekcji pozostaje wykonać
+kilka oczywistych agregacji. Na koniec na konsoli _mongo_, wykonujemy pętlę
+po wynikach agregacji budujemy tabelkę w wybranej notacji, np. Markdown:
+[source,js]
+----
+# print an appropriate header
+db.data.find().forEach(function(r) { print("|", r.type, "|", r.write_concern, "|", "...średnie") })
+# | standalone | {w:1,j:true,wtimeout:500} | ...średnie
+# | standalone | {w:1,j:true,wtimeout:500} | ...średnie
+----
+zob. `db.data.find().help()` Cursor methods.
