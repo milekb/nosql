@@ -130,8 +130,10 @@ gdzie plik _imports_times.csv_ zawiera takie dane:
 ----
 
 Po zapisaniu wszystkich danych pozostaje w kolekcji pozostaje wykonać
-kilka oczywistych agregacji. Na koniec na konsoli _mongo_, wykonujemy pętlę
-po wynikach agregacji budujemy tabelkę w wybranej notacji, np. Markdown:
+kilka oczywistych agregacji (czyli policzyć średnie).
+
+Na koniec, na konsoli _mongo_, w pętli po wynikach agregacji
+budujemy tabelkę w wybranej notacji, np. Markdown:
 [source,js]
 ----
 # print an appropriate header
