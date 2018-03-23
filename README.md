@@ -1,4 +1,4 @@
-# :new: Technologie NoSQL
+# Technologie NoSQL
 
 Terminy akceptacji zaproszenia do GitHub classroom oraz
 rozliczania się z projektów na zaliczenie i egzamin.
@@ -12,6 +12,14 @@ rozliczania się z projektów na zaliczenie i egzamin.
 
 Projekty na zaliczenie i egzamin oddane do tygodnia po wyznaczonym terminie –
 ocena obniżona; oddane później – egzamin poprawkowy.
+
+
+## :new: Projekt „Moje dane”
+
+Niestety nie mogę zaliczyć zdecydowanej większości projektów, bo
+autorzy nie zastosowali się wymagań opisanych w pliku [labs.adoc](labs.adoc).
+Dlatego w weekend w pliku umieszczę kilka wskazówek, które powinny ułatwić
+napisanie skryptów, wykonanie rachunków i tabelki. 
 
 
 ## Materiały do wykładów
