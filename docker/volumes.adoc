@@ -169,7 +169,7 @@ docker rm -v $(docker ps -aq)                            # remove all containers
 see „Setting up a replication” and https://docs.docker.com/network/links/[Legacy container links].
 
 
-## Docker Volumes
+## Named Docker Volumes
 
 Introduced in Docker's 1.9 release, the `docker volume create` command allows
 you to create a volume without relating it to any particular container.
