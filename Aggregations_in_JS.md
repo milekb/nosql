@@ -16,9 +16,7 @@ populations in the United States. These data are available at:
 [zips.json](http://media.mongodb.org/zips.json).
 
 
-## Requirements
-
-* [MongoDB](http://www.mongodb.org/downloads)
+## Import
 
 Use the following command to load *zips.json* data set into
 **your** *mongod* instance:
@@ -58,7 +56,10 @@ In these documents:
   (`[długość, szerokość]`) array.
 
 
-### States with Populations Over 10 Million
+## [Aggregation Cursors](Aggregation_Cursors.md)
+
+
+## States with Populations Over 10 Million
 
 To get all states with a population greater than 10 million, use
 the following aggregation pipeline:
@@ -116,7 +117,7 @@ operator. It returns the documents with the value of `totalPop` field
 greater than or equal to 10 million.
 
 
-### Average City Population by State
+## Average City Population by State
 
 To get the first three states with the greatest average population
 per city, use the following aggregation:
@@ -176,7 +177,7 @@ Finally, the `$limit` pipeline operator returns the first 3 documents
 from the sorted set.
 
 
-### Largest and Smallest Cities by State
+## Largest and Smallest Cities by State
 
 To get the smallest and largest cities by population for each
 state, use the following aggregate pipeline:
@@ -265,7 +266,7 @@ in the following format:
 }
 ```
 
-### The 6 most common name days
+## The 6 most common name days
 
 The following aggregation pipeline computes this:
 
@@ -325,7 +326,7 @@ outputs the first 6 documents:
 }
 ```
 
-### Pivot date ↺ names
+## Pivot date ↺ names
 
 We want to pivot the *name_days.json* data set.
 Precisely, we want to convert documents from this format:
