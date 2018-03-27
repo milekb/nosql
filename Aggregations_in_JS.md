@@ -6,6 +6,10 @@ capabilities of the aggregation framework, see also official documentation:
 * [Aggregation](https://docs.mongodb.com/master/aggregation/), krótko
   o _aggregation pipeline_, _Map-Reduce_, _Single Purpose Aggregation Operations_.
 * [Aggregation Pipeline](https://docs.mongodb.com/master/core/aggregation-pipeline/).
+  - [Stages (Operators)](https://docs.mongodb.com/master/reference/operator/aggregation-pipeline/)
+  - [Aggregation Pipeline Quick Reference](https://docs.mongodb.com/master/meta/aggregation-quick-reference/):
+    **stages** and **expressions**
+
 
 The [Aggregations using the Zip Codes Data Set](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set)
 examples uses a publicly available data set of all zipcodes and
