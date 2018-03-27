@@ -21,21 +21,26 @@ Use the following command to load *zips.json* data set into
 **your** *mongod* instance:
 
 ```sh
-mongoimport --drop -d test -c zipcodes zips.json
+curl -s http://media.mongodb.org/zips.json \
+| mongoimport --drop -d zip -c codes
 ```
 
 ## Aggregations using the Zip Codes Data Set
 
 Each document in this collection has the following form:
 
-```json
+```js
 {
-  "_id" : "35004",
-  "city" : "ACMAR",
-  "state" : "AL",
-  "pop" : 6055,
-  "loc" : [-86.51557, 33.584132]
+  "_id": "01010",
+  "city": "BRIMFIELD",
+  "pop": 3706,
+  "state": "MA",
+  "loc": [
+    -72.188455, 42.116543
+  ]
 }
+# mongo zip
+db.zip.createIndex( { loc : "2dsphere" } )
 ```
 
 In these documents:
@@ -44,7 +49,8 @@ In these documents:
 * The `city` field holds the city name.
 * The `state` field holds the two letter state abbreviation.
 * The `pop` field holds the population.
-* The `loc` field holds the location as a `[latitude, longitude]` array.
+* The `loc` field holds the location as a `[longitude, latitude] ∈ [-180..180, -90..90]`
+  (`[długość, szerokość]`) array.
 
 
 ### States with Populations Over 10 Million
