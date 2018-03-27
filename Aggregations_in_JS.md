@@ -18,7 +18,7 @@ populations in the United States. These data are available at:
 
 ## Requirements
 
-* [MongoDB](http://www.mongodb.org/downloads), version 3.2.0 or later.
+* [MongoDB](http://www.mongodb.org/downloads)
 
 Use the following command to load *zips.json* data set into
 **your** *mongod* instance:
