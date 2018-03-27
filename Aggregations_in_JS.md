@@ -56,9 +56,6 @@ In these documents:
   (`[długość, szerokość]`) array.
 
 
-## [Aggregation Cursors](Aggregation_Cursors.md)
-
-
 ## States with Populations Over 10 Million
 
 To get all states with a population greater than 10 million, use
@@ -115,6 +112,9 @@ to sum the values of all `pop` fields in the source documents.
 Documents created by `$group` are piped to the `$match` pipeline
 operator. It returns the documents with the value of `totalPop` field
 greater than or equal to 10 million.
+
+
+## [Aggregation Cursors](Aggregation_Cursors.md)
 
 
 ## Average City Population by State
