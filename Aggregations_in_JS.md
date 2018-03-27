@@ -29,7 +29,10 @@ curl -s http://media.mongodb.org/zips.json \
 
 Each document in this collection has the following form:
 
+Na konsoli (`mongo zip`) sprawdzamy ile dokumentów zostało zaimportowanych
+i jak wygląda przykładowy rekord:
 ```js
+db.codes.findOne()
 {
   "_id": "01010",
   "city": "BRIMFIELD",
@@ -39,7 +42,6 @@ Each document in this collection has the following form:
     -72.188455, 42.116543
   ]
 }
-# mongo zip
 db.zip.createIndex( { loc : "2dsphere" } )
 ```
 
