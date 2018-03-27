@@ -396,7 +396,6 @@ requested format:
 1\. For the *zipcodes* collection, the aggregation below computes
 `248_706_415`. What does this number mean?
 
-
 ```js
 coll.aggregate({ $group: {_id: 0, sum: {$sum: "$pop"}} })
 // {
