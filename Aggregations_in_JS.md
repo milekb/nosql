@@ -3,9 +3,11 @@
 This document provides a number of practical examples that display the
 capabilities of the aggregation framework, see also official documentation:
 
-* [Aggregation Pipeline](https://docs.mongodb.org/master/core/aggregation-pipeline).
+* [Aggregation](https://docs.mongodb.com/master/aggregation/), krótko
+  o _aggregation pipeline_, _Map-Reduce_, _Single Purpose Aggregation Operations_.
+* [Aggregation Pipeline](https://docs.mongodb.com/master/core/aggregation-pipeline/).
 
-The [_Aggregations using the Zip Codes Data Set_](http://docs.mongodb.org/manual/tutorial/aggregation-examples/#aggregations-using-the-zip-code-data-set)
+The [Aggregations using the Zip Codes Data Set](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set)
 examples uses a publicly available data set of all zipcodes and
 populations in the United States. These data are available at:
 [zips.json](http://media.mongodb.org/zips.json).
