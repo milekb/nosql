@@ -16,7 +16,7 @@ populations in the United States. These data are available at:
 [zips.json](http://media.mongodb.org/zips.json).
 
 
-## Import
+## Import Dataset
 
 Use the following command to load *zips.json* data set into
 **your** *mongod* instance:
