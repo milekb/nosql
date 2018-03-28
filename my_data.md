@@ -40,6 +40,9 @@ This dataset is a simple newline (\n) delimited list of article titles. No disti
 1. M. Kisielewski. [Vendor Payments (Purchase Order Summary)](https://data.sfgov.org/City-Management-and-Ethics/Vendor-Payments-Purchase-Order-Summary-/p5r5-fd7g).
 The San Francisco Controller's Office maintains a database of payments made to vendors from fiscal year 2007 forward.
 
+1.R. Kostrzewski [Markets of the world - geodata](https://drive.google.com/file/d/1C77wNGBP31aqwRqsyfSmIjzDsPNoXvgB/view?usp=sharing)
+About 2 mln records of markets database. Each record contains data: name, street, city, country, lat, lon, area
+
 1. M. Krakowiak. [311 Cases](https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6).
 List of cases in San Francisco. The case data represents each case submitted via one of the many SF311 channels and the general characteristics and disposition of the case.
 
@@ -112,4 +115,4 @@ A list of Teachers, Administrators, Coaches, & Other Education Certification Hol
 1. M. Zweigert. [Chicago Taxi Rides 2016](https://www.kaggle.com/chicago/chicago-taxi-rides-2016).
 Details of taxi rides in Chicago.
 
-1. P. Kawa [Crimes in Chicago](https://www.kaggle.com/currie32/crimes-in-chicago). This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. In order to protect the privacy of crime victims, addresses are shown at the block level only and specific locations are not identified. 
+1. P. Kawa [Crimes in Chicago](https://www.kaggle.com/currie32/crimes-in-chicago). This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. In order to protect the privacy of crime victims, addresses are shown at the block level only and specific locations are not identified.
