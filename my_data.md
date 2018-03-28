@@ -48,7 +48,7 @@ are shown at the block level only and specific locations are not identified.
 1. M. Kisielewski. [Vendor Payments (Purchase Order Summary)](https://data.sfgov.org/City-Management-and-Ethics/Vendor-Payments-Purchase-Order-Summary-/p5r5-fd7g).
 The San Francisco Controller's Office maintains a database of payments made to vendors from fiscal year 2007 forward.
 
-1. R. Kostrzewski [Markets of the world - geodata](https://drive.google.com/file/d/1C77wNGBP31aqwRqsyfSmIjzDsPNoXvgB/view?usp=sharing)
+1. R. Kostrzewski [Markets of the world - geodata](https://drive.google.com/file/d/1C77wNGBP31aqwRqsyfSmIjzDsPNoXvgB/view?usp=sharing).
 About 2 mln records of markets database. Each record contains data: name, street, city, country, lat, lon, area
 
 1. M. Krakowiak. [311 Cases](https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6).
