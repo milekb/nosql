@@ -19,22 +19,23 @@ Use the following command to load *zips.json* data set into mongod
 instance:
 
 ```sh
-mongoimport --drop -d test -c zipcodes zips.json
+mongoimport --drop -d zip -c codes zips.json
 ```
 
 On the *irb* console run:
 
 ```ruby
-require "mongo"
+require 'mongo'
 
-client = Mongo::Client.new(['localhost:27017'], {database: 'test'})
-coll = client[:zipcodes]
+# mute Logger
+# Mongo::Logger.level = Logger::INFO # the default is Logger::DEBUG
+Mongo::Logger.logger.level = Logger::FATAL
+
+client = Mongo::Client.new(['localhost:27017'], {database: 'zip'})
+coll = client[:codes]
 
 coll.count     #=> should return 29353
 coll.find.first
-
-# mute Logger
-Mongo::Logger.level = Logger::INFO # the default is Logger::DEBUG
 ```
 
 ## Aggregations using the Zip Codes Data Set
@@ -46,8 +47,7 @@ Each document in this collection has the following form:
   "_id": "01001",
   "city": "AGAWAM",
   "loc": [
-    -72.622739,
-    42.070206
+    -72.622739, 42.070206
   ],
   "pop": 15338,
   "state": "MA"
@@ -60,7 +60,7 @@ In these documents:
 * The `city` field holds the city name.
 * The `state` field holds the two letter state abbreviation.
 * The `pop` field holds the population.
-* The `loc` field holds the location as a `[latitude, longitude]` array.
+* The `loc` field holds the location as a `[longitude, latitude]` array.
 
 
 ### States with Populations Over 10 Million
