@@ -66,7 +66,7 @@ In these documents:
 ### States with Populations Over 10 Million
 
 To get all states with a population greater than 10 million, use
-the following aggregation pipeline:
+the following aggregation pipeline (na konsoli _pry_):
 
 ```ruby
 ag = coll.aggregate([
@@ -77,9 +77,7 @@ ag = coll.aggregate([
 The result:
 
 ```ruby
-require 'pp'
-
-pp ag.to_a.sort_by { |d| d.to_h["total_pop"] }
+ag.to_a.sort_by { |d| d.to_h["total_pop"] }
 [{"_id"=>"OH", "total_pop"=>10846517},
  {"_id"=>"IL", "total_pop"=>11427576},
  {"_id"=>"PA", "total_pop"=>11881643},
@@ -133,7 +131,7 @@ ag = coll.aggregate([
 This aggregate pipeline produces:
 
 ```ruby
-pp ag.to_a
+ag.to_a
 [{"_id"=>"DC", "avg_city_pop"=>303450.0},
  {"_id"=>"CA", "avg_city_pop"=>27756.42723880597},
  {"_id"=>"FL", "avg_city_pop"=>27400.958963282937}]
@@ -211,7 +209,7 @@ biggest population and the city population.
 The sample document created at this stage looks like:
 
 ```ruby
-pp ag.to_a[1..4]
+ag.to_a[1..4]
 [{"_id"=>"MS",
   "smallest_city"=>"CHUNKY",
   "smallest_pop"=>79,
