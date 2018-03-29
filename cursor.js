@@ -3,7 +3,7 @@
 var options = { allowDiskUse: true, cursor: { batchSize: 4 } };
 
 var group = {$group: {_id: "$state", totalPop: { $sum: "$pop" } }};
-var match = {$match: { totalPop: { $gte: 10000000 } }};
+var match = {$match: { totalPop: { $gte: 10*1000*1000 } }};
 
 // use zip
 var cursor = db.codes.aggregate([

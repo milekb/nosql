@@ -62,28 +62,35 @@ To get all states with a population greater than 10 million, use
 the following aggregation pipeline:
 
 ```js
-db.zipcodes.aggregate([
+var compare = function(a, b) {
+  if (a.totalPop > b.totalPop)
+    return -1;
+  if (a.totalPop < b.totalPop)
+      return 1;
+  return 0;
+}
+
+var options = {cursor: { batchSize: 9999 }}
+
+db.codes.aggregate([
   { $group: {_id: "$state", totalPop: {$sum: "$pop"}} },
   { $match: {totalPop: {$gte: 10000000}} }
-])
+], options).cursor.firstBatch.sort(compare)
 ```
+
 The result:
 
 ```js
-{
-  "waitedMS": NumberLong("0"),
-  "result": [
-    { "_id": "PA", "totalPop": 11881643 },
-    { "_id": "OH", "totalPop": 10847115 },
-    { "_id": "NY", "totalPop": 17990455 },
-    { "_id": "TX", "totalPop": 16986510 },
-    { "_id": "FL", "totalPop": 12937926 },
-    { "_id": "IL", "totalPop": 11430602 },
-    { "_id": "CA", "totalPop": 29760021 }
-  ],
-  "ok": 1
-}
+[
+  { "_id": "CA", "totalPop": 29754890 },
+  { "_id": "NY", "totalPop": 17990402 },
+  { "_id": "TX", "totalPop": 16984601 },
+  { "_id": "FL", "totalPop": 12686644 },
+  ...
+]
 ```
+
+Exercises: (1) Replace _compare_ with _$sort_ stage.
 
 The above aggregation pipeline is build from two pipeline operators:
 `$group` and `$match`.
