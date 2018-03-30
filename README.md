@@ -19,7 +19,7 @@ ocena obniżona; oddane później – egzamin poprawkowy.
 Niestety nie mogę zaliczyć zdecydowanej większości projektów, bo
 autorzy nie zastosowali się wymagań opisanych w pliku [labs.adoc](labs.adoc).
 Dlatego w weekend w pliku umieszczę kilka wskazówek, które powinny ułatwić
-napisanie skryptów, wykonanie rachunków i tabelki. 
+napisanie skryptów, wykonanie rachunków i tabelki.
 
 
 ## Materiały do wykładów
@@ -35,6 +35,7 @@ Zaczynamy:
 1. [MongoDB CRUD Operations](https://docs.mongodb.com/manual/crud/)
 1. [Indexes](https://docs.mongodb.com/manual/indexes/):
     * [Explain Results](https://docs.mongodb.com/manual/reference/explain-results/)
+1. [Expressive Query Language in MongoDB 3.6](https://dzone.com/articles/expressive-query-language-in-mongodb-36-2)
 1. [Aggregation](https://docs.mongodb.com/manual/core/aggregation-pipeline/).
     * [Aggregation Pipeline Stages](https://docs.mongodb.com/manual/reference/operator/aggregation-pipeline/);
       zob. $bucket, $facet, $graphLookup.
