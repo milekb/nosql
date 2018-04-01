@@ -29,13 +29,15 @@ Opracowane notatki z wykładu S. Tuszyńskiego
 
 Zaczynamy:
 
-1.  [The MongoDB 3.6 Manual](https://docs.mongodb.com/manual/contents/):
+1. [The MongoDB 3.6 Manual](https://docs.mongodb.com/manual/contents/):
     * [Introduction to MongoDB](https://docs.mongodb.com/manual/introduction/)
 1. [The mongo Shell](https://docs.mongodb.com/manual/mongo/)
 1. [MongoDB CRUD Operations](https://docs.mongodb.com/manual/crud/)
 1. [Indexes](https://docs.mongodb.com/manual/indexes/):
     * [Explain Results](https://docs.mongodb.com/manual/reference/explain-results/)
-1. [Expressive Query Language in MongoDB 3.6](https://dzone.com/articles/expressive-query-language-in-mongodb-36-2)
+1. [Expressive Query Language in MongoDB 3.6](https://dzone.com/articles/expressive-query-language-in-mongodb-36-2).
+1. MongoDB Tutorial Series –
+  [How to Investigate MongoDB Query Performance](https://studio3t.com/whats-new/mongodb-query-performance/).
 1. [Aggregation](https://docs.mongodb.com/manual/core/aggregation-pipeline/).
     * [Aggregation Pipeline Stages](https://docs.mongodb.com/manual/reference/operator/aggregation-pipeline/);
       zob. $bucket, $facet, $graphLookup.
