@@ -69,7 +69,8 @@ Przykład takiej aplikacji „[Sample app for the MongoDB Ruby driver](https://g
 Plik **README.{md,adoc,html}** (w jednym z wymienionych foramtów)
 powinien zawierać dokumentację projektu, imię i nazwisko autora.
 Powinien on zawierać grafiki, mapki, linki do stron HTML itp.
-wygenerowane za pomocą skryptów aplikacji.
+wygenerowane za pomocą skryptów aplikacji, powinny być utworzone **indeksy**,
+oczywiście o ile mają one sens.
 
 Dane należy zapisać w **replica set**;
 zob. [Convert a Standalone to a Replica Set](https://docs.mongodb.com/manual/tutorial/convert-standalone-to-replica-set/).
