@@ -66,7 +66,7 @@ z języków: C, C++, C#, Java, Node.js, Perl, Python, Scala lub Ruby.
 Przykład takiej aplikacji „[Sample app for the MongoDB Ruby driver](https://github.com/steveren/ruby-driver-sample-app)”
 ([mój fork](https://github.com/nosql/ruby-driver-sample-app)).
 
-Plik **README.{md,adoc,html}** (w jednym z wymienionych foramtów)
+Plik **README.{md,adoc,rst,html}** (w jednym z wymienionych notacji)
 powinien zawierać dokumentację projektu, imię i nazwisko autora.
 Powinien on zawierać grafiki, mapki, linki do stron HTML itp.
 wygenerowane za pomocą skryptów aplikacji, powinny być utworzone **indeksy**,
