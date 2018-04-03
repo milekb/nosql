@@ -184,6 +184,7 @@ curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighbo
 
 ## Analyzing Query Performance
 
+* [Database Profiler](https://docs.mongodb.com/manual/tutorial/manage-the-database-profiler)
 * [Analyze Query Performance](https://docs.mongodb.com/manual/tutorial/analyze-query-plan/).
 * [Explain Results](https://docs.mongodb.com/manual/reference/explain-results/)
 
