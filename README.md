@@ -182,6 +182,11 @@ curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighbo
 | mongoimport --drop -c restaurants
 ```
 
+* [git-sizer](https://github.com/github/git-sizer) –
+  compute various size metrics for a Git repository, flagging those that might cause problems.
+* [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner) –
+  removes large or troublesome blobs like git-filter-branch does, but faster.
+
 
 ## Analyzing Query Performance
 
