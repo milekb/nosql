@@ -75,6 +75,18 @@ oczywiście o ile mają one sens.
 Dane należy zapisać w **replica set**;
 zob. [Convert a Standalone to a Replica Set](https://docs.mongodb.com/manual/tutorial/convert-standalone-to-replica-set/).
 
+:new: W repozytoriach nie powinno być dużych plików.
+Całe repozytorium nie może zajmować więcej niż 10-20 MiB. Po wykonaniu
+polecenia
+```sh
+git sizer --verbose
+```
+na terminalu zostanie wypisanych wiele użytecznych informacji
+o waszym repozytorium.
+
+Dlatego na końcu pliku README proszę wkleić to co wypisze polecenie
+`git sizer` (zob. linki pod koniec tego pliku).
+
 
 ## Projekty na egzamin
 
@@ -181,6 +193,9 @@ curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/restaur
 curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json \
 | mongoimport --drop -c restaurants
 ```
+
+
+## Git Sizer
 
 * [git-sizer](https://github.com/github/git-sizer) –
   compute various size metrics for a Git repository, flagging those that might cause problems.
