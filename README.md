@@ -81,7 +81,7 @@ polecenia
 ```sh
 git sizer --verbose
 ```
-na terminalu zostanie wypisanych nie tylko wielkość repozytorium,
+na terminalu zostanie wypisana nie tylko wielkość repozytorium,
 ale wiele innych użytecznych danych.
 
 Dlatego na końcu pliku README proszę wkleić to co wypisze polecenie
