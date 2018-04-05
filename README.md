@@ -201,4 +201,5 @@ db.restaurants.explain("executionStats").find( {name: /Feast/} ).count()
 db.restaurants.find( {name: /Feast/} ).explain("executionStats").serverInfo
 ```
 
-Do *mniej* dokładnych pomiarów można użyć polecenia Bash _time_.
+Do *mniej* dokładnych pomiarów można użyć polecenia _/usr/bin/time_.
+W ostateczności można użyć polecenia wbudowanego Bash _time_.
