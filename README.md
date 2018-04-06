@@ -22,6 +22,11 @@ Dlatego w weekend w pliku umieszczę kilka wskazówek, które powinny ułatwić
 napisanie skryptów, wykonanie rachunków i tabelki.
 
 
+## :new: Prezentacja projektu
+| Imię i Nazwisko          | Data   |
+|------------------|------------|
+| P. Jaszczyszyn, A. Stefański | 11.04.2018 |
+
 ## Materiały do wykładów
 
 Opracowane notatki z wykładu S. Tuszyńskiego
