@@ -14,18 +14,20 @@ Projekty na zaliczenie i egzamin oddane do tygodnia po wyznaczonym terminie –
 ocena obniżona; oddane później – egzamin poprawkowy.
 
 
-## :new: Projekt „Moje dane”
+## :new: Prezentacje projektów
+
+| Imię i Nazwisko  | Data       | Gdzie |
+|------------------|------------|-------|
+| P. Jaszczyszyn, A. Stefański | 11.04.2018 | wykład, s. 116 |
+
+
+## Projekt „Moje dane”
 
 Niestety nie mogę zaliczyć zdecydowanej większości projektów, bo
 autorzy nie zastosowali się wymagań opisanych w pliku [labs.adoc](labs.adoc).
 Dlatego w weekend w pliku umieszczę kilka wskazówek, które powinny ułatwić
 napisanie skryptów, wykonanie rachunków i tabelki.
 
-
-## :new: Prezentacja projektu
-| Imię i Nazwisko          | Data   |
-|------------------|------------|
-| P. Jaszczyszyn, A. Stefański | 11.04.2018 |
 
 ## Materiały do wykładów
 
