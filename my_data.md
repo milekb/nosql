@@ -99,8 +99,9 @@ This dataset contains the spirits purchase information of Iowa Class “E” liq
 
 1. A. Puchalski. [Amazon Kindle reviews](https://www.kaggle.com/bharadwaj6/kindle-reviews/data).
 5-core dataset of product reviews from Amazon Kindle Store category from May 1996 - July 2014. Contains total of 982619 entries. Each reviewer has at least 5 reviews and each product has at least 5 reviews in this dataset. <br>
-[Dota 2 Matches](https://www.kaggle.com/devinanzelmo/dota-2-matches).
-This dataset contains 50000 ranked ladder matches from the Dota 2 data dump created by Opendota. It was inspired by the Dota 2 Matches data published here by Joe Ramir. The aim of this dataset is to enable the exploration of player behavior, skill estimation, or anything you find interesting. I interested in chat data which contains all chat for the 50k matches. There is plenty of profanity, and good natured trolling.
+
+1. J. Puchalski. [Traffic Violations](https://catalog.data.gov/dataset/traffic-violations-56dda).
+This dataset contains traffic violation information from all electronic traffic violations issued in the County. Any information that can be used to uniquely identify the vehicle, the vehicle owner or the officer issuing the violation will not be published.
 
 1. A. Tejszerska. [National Statistics Postcode Lookup UK](https://data.gov.uk/dataset/national-statistics-postcode-lookup-uk).
 This dataset contains the National Statistics Postcode Lookup (NSPL) for the United Kingdom. The NSPL relates current postcodes to a range of current statutory administrative, electoral, health and other statistical geographies via ‘best-fit’ allocation from the 2011 Census output areas.
