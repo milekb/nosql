@@ -16,9 +16,9 @@ ocena obniżona; oddane później – egzamin poprawkowy.
 
 ## :new: Prezentacje projektów
 
-| Imię i Nazwisko  | Data       | Gdzie |
+|                  | Kiedy      | Gdzie |
 |------------------|------------|-------|
-| P. Jaszczyszyn, A. Stefański | 11.04.2018 | wykład, s. 116 |
+| P. Jaszczyszyn, A. Stefański | 11.04.2018, g. 14.00 | s. 116 |
 
 
 ## Projekt „Moje dane”
