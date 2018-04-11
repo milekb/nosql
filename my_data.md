@@ -19,8 +19,8 @@ Dane wyszukał i przygotował A. Stefański.
 
 **Uwaga:** Każdy powinien mieć swój unikalny zbiór danych.
 
-1. M. Breza. [SFO Gate and Stand Assignment Information](https://data.sfgov.org/Transportation/SFO-Gate-and-Stand-Assignment-Information/chfu-j7tc).
-This data provides information related to actual departure and arrival time of all airline flights arriving and departing out of assigned gates and stands at San Francisco International Airport. Additional remarks for delayed or cancelled flight operations are included in this dataset. Airport finance and operations collects this data for statistical and billing purposes. The data starts 1/1/2015 and is updated monthly.
+1. M. Breza. [freeCodeCamp Gitter Chat](https://www.kaggle.com/free-code-camp/all-posts-public-main-chatroom).
+Posts extracted from a Gitter's public chatroom used for an online course to learn to program. The files contains the posts from students, bots, moderators and contributors in the main ("/freeCodeCamp") Gitter chatroom between 31-Dec-2014 until the first days of Dec-2017. There are around 5 million posts from near 400,000 users (all estimates). Data was extracted using Python code over the Gitter API. Records are not anonymised or modified and are presented "as they are".
 
 1. K. Daniluk. [Individual inventor records](http://www.nber.org/patents/).
 These data comprise detail information on almost 3 million U.S. patents granted between January 1963 and December 1999.
