@@ -115,8 +115,8 @@ Crime Counts, by Borough, Category, and Month.
 1. K. Wyrzykowski. [Asia and Oceania](https://www.kaggle.com/openaddresses/openaddresses-asia-and-oceania).
 OpenAddresses's goal is to connect the digital and physical worlds by sharing geographic coordinates, street names, house numbers and postal codes.
 
-1. B. Wiśniewski. [Building Permits](https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9).
-This data set pertains to all types of structural permits. Data includes details on application/permit numbers, job addresses, supervisorial districts, and the current status of the applications.
+1. B. Wiśniewski. [review2000000](https://www.kaggle.com/kchow23/full2000000/data).
+A large dataset with reviews. 2kk documents.
 
 1. M. Zelek. [BOEE Practitioners, Licenses, & Endorsements](https://data.iowa.gov/Education/BOEE-Practitioners-Licenses-Endorsements/bf6j-xvb7).
 A list of Teachers, Administrators, Coaches, & Other Education Certification Holders combined with license and endorsement information.
