@@ -75,6 +75,9 @@ List of bombing operations during Vietnam War.
 1. R. Matuszak. [GitHub Issues Database](https://www.kaggle.com/davidshinn/github-issues).
 Over 8 million GitHub issue titles and descriptions from 2017, based on GitHub Archive.
 
+1. M. Moroz. [Tweets](https://drive.google.com/open?id=13hTWaidu0TK6la3UjAvsd6IJ1_7nHGVk). 
+About 2,5 mln records of tweets database. Each record contains data: tweet, address, date, url.
+
 1. K. Narożnik. [State of Iowa Salary Book](https://data.iowa.gov/State-Finances/State-of-Iowa-Salary-Book/s3p7-wy6w).
 The dataset contains the name, gender, county or city of residence (when possible), official title, total salary received during each fiscal year, base salary for the employee, and traveling and subsistence expense reimbursed to state personnel.
 
