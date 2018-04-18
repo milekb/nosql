@@ -126,3 +126,6 @@ A list of Teachers, Administrators, Coaches, & Other Education Certification Hol
 
 1. M. Zweigert. [Chicago Taxi Rides 2016](https://www.kaggle.com/chicago/chicago-taxi-rides-2016).
 Details of taxi rides in Chicago.
+
+1. A. Zdybel [World Cities Database](https://www.kaggle.com/max-mind/world-cities-database/data). Simply a list of cities in the world
+
