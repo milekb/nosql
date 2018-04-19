@@ -6,7 +6,7 @@ Dane wyszukał i przygotował Piotr Jaszczyszyn.
 
 Instrukcję jak samemu wygenerować dane adresowe i jak wykonać import do bazy
 standalone MongoDB są w klonie repozytorium Piotra
-[tutaj](https://github.com/nosql/pktadr-pjaszczyszyn).
+[tutaj](https://github.com/egzamin/pktadr-pjaszczyszyn).
 
 Dane te będą też udostępniane na zajęciach w laboratorium.
 
