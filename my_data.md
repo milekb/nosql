@@ -22,6 +22,10 @@ Dane wyszukał i przygotował A. Stefański.
 1. M. Breza. [freeCodeCamp Gitter Chat](https://www.kaggle.com/free-code-camp/all-posts-public-main-chatroom).
 Posts extracted from a Gitter's public chatroom used for an online course to learn to program. The files contains the posts from students, bots, moderators and contributors in the main ("/freeCodeCamp") Gitter chatroom between 31-Dec-2014 until the first days of Dec-2017. There are around 5 million posts from near 400,000 users (all estimates). Data was extracted using Python code over the Gitter API. Records are not anonymised or modified and are presented "as they are".
 
+1. M. Czestkowski. [Youtube.com best of 2017](https://drive.google.com/file/d/1tfq60WbX0TrGLghR7bwLzyCL1wh548bU/view?usp=sharing).
+This dataset contains around 2 500 000 records of the most liked youtube videos uploaded in 2017
+For every record it contains: youtube url, title, number of likes, date added
+
 1. K. Daniluk. [Individual inventor records](http://www.nber.org/patents/).
 These data comprise detail information on almost 3 million U.S. patents granted between January 1963 and December 1999.
 
